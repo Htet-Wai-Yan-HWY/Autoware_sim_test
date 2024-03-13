@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/detected_object_feature_remover/ament_cmake_environment_hooks/local_setup.zsh

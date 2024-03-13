@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/goal_distance_calculator/ament_cmake_core/goal_distance_calculatorConfig.cmake

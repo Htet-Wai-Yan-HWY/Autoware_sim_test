@@ -1,0 +1,9 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/ObjectClassification.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedObject.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedObjectKinematics.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedObjects.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedPath.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/Shape.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/TrafficSignalElement.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/TrafficSignal.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/TrafficSignalArray.idl

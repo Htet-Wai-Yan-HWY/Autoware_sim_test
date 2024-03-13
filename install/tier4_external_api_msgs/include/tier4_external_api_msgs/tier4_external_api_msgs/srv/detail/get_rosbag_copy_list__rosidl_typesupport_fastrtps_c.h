@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs/rosidl_typesupport_fastrtps_c/tier4_external_api_msgs/srv/detail/get_rosbag_copy_list__rosidl_typesupport_fastrtps_c.h

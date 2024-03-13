@@ -1,0 +1,4 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Control.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/ControlHorizon.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Lateral.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Longitudinal.idl

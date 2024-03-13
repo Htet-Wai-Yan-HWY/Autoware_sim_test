@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/lidar_centerpoint/single_inference_lidar_centerpoint_node" "TARGETS" "single_inference_lidar_centerpoint_node" "DESTINATION" "lib/lidar_centerpoint")

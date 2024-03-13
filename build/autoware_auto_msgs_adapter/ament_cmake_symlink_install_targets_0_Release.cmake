@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs_adapter/autoware_auto_msgs_adapter_exe" "TARGETS" "autoware_auto_msgs_adapter_exe" "DESTINATION" "lib/autoware_auto_msgs_adapter")

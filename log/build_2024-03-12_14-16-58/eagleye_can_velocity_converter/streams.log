@@ -1,0 +1,73 @@
+[0.052s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_util/can_velocity_converter -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.153s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.558s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.583s] -- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+[0.617s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.621s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.629s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.938s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.940s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.972s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.981s] -- Looking for pthread.h
+[1.046s] -- Looking for pthread.h - found
+[1.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.113s] -- Found Threads: TRUE  
+[1.242s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.262s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.262s] -- Configured cppcheck include dirs: 
+[1.262s] -- Configured cppcheck exclude dirs and/or files: 
+[1.263s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.263s] -- Configured cpplint exclude dirs and/or files: 
+[1.264s] -- Added test 'lint_cmake' to check CMake code style
+[1.265s] -- Added test 'uncrustify' to check C / C++ code style
+[1.265s] -- Configured uncrustify additional arguments: 
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.267s] -- Configuring done
+[1.276s] -- Generating done
+[1.277s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter
+[1.285s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_util/can_velocity_converter -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter
+[1.286s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter -- -j12 -l12
+[1.330s] [ 50%] [32mBuilding CXX object CMakeFiles/can_velocity_converter.dir/src/can_velocity_converter.cpp.o[0m
+[10.641s] [100%] [32m[1mLinking CXX executable can_velocity_converter[0m
+[10.790s] [100%] Built target can_velocity_converter
+[10.800s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter -- -j12 -l12
+[10.824s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter
+[10.831s] -- Install configuration: "Release"
+[10.832s] -- Execute custom install script
+[10.832s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/launch/can_velocity_converter.xml
+[10.841s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/config/can_config.yaml
+[10.849s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/lib/eagleye_can_velocity_converter/can_velocity_converter
+[10.858s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/ament_index/resource_index/package_run_dependencies/eagleye_can_velocity_converter
+[10.866s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/ament_index/resource_index/parent_prefix_path/eagleye_can_velocity_converter
+[10.874s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/environment/ament_prefix_path.sh
+[10.882s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/environment/ament_prefix_path.dsv
+[10.891s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/environment/path.sh
+[10.899s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/environment/path.dsv
+[10.907s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/local_setup.bash
+[10.915s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/local_setup.sh
+[10.923s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/local_setup.zsh
+[10.932s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/local_setup.dsv
+[10.940s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/package.dsv
+[10.949s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/ament_index/resource_index/packages/eagleye_can_velocity_converter
+[10.960s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.969s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/cmake/eagleye_can_velocity_converterConfig.cmake
+[10.979s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/cmake/eagleye_can_velocity_converterConfig-version.cmake
+[10.988s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_can_velocity_converter/share/eagleye_can_velocity_converter/package.xml
+[11.001s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_can_velocity_converter

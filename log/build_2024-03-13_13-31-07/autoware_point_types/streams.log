@@ -1,0 +1,27 @@
+[0.057s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types -- -j12 -l12
+[0.108s] [ 66%] Built target gtest_main
+[0.108s] [ 66%] Built target gtest
+[0.133s] [100%] Built target test_autoware_point_types
+[0.145s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types -- -j12 -l12
+[0.181s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types
+[0.193s] -- Install configuration: "Release"
+[0.194s] -- Execute custom install script
+[0.194s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/include/autoware_point_types/types.hpp
+[0.195s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/ament_index/resource_index/package_run_dependencies/autoware_point_types
+[0.195s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/ament_index/resource_index/parent_prefix_path/autoware_point_types
+[0.195s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.sh
+[0.196s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.dsv
+[0.196s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/path.sh
+[0.196s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/path.dsv
+[0.196s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.bash
+[0.196s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.sh
+[0.196s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.zsh
+[0.197s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.dsv
+[0.197s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/package.dsv
+[0.205s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/ament_index/resource_index/packages/autoware_point_types
+[0.205s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.205s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.205s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig.cmake
+[0.205s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig-version.cmake
+[0.206s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/package.xml
+[0.208s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_automatic_goal_rviz_plugin/ament_cmake_core/tier4_automatic_goal_rviz_pluginConfig.cmake

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_perception_msgs/rosidl_generator_py/autoware_perception_msgs/msg/_predicted_object_kinematics.py

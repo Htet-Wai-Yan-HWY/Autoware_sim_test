@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_control_msgs/rosidl_generator_py/autoware_control_msgs/msg/_control_s.c

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/msg/Object.msg

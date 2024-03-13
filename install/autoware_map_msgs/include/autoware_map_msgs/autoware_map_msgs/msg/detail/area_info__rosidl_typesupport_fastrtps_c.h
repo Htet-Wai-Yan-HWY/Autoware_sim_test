@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_typesupport_fastrtps_c/autoware_map_msgs/msg/detail/area_info__rosidl_typesupport_fastrtps_c.h

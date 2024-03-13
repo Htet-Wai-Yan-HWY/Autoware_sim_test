@@ -1,0 +1,8 @@
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions/src/voxel_grid_nearest_centroid.cpp:52[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid_impl.hpp:66:10:[m[K [01;31m[Kfatal error: [m[Krange/v3/all.hpp: No such file or directory
+   66 | #include [01;31m[K<range/v3/all.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tier4_pcl_extensions.dir/build.make:76: CMakeFiles/tier4_pcl_extensions.dir/src/voxel_grid_nearest_centroid.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tier4_pcl_extensions.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

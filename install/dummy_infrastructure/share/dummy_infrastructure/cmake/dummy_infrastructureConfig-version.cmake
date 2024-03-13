@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/ament_cmake_core/dummy_infrastructureConfig-version.cmake

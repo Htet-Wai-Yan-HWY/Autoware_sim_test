@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/dummy_infrastructure_node" "TARGETS" "dummy_infrastructure_node" "DESTINATION" "lib/dummy_infrastructure")

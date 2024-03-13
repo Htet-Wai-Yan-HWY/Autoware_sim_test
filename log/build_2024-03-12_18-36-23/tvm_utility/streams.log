@@ -1,0 +1,44 @@
+[0.065s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility
+[0.114s] [ 20%] Built target tvm_utility
+[0.114s] [ 60%] Built target abs_model_x86_64_llvm
+[0.123s] [ 73%] Built target gtest
+[0.137s] [ 86%] Built target gtest_main
+[0.163s] [100%] Built target abs_model
+[0.173s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility
+[0.202s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility
+[0.208s] -- Install configuration: "Release"
+[0.209s] -- Execute custom install script
+[0.210s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/include/tvm_utility/pipeline.hpp
+[0.210s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/environment/library_path.sh
+[0.211s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/environment/library_path.dsv
+[0.211s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/lib/libtvm_utility.so
+[0.212s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/launch/yolo_v2_tiny_example.launch.xml
+[0.213s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/config/yolo_v2_tiny_example.param.yaml
+[0.214s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/artifacts/README.md
+[0.214s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/artifacts/yolo_v2_tiny/anchors.csv
+[0.214s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/artifacts/yolo_v2_tiny/labels.txt
+[0.215s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/ament_index/resource_index/package_run_dependencies/tvm_utility
+[0.215s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/ament_index/resource_index/parent_prefix_path/tvm_utility
+[0.216s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/environment/path.sh
+[0.216s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/environment/path.dsv
+[0.217s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/local_setup.bash
+[0.217s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/local_setup.sh
+[0.218s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/local_setup.zsh
+[0.218s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/local_setup.dsv
+[0.218s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/package.dsv
+[0.227s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/ament_index/resource_index/packages/tvm_utility
+[0.227s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake
+[0.227s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.227s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.228s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_libraries-extras.cmake
+[0.228s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig.cmake
+[0.228s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig-version.cmake
+[0.228s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/package.xml
+[0.228s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/models//abs_model_x86_64
+[0.228s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/models//abs_model_x86_64/deploy_param.params
+[0.228s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/models//abs_model_x86_64/deploy_graph.json
+[0.228s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/models//abs_model_x86_64/inference_engine_tvm_config.hpp
+[0.229s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tvm_utility/share/tvm_utility/models//abs_model_x86_64/deploy_lib.so
+[0.231s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tvm_utility

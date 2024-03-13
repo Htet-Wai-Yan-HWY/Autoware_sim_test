@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/traffic_light_occlusion_predictor/libtraffic_light_occlusion_predictor.so" "TARGETS" "traffic_light_occlusion_predictor" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

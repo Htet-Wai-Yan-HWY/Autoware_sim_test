@@ -1,0 +1,15 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/AutowareState.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/DiagnosticGraph.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/DiagnosticLink.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/DiagnosticNode.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/OperationModeAvailability.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/EmergencyState.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/EmergencyStateStamped.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/HazardStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/HazardStatusStamped.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/ServiceLog.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/ModeChangeAvailable.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/MrmBehaviorStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:srv/OperateMrm.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:srv/ChangeOperationMode.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:srv/ChangeAutowareControl.idl

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_generator_c/autoware_map_msgs/msg/detail/lanelet_map_bin__struct.h

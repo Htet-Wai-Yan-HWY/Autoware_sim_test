@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/dummy_diag_publisher/include/dummy_diag_publisher/dummy_diag_publisher_core.hpp

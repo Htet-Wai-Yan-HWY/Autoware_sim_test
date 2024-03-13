@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/lidar_centerpoint_tvm/lidar_centerpoint_tvm_node" "TARGETS" "lidar_centerpoint_tvm_node" "DESTINATION" "lib/lidar_centerpoint_tvm")

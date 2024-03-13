@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/rtc_manager_rviz_plugin/ament_cmake_core/rtc_manager_rviz_pluginConfig.cmake

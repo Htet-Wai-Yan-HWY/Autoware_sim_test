@@ -1,0 +1,4 @@
+source;share/geo_pose_projector/local_setup.bash
+source;share/geo_pose_projector/local_setup.dsv
+source;share/geo_pose_projector/local_setup.sh
+source;share/geo_pose_projector/local_setup.zsh

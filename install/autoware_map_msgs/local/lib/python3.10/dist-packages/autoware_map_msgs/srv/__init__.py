@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_generator_py/autoware_map_msgs/srv/__init__.py

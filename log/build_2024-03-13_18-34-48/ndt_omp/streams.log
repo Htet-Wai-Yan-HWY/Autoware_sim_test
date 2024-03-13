@@ -1,0 +1,86 @@
+[0.163s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp
+[0.190s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.770s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.863s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.586s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.599s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.600s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.952s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.966s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.975s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.364s] -- Found Qhull version 8.0.2
+[2.728s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.091s] -- looking for PCL_COMMON
+[3.092s] -- looking for PCL_KDTREE
+[3.093s] -- looking for PCL_OCTREE
+[3.094s] -- looking for PCL_SEARCH
+[3.095s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.096s] -- looking for PCL_FILTERS
+[3.097s] -- looking for PCL_2D
+[3.098s] -- looking for PCL_GEOMETRY
+[3.099s] -- looking for PCL_IO
+[3.101s] -- looking for PCL_FEATURES
+[3.103s] -- looking for PCL_ML
+[3.104s] -- looking for PCL_SEGMENTATION
+[3.105s] -- looking for PCL_VISUALIZATION
+[3.106s] -- looking for PCL_SURFACE
+[3.107s] -- looking for PCL_REGISTRATION
+[3.109s] -- looking for PCL_KEYPOINTS
+[3.110s] -- looking for PCL_TRACKING
+[3.111s] -- looking for PCL_RECOGNITION
+[3.112s] -- looking for PCL_STEREO
+[3.113s] -- looking for PCL_APPS
+[3.115s] -- looking for PCL_IN_HAND_SCANNER
+[3.116s] -- looking for PCL_MODELER
+[3.117s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.117s] -- looking for PCL_OUTOFCORE
+[3.118s] -- looking for PCL_PEOPLE
+[3.121s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2
+[3.121s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[3.122s] -- PCL_DEFINITIONS:-DDISABLE_PCAP
+[3.149s] -- Configuring done
+[3.247s] -- Generating done
+[3.254s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp
+[3.286s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp
+[3.288s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp -- -j12 -l12
+[3.380s] [35m[1mConsolidate compiler generated dependencies of target ndt_omp[0m
+[3.450s] [ 57%] Built target ndt_omp
+[3.472s] [35m[1mConsolidate compiler generated dependencies of target multigrid_ndt_omp[0m
+[3.532s] [100%] Built target multigrid_ndt_omp
+[3.559s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp -- -j12 -l12
+[3.645s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp
+[3.656s] -- Install configuration: "RELEASE"
+[3.656s] -- Execute custom install script
+[3.657s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp.h
+[3.657s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp_impl.hpp
+[3.657s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp.h
+[3.657s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp_impl.hpp
+[3.658s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/gicp_omp.h
+[3.658s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+[3.658s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/ndt_omp.h
+[3.658s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+[3.659s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+[3.659s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[3.659s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+[3.660s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+[3.660s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/lib/libndt_omp.so
+[3.660s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/lib/libmultigrid_ndt_omp.so
+[3.661s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+[3.662s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+[3.662s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+[3.662s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+[3.662s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/path.sh
+[3.663s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/path.dsv
+[3.663s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.bash
+[3.664s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.sh
+[3.664s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.zsh
+[3.664s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.dsv
+[3.665s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/package.dsv
+[3.682s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+[3.684s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.684s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+[3.684s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+[3.685s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+[3.685s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/package.xml
+[3.696s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp

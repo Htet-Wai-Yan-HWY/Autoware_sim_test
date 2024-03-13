@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/map_tf_generator/pcd_map_tf_generator" "TARGETS" "pcd_map_tf_generator" "DESTINATION" "lib/map_tf_generator")

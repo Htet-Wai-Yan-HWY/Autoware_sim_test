@@ -1,0 +1,82 @@
+[0.052s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/duplicated_node_checker -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.153s] -- The CXX compiler identification is GNU 11.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.312s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.616s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.621s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.629s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.844s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.847s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.879s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.888s] -- Looking for pthread.h
+[0.953s] -- Looking for pthread.h - found
+[0.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.019s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.021s] -- Found Threads: TRUE  
+[1.237s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.262s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.262s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/duplicated_node_checker/include
+[1.262s] -- Configured cppcheck exclude dirs and/or files: 
+[1.264s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.264s] -- Configured cpplint exclude dirs and/or files: 
+[1.265s] -- Added test 'lint_cmake' to check CMake code style
+[1.266s] -- Added test 'uncrustify' to check C / C++ code style
+[1.266s] -- Configured uncrustify additional arguments: 
+[1.267s] -- Added test 'xmllint' to check XML markup files
+[1.270s] -- Configuring done
+[1.282s] -- Generating done
+[1.284s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker
+[1.291s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/duplicated_node_checker -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker
+[1.292s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker -- -j12 -l12
+[1.338s] [ 50%] [32mBuilding CXX object CMakeFiles/duplicated_node_checker.dir/src/duplicated_node_checker_core.cpp.o[0m
+[1.338s] [ 50%] [32mBuilding CXX object CMakeFiles/duplicated_node_checker_node.dir/rclcpp_components/node_main_duplicated_node_checker_node.cpp.o[0m
+[4.666s] [ 75%] [32m[1mLinking CXX executable duplicated_node_checker_node[0m
+[4.778s] [ 75%] Built target duplicated_node_checker_node
+[7.427s] [100%] [32m[1mLinking CXX shared library libduplicated_node_checker.so[0m
+[7.538s] [100%] Built target duplicated_node_checker
+[7.550s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker -- -j12 -l12
+[7.577s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker
+[7.584s] -- Install configuration: "Release"
+[7.585s] -- Execute custom install script
+[7.585s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/lib/duplicated_node_checker/duplicated_node_checker_node
+[7.594s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/include/duplicated_node_checker/duplicated_node_checker_core.hpp
+[7.602s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/environment/library_path.sh
+[7.610s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/environment/library_path.dsv
+[7.619s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/lib/libduplicated_node_checker.so
+[7.629s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/launch/duplicated_node_checker.launch.xml
+[7.638s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/config/duplicated_node_checker.param.yaml
+[7.646s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/ament_index/resource_index/package_run_dependencies/duplicated_node_checker
+[7.655s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/ament_index/resource_index/parent_prefix_path/duplicated_node_checker
+[7.663s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/environment/ament_prefix_path.sh
+[7.671s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/environment/ament_prefix_path.dsv
+[7.681s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/environment/path.sh
+[7.689s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/environment/path.dsv
+[7.698s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/local_setup.bash
+[7.706s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/local_setup.sh
+[7.714s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/local_setup.zsh
+[7.723s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/local_setup.dsv
+[7.731s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/package.dsv
+[7.739s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/ament_index/resource_index/packages/duplicated_node_checker
+[7.748s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/ament_index/resource_index/rclcpp_components/duplicated_node_checker
+[7.756s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.765s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.773s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/cmake/ament_cmake_export_libraries-extras.cmake
+[7.782s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/cmake/duplicated_node_checkerConfig.cmake
+[7.790s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/cmake/duplicated_node_checkerConfig-version.cmake
+[7.798s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/duplicated_node_checker/share/duplicated_node_checker/package.xml
+[7.808s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/duplicated_node_checker

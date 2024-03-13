@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/motion_velocity_smoother/include/motion_velocity_smoother/smoother/analytical_jerk_constrained_smoother/analytical_jerk_constrained_smoother.hpp

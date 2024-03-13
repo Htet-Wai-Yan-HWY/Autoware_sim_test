@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/lane_departure_checker/include/lane_departure_checker/lane_departure_checker_node.hpp

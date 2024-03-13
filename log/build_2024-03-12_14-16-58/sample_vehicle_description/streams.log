@@ -1,0 +1,47 @@
+[0.054s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.531s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.611s] -- Configuring done
+[0.613s] -- Generating done
+[0.614s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description
+[0.619s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description
+[0.619s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description -- -j12 -l12
+[0.653s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description -- -j12 -l12
+[0.676s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description
+[0.686s] -- Install configuration: "Release"
+[0.686s] -- Execute custom install script
+[0.687s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/mesh/lexus.dae
+[0.699s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/mesh/lexus.jpg
+[0.711s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/urdf/vehicle.xacro
+[0.723s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/config/mirror.param.yaml
+[0.735s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/config/simulator_model.param.yaml
+[0.747s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/config/vehicle_info.param.yaml
+[0.759s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/ament_index/resource_index/package_run_dependencies/sample_vehicle_description
+[0.771s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/ament_index/resource_index/parent_prefix_path/sample_vehicle_description
+[0.783s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/environment/ament_prefix_path.sh
+[0.794s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/environment/ament_prefix_path.dsv
+[0.806s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/environment/path.sh
+[0.818s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/environment/path.dsv
+[0.830s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.bash
+[0.842s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.sh
+[0.854s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.zsh
+[0.866s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.dsv
+[0.878s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/package.dsv
+[0.890s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/ament_index/resource_index/packages/sample_vehicle_description
+[0.902s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/cmake/sample_vehicle_descriptionConfig.cmake
+[0.912s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/cmake/sample_vehicle_descriptionConfig-version.cmake
+[0.920s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_description/share/sample_vehicle_description/package.xml
+[0.929s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_description

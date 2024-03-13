@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:33 (add_launch_test):
+  Unknown CMake command "add_launch_test".
+
+[0m

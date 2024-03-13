@@ -1,0 +1,2 @@
+autoware::perception::lidar_centerpoint_tvm::LidarCenterPointTVMNode;lib/liblidar_centerpoint_tvm_component.so
+autoware::perception::lidar_centerpoint_tvm::SingleInferenceLidarCenterPointNode;lib/libsingle_inference_lidar_centerpoint_tvm_component.so

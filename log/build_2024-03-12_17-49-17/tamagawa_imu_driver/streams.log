@@ -1,0 +1,31 @@
+[0.065s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver -- -j12 -l12
+[0.130s] [ 50%] Built target tag_can_driver
+[0.136s] [100%] Built target tag_serial_driver
+[0.149s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver -- -j12 -l12
+[0.182s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver
+[0.189s] -- Install configuration: "Release"
+[0.189s] -- Execute custom install script
+[0.190s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/lib/tamagawa_imu_driver/tag_serial_driver
+[0.190s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/lib/tamagawa_imu_driver/tag_can_driver
+[0.190s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/can.launch.xml
+[0.190s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_AU7554N.launch.xml
+[0.190s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_TAG250_Nxx00.launch.xml
+[0.190s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_TAG250_Nxx40.launch.xml
+[0.191s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_TAG264.launch.xml
+[0.191s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/ament_index/resource_index/package_run_dependencies/tamagawa_imu_driver
+[0.191s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/ament_index/resource_index/parent_prefix_path/tamagawa_imu_driver
+[0.191s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/ament_prefix_path.sh
+[0.191s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/ament_prefix_path.dsv
+[0.191s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/path.sh
+[0.192s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/path.dsv
+[0.192s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.bash
+[0.192s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.sh
+[0.192s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.zsh
+[0.192s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.dsv
+[0.192s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/package.dsv
+[0.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/ament_index/resource_index/packages/tamagawa_imu_driver
+[0.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/cmake/tamagawa_imu_driverConfig.cmake
+[0.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/cmake/tamagawa_imu_driverConfig-version.cmake
+[0.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tamagawa_imu_driver/share/tamagawa_imu_driver/package.xml
+[0.205s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver

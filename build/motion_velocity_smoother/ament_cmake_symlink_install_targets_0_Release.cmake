@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/motion_velocity_smoother/motion_velocity_smoother" "TARGETS" "motion_velocity_smoother" "DESTINATION" "lib/motion_velocity_smoother")

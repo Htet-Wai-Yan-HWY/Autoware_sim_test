@@ -1,0 +1,6 @@
+msg/RobosenseInfoPacket.idl
+msg/RobosenseInfoPacket.msg
+msg/RobosensePacket.idl
+msg/RobosensePacket.msg
+msg/RobosenseScan.idl
+msg/RobosenseScan.msg

@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_generator[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o[0m
+[ 31%] Built target gtest
+[ 43%] Built target gtest_main
+[ 56%] Built target costmap_generator

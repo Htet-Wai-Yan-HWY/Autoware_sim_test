@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/diagnostic_converter/diagnostic_converter" "TARGETS" "diagnostic_converter" "DESTINATION" "lib/diagnostic_converter")

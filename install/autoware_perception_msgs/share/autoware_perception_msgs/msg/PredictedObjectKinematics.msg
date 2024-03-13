@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_perception_msgs/msg/PredictedObjectKinematics.msg

@@ -1,0 +1,20 @@
+{
+  "package_name": "tier4_system_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/AutowareState.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/DiagnosticGraph.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/DiagnosticLink.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/DiagnosticNode.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/OperationModeAvailability.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/EmergencyState.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/EmergencyStateStamped.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/HazardStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/HazardStatusStamped.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/ServiceLog.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/ModeChangeAvailable.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/MrmBehaviorStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:srv/OperateMrm.srv",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:srv/ChangeOperationMode.srv",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs:srv/ChangeAutowareControl.srv"
+  ]
+}

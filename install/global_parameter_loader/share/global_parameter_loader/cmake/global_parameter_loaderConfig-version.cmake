@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/ament_cmake_core/global_parameter_loaderConfig-version.cmake

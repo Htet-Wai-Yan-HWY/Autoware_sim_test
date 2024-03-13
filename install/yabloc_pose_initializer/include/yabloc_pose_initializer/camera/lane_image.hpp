@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/yabloc/yabloc_pose_initializer/include/yabloc_pose_initializer/camera/lane_image.hpp

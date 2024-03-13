@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulation_msgs/rosidl_generator_c/tier4_simulation_msgs/msg/detail/user_defined_value_type__struct.h

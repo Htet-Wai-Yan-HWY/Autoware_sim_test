@@ -1,0 +1,10 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/default_ad_api_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/default_ad_api.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/default_ad_api/CMakeFiles/install/strip.dir

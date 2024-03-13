@@ -1,0 +1,307 @@
+[0.073s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.348s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.503s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.568s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.348s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.352s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.392s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.405s] -- Looking for pthread.h
+[1.476s] -- Looking for pthread.h - found
+[1.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.551s] -- Found Threads: TRUE  
+[1.868s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.870s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.870s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.300s] -- Checking for module 'eigen3'
+[3.314s] --   Found eigen3, version 3.4.0
+[3.347s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.348s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.393s] -- Checking for module 'flann'
+[3.408s] --   Found flann, version 1.9.1
+[3.452s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.452s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.391s] -- Checking for module 'libusb-1.0'
+[4.406s] --   Found libusb-1.0, version 1.0.25
+[4.442s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.443s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.500s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.647s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.653s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.660s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.804s] -- Found Qhull version 8.0.2
+[4.948s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.089s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.090s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.091s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.091s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.092s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.093s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.093s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.094s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.095s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.096s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.096s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.098s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.099s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.100s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.101s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.101s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.102s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.103s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.104s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.105s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.106s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.106s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.107s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.108s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.109s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.766s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.916s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.919s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.947s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.947s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.948s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.948s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.970s] -- Found PythonExtra: .so  
+[11.586s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.600s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/include;$<BUILD_INTERFACE:/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/include>
+[11.600s] -- Configured cppcheck exclude dirs and/or files: 
+[11.601s] -- Added test 'lint_cmake' to check CMake code style
+[11.602s] -- Added test 'xmllint' to check XML markup files
+[11.609s] -- Configuring done
+[12.049s] -- Generating done
+[12.053s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher
+[12.075s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher
+[12.077s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher -- -j12 -l12
+[12.133s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.142s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.142s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.143s] [  7%] [32mBuilding CXX object CMakeFiles/signed_distance_function.dir/src/signed_distance_function.cpp.o[0m
+[12.147s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.154s] [  9%] Built target ament_cmake_python_symlink_dummy_perception_publisher
+[12.516s] running egg_info
+[12.517s] creating dummy_perception_publisher.egg-info
+[12.518s] writing dummy_perception_publisher.egg-info/PKG-INFO
+[12.518s] writing dependency_links to dummy_perception_publisher.egg-info/dependency_links.txt
+[12.518s] writing top-level names to dummy_perception_publisher.egg-info/top_level.txt
+[12.519s] writing manifest file 'dummy_perception_publisher.egg-info/SOURCES.txt'
+[12.523s] reading manifest file 'dummy_perception_publisher.egg-info/SOURCES.txt'
+[12.524s] writing manifest file 'dummy_perception_publisher.egg-info/SOURCES.txt'
+[12.574s] [  9%] Built target dummy_perception_publisher__cpp
+[12.599s] [  9%] Built target ament_cmake_python_build_dummy_perception_publisher_egg
+[12.600s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.600s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.600s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.670s] [ 18%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_c.dir/rosidl_generator_c/dummy_perception_publisher/msg/detail/object__functions.c.o[0m
+[12.670s] [ 18%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_c.dir/rosidl_generator_c/dummy_perception_publisher/msg/detail/initial_state__functions.c.o[0m
+[12.889s] [ 20%] [32m[1mLinking C shared library libdummy_perception_publisher__rosidl_generator_c.so[0m
+[12.947s] [ 20%] Built target dummy_perception_publisher__rosidl_generator_c
+[12.964s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.967s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.967s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.089s] [ 28%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy_perception_publisher/msg/initial_state__type_support.cpp.o[0m
+[13.092s] [ 30%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy_perception_publisher/msg/object__type_support.cpp.o[0m
+[13.143s] [ 32%] [32m[1mLinking CXX shared library libsigned_distance_function.so[0m
+[13.277s] [ 33%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy_perception_publisher/msg/detail/dds_fastrtps/initial_state__type_support.cpp.o[0m
+[13.277s] [ 35%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy_perception_publisher/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[13.343s] [ 39%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy_perception_publisher/msg/detail/initial_state__type_support.cpp.o[0m
+[13.344s] [ 39%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy_perception_publisher/msg/detail/object__type_support.cpp.o[0m
+[13.665s] [ 41%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy_perception_publisher/msg/initial_state__type_support.cpp.o[0m
+[13.738s] [ 43%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy_perception_publisher/msg/object__type_support.cpp.o[0m
+[13.748s] [ 45%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_cpp.so[0m
+[13.811s] [ 47%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy_perception_publisher/msg/detail/initial_state__type_support_c.cpp.o[0m
+[13.814s] [ 49%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy_perception_publisher/msg/detail/object__type_support_c.cpp.o[0m
+[13.822s] [ 50%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy_perception_publisher/msg/detail/initial_state__type_support.c.o[0m
+[13.861s] [ 52%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_c.so[0m
+[13.893s] [ 52%] Built target dummy_perception_publisher__rosidl_typesupport_cpp
+[13.920s] [ 54%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy_perception_publisher/msg/detail/object__type_support.c.o[0m
+[13.985s] [ 54%] Built target dummy_perception_publisher__rosidl_typesupport_c
+[14.057s] [ 56%] [32m[1mLinking C shared library libdummy_perception_publisher__rosidl_typesupport_introspection_c.so[0m
+[14.159s] [ 56%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_c
+[14.288s] [ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.358s] [ 58%] Built target gtest_main
+[14.358s] [ 60%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so[0m
+[14.431s] [ 62%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.503s] [ 62%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_cpp
+[14.584s] [ 62%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp
+[14.728s] [ 64%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so[0m
+[14.817s] [ 64%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_c
+[14.841s] [ 64%] Built target dummy_perception_publisher
+[14.866s] [ 66%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.338s] [ 66%] Built target dummy_perception_publisher__py
+[15.362s] [ 69%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_py.dir/rosidl_generator_py/dummy_perception_publisher/msg/_object_s.c.o[0m
+[15.363s] [ 69%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_py.dir/rosidl_generator_py/dummy_perception_publisher/msg/_initial_state_s.c.o[0m
+[15.541s] [ 71%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/libdummy_perception_publisher__rosidl_generator_py.so[0m
+[15.594s] [ 71%] Built target dummy_perception_publisher__rosidl_generator_py
+[15.620s] [ 77%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_c.c.o[0m
+[15.620s] [ 77%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.620s] [ 77%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.795s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.797s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.797s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.859s] [ 83%] Built target dummy_perception_publisher__rosidl_typesupport_c__pyext
+[15.859s] [ 83%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext
+[15.860s] [ 83%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext
+[20.767s] [ 84%] [32m[1mLinking CXX static library libgtest.a[0m
+[20.811s] [ 84%] Built target gtest
+[146.036s] [ 84%] Built target signed_distance_function
+[146.062s] [ 88%] [32mBuilding CXX object CMakeFiles/signed_distance_function-test.dir/test/src/test_signed_distance_function.cpp.o[0m
+[146.062s] [ 88%] [32mBuilding CXX object CMakeFiles/empty_objects_publisher.dir/src/empty_objects_publisher.cpp.o[0m
+[146.062s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/main.cpp.o[0m
+[146.062s] [ 92%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/node.cpp.o[0m
+[146.062s] [ 94%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/pointcloud_creator.cpp.o[0m
+[147.890s] [ 96%] [32m[1mLinking CXX executable signed_distance_function-test[0m
+[152.225s] [ 98%] [32m[1mLinking CXX executable empty_objects_publisher[0m
+[152.759s] [ 98%] Built target empty_objects_publisher
+[159.645s] [ 98%] Built target signed_distance_function-test
+[164.580s] [100%] [32m[1mLinking CXX executable dummy_perception_publisher_node[0m
+[165.733s] [100%] Built target dummy_perception_publisher_node
+[165.746s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher -- -j12 -l12
+[165.843s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher
+[165.851s] -- Install configuration: "Release"
+[165.851s] -- Execute custom install script
+[165.851s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/ament_index/resource_index/rosidl_interfaces/dummy_perception_publisher
+[165.861s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__functions.h
+[165.870s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__struct.h
+[165.878s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__type_support.h
+[165.887s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__functions.h
+[165.896s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__struct.h
+[165.905s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__type_support.h
+[165.914s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/initial_state.h
+[165.922s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/object.h
+[165.932s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_generator_c__visibility_control.h
+[165.941s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/library_path.sh
+[165.950s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/library_path.dsv
+[165.959s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_fastrtps_c.h
+[165.968s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[165.977s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[165.986s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_introspection_c.h
+[165.995s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_introspection_c.h
+[166.004s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[166.013s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__builder.hpp
+[166.022s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__struct.hpp
+[166.031s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__traits.hpp
+[166.040s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__builder.hpp
+[166.048s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__struct.hpp
+[166.057s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__traits.hpp
+[166.066s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/initial_state.hpp
+[166.075s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/object.hpp
+[166.084s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_fastrtps_cpp.hpp
+[166.093s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[166.101s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[166.110s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_introspection_cpp.hpp
+[166.119s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[166.128s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/pythonpath.sh
+[166.137s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/pythonpath.dsv
+[166.147s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/PKG-INFO
+[166.155s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/SOURCES.txt
+[166.164s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/dependency_links.txt
+[166.173s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/top_level.txt
+[166.182s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/__init__.py
+[166.191s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_c.c
+[166.200s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_fastrtps_c.c
+[166.208s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_introspection_c.c
+[166.217s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[166.226s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[166.236s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[166.244s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/libdummy_perception_publisher__rosidl_generator_py.so
+[166.253s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/__init__.py
+[166.262s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_initial_state.py
+[166.271s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_initial_state_s.c
+[166.280s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_object.py
+[166.288s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_object_s.c
+[166.297s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[166.297s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[166.298s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[166.298s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/InitialState.idl
+[166.307s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/Object.idl
+[166.316s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/InitialState.msg
+[166.325s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/Object.msg
+[166.334s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/node.hpp
+[166.343s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/include/dummy_perception_publisher/signed_distance_function.hpp
+[166.353s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libsigned_distance_function.so
+[166.362s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/dummy_perception_publisher/dummy_perception_publisher_node
+[166.371s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/dummy_perception_publisher/empty_objects_publisher
+[166.380s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/launch/dummy_perception_publisher.launch.xml
+[166.389s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_perception_publisher
+[166.398s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_perception_publisher
+[166.407s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/ament_prefix_path.sh
+[166.416s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/ament_prefix_path.dsv
+[166.425s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/path.sh
+[166.434s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/path.dsv
+[166.443s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.bash
+[166.452s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.sh
+[166.461s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.zsh
+[166.470s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.dsv
+[166.479s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/package.dsv
+[166.488s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/ament_index/resource_index/packages/dummy_perception_publisher
+[166.497s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake-extras.cmake
+[166.505s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[166.515s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[166.524s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[166.533s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_targets-extras.cmake
+[166.541s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[166.551s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[166.559s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisherConfig.cmake
+[166.568s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisherConfig-version.cmake
+[166.577s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/package.xml
+[166.586s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_c.so
+[166.586s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_c.so" to ""
+[166.586s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so
+[166.587s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so" to ""
+[166.587s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_c.so
+[166.587s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_c.so" to ""
+[166.588s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_c.so
+[166.588s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_c.so" to ""
+[166.588s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so
+[166.589s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so" to ""
+[166.589s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so
+[166.589s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so" to ""
+[166.589s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_cpp.so
+[166.590s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_cpp.so" to ""
+[166.625s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher'...
+[166.625s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/__init__.py'...
+[166.625s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg'...
+[166.625s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/__init__.py'...
+[166.625s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_initial_state.py'...
+[166.625s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_object.py'...
+[166.629s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_py.so
+[166.629s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_py.so" to ""
+[166.629s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_cExport.cmake
+[166.630s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_cExport-release.cmake
+[166.630s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cExport.cmake
+[166.630s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cExport-release.cmake
+[166.630s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cExport.cmake
+[166.630s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cExport-release.cmake
+[166.630s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cExport.cmake
+[166.631s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cExport-release.cmake
+[166.631s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_cppExport.cmake
+[166.631s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cppExport.cmake
+[166.631s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[166.631s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cppExport.cmake
+[166.631s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cppExport-release.cmake
+[166.632s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cppExport.cmake
+[166.632s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cppExport-release.cmake
+[166.632s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_pyExport.cmake
+[166.632s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_pyExport-release.cmake
+[166.635s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher

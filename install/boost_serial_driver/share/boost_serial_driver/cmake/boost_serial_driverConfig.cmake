@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/boost_serial_driver/ament_cmake_core/boost_serial_driverConfig.cmake

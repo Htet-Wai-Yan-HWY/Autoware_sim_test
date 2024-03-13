@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_centerpoint/ament_cmake_core/lidar_centerpointConfig.cmake

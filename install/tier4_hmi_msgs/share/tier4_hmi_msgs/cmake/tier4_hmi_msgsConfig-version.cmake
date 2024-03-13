@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_hmi_msgs/ament_cmake_core/tier4_hmi_msgsConfig-version.cmake

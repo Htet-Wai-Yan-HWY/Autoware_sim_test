@@ -1,0 +1,11 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/lidar_apollo_segmentation_tvm_nodes_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/lidar_apollo_segmentation_tvm_nodes.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/lidar_apollo_segmentation_tvm_nodes_exe.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/install/strip.dir

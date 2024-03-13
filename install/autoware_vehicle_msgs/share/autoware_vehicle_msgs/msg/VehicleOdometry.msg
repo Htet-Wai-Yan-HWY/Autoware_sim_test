@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs/msg/VehicleOdometry.msg

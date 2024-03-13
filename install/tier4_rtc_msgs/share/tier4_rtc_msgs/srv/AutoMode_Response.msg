@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_rtc_msgs/rosidl_cmake/srv/AutoMode_Response.msg

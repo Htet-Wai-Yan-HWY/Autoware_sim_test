@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "FindCGAL.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "CGAL", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "CGAL" with any of
+  the following names:
+
+    CGALConfig.cmake
+    cgal-config.cmake
+
+  Add the installation prefix of "CGAL" to CMAKE_PREFIX_PATH or set
+  "CGAL_DIR" to a directory containing one of the above files.  If "CGAL"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m

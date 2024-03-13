@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_instance_segmentation/ament_cmake_core/lidar_apollo_instance_segmentationConfig-version.cmake

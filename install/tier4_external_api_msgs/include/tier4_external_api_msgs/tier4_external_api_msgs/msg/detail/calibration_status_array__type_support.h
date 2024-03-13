@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs/rosidl_generator_c/tier4_external_api_msgs/msg/detail/calibration_status_array__type_support.h

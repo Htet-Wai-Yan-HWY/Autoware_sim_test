@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/objects_of_interest_marker_interface/include/objects_of_interest_marker_interface/coloring.hpp

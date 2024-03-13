@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_common/tmp/lanelet2_extension/include/lanelet2_extension/regulatory_elements/Forward.hpp

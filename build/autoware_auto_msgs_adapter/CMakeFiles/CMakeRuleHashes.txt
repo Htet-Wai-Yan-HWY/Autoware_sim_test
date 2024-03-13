@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+6f3f5db7aebbe4166b4f20ab9df67ea2 CMakeFiles/autoware_auto_msgs_adapter_uninstall

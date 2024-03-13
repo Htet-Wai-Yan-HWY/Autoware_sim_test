@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/launch/tier4_perception_launch/launch/obstacle_segmentation/ground_segmentation/ground_segmentation.launch.py

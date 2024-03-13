@@ -1,0 +1,9 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/global_parameter_loader_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/global_parameter_loader/CMakeFiles/install/strip.dir

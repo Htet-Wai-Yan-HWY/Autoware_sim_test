@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_generator_c/autoware_map_msgs/srv/detail/get_partial_point_cloud_map__type_support.h

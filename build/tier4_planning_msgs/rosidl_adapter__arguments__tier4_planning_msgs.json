@@ -1,0 +1,33 @@
+{
+  "package_name": "tier4_planning_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/Approval.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/AvoidanceDebugFactor.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/AvoidanceDebugMsg.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/AvoidanceDebugMsgArray.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/EnableAvoidance.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/ExpandStopRange.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/IsAvoidancePossible.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/LaneChangeCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/LaneChangeDebugMsg.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/LaneChangeDebugMsgArray.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/LaneChangeStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/LateralOffset.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/Path.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/PathChangeModule.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/PathChangeModuleArray.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/PathChangeModuleId.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/PathPoint.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/RerouteAvailability.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/Scenario.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/StopFactor.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/StopReason.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/StopReasonArray.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/StopSpeedExceeded.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/Trajectory.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/TrajectoryPoint.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/VelocityLimit.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/VelocityLimitClearCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs:msg/VelocityLimitConstraints.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs/rosidl_generator_c/robosense_msgs/msg/robosense_info_packet.h

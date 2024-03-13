@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/sensor_component_description/velodyne_description/launch/example.launch.py

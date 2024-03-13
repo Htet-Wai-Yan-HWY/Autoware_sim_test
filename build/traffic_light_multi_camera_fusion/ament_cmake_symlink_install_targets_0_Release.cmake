@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/traffic_light_multi_camera_fusion/traffic_light_multi_camera_fusion_node" "TARGETS" "traffic_light_multi_camera_fusion_node" "DESTINATION" "lib/traffic_light_multi_camera_fusion")

@@ -1,0 +1,111 @@
+[0.067s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/tier4_simulated_clock_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.262s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.365s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.587s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.784s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.791s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.800s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.913s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.955s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.964s] -- Looking for pthread.h
+[1.045s] -- Looking for pthread.h - found
+[1.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.134s] -- Found Threads: TRUE  
+[1.358s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.359s] -- Found OGRE
+[1.360s] --   static     : OFF
+[1.360s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.360s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.360s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.360s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.360s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.360s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.360s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.360s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.360s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.360s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.360s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.365s] -- Could not find freeimage library
+[1.390s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.396s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.517s] -- Found X11: /usr/include   
+[1.517s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.609s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.609s] -- Looking for gethostbyname
+[1.690s] -- Looking for gethostbyname - found
+[1.690s] -- Looking for connect
+[1.766s] -- Looking for connect - found
+[1.766s] -- Looking for remove
+[1.844s] -- Looking for remove - found
+[1.845s] -- Looking for shmat
+[1.922s] -- Looking for shmat - found
+[1.922s] -- Looking for IceConnectionNumber in ICE
+[2.001s] -- Looking for IceConnectionNumber in ICE - found
+[2.003s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.003s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.114s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.365s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.365s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.828s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.850s] -- Configured cppcheck include dirs: 
+[2.850s] -- Configured cppcheck exclude dirs and/or files: 
+[2.850s] -- Added test 'lint_cmake' to check CMake code style
+[2.851s] -- Added test 'xmllint' to check XML markup files
+[2.855s] -- Configuring done
+[2.884s] -- Generating done
+[2.887s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin
+[2.901s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/tier4_simulated_clock_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin
+[2.903s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin -- -j12 -l12
+[2.959s] [ 25%] [34m[1mAutomatic MOC for target tier4_simulated_clock_rviz_plugin[0m
+[3.338s] [ 25%] Built target tier4_simulated_clock_rviz_plugin_autogen
+[3.360s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_simulated_clock_rviz_plugin.dir/tier4_simulated_clock_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[3.361s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_simulated_clock_rviz_plugin.dir/src/simulated_clock_panel.cpp.o[0m
+[11.096s] [100%] [32m[1mLinking CXX shared library libtier4_simulated_clock_rviz_plugin.so[0m
+[12.895s] [100%] Built target tier4_simulated_clock_rviz_plugin
+[12.908s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin -- -j12 -l12
+[12.942s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin
+[12.949s] -- Install configuration: "Release"
+[12.950s] -- Execute custom install script
+[12.950s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/plugins/plugin_description.xml
+[12.960s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/environment/library_path.sh
+[12.971s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/environment/library_path.dsv
+[12.980s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/lib/libtier4_simulated_clock_rviz_plugin.so
+[12.990s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/icons/classes/SimulatedClockPanel.png
+[13.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/plugins/plugin_description.xml
+[13.000s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/tier4_simulated_clock_rviz_plugin
+[13.009s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/tier4_simulated_clock_rviz_plugin
+[13.020s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/environment/ament_prefix_path.sh
+[13.029s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/environment/ament_prefix_path.dsv
+[13.039s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/environment/path.sh
+[13.049s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/environment/path.dsv
+[13.059s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/local_setup.bash
+[13.069s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/local_setup.sh
+[13.078s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/local_setup.zsh
+[13.088s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/local_setup.dsv
+[13.097s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/package.dsv
+[13.107s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/ament_index/resource_index/packages/tier4_simulated_clock_rviz_plugin
+[13.116s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/tier4_simulated_clock_rviz_plugin
+[13.125s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.135s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[13.144s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/cmake/tier4_simulated_clock_rviz_pluginConfig.cmake
+[13.153s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/cmake/tier4_simulated_clock_rviz_pluginConfig-version.cmake
+[13.162s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_simulated_clock_rviz_plugin/share/tier4_simulated_clock_rviz_plugin/package.xml
+[13.174s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_simulated_clock_rviz_plugin

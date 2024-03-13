@@ -1,0 +1,28 @@
+[0.058s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/vls_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/vls_description -- -j12 -l12
+[0.093s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/vls_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/vls_description -- -j12 -l12
+[0.114s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/vls_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/vls_description
+[0.120s] -- Install configuration: "Release"
+[0.121s] -- Execute custom install script
+[0.121s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/urdf/VLS-128.urdf.xacro
+[0.121s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/meshes/VLS128_base_1.dae
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/meshes/VLS128_base_1.stl
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/meshes/VLS128_base_2.dae
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/meshes/VLS128_base_2.stl
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/meshes/VLS128_scan.dae
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/meshes/VLS128_scan.stl
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/ament_index/resource_index/package_run_dependencies/vls_description
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/ament_index/resource_index/parent_prefix_path/vls_description
+[0.123s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/environment/ament_prefix_path.dsv
+[0.123s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/environment/path.sh
+[0.123s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/environment/path.dsv
+[0.124s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/local_setup.bash
+[0.124s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/local_setup.sh
+[0.124s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/local_setup.zsh
+[0.124s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/local_setup.dsv
+[0.124s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/package.dsv
+[0.133s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/ament_index/resource_index/packages/vls_description
+[0.133s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/cmake/vls_descriptionConfig.cmake
+[0.133s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/cmake/vls_descriptionConfig-version.cmake
+[0.133s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/vls_description/share/vls_description/package.xml
+[0.135s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/vls_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/vls_description

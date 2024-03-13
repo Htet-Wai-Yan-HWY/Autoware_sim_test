@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs/msg/Pitching.msg

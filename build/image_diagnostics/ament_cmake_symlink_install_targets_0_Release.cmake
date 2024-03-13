@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/image_diagnostics/image_diagnostics_node" "TARGETS" "image_diagnostics_node" "DESTINATION" "lib/image_diagnostics")

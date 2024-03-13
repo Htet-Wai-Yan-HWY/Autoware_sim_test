@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/map_based_prediction/map_based_prediction" "TARGETS" "map_based_prediction" "DESTINATION" "lib/map_based_prediction")

@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:8 (find_package):
+  Could not find a package configuration file provided by "magic_enum" with
+  any of the following names:
+
+    magic_enumConfig.cmake
+    magic_enum-config.cmake
+
+  Add the installation prefix of "magic_enum" to CMAKE_PREFIX_PATH or set
+  "magic_enum_DIR" to a directory containing one of the above files.  If
+  "magic_enum" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

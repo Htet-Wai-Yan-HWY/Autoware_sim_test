@@ -1,0 +1,42 @@
+[0.051s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/sensor_component_description/imu_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/imu_description
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.585s] -- Configuring done
+[0.588s] -- Generating done
+[0.588s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/imu_description
+[0.592s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/sensor_component_description/imu_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/imu_description
+[0.593s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/imu_description -- -j12 -l12
+[0.627s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/imu_description -- -j12 -l12
+[0.647s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/imu_description
+[0.653s] -- Install configuration: "Release"
+[0.654s] -- Execute custom install script
+[0.655s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/urdf/imu.xacro
+[0.663s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/ament_index/resource_index/package_run_dependencies/imu_description
+[0.672s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/ament_index/resource_index/parent_prefix_path/imu_description
+[0.680s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/ament_prefix_path.sh
+[0.688s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/ament_prefix_path.dsv
+[0.697s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/path.sh
+[0.705s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/path.dsv
+[0.714s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.bash
+[0.722s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.sh
+[0.730s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.zsh
+[0.739s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.dsv
+[0.747s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/package.dsv
+[0.756s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/ament_index/resource_index/packages/imu_description
+[0.764s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/cmake/imu_descriptionConfig.cmake
+[0.773s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/cmake/imu_descriptionConfig-version.cmake
+[0.781s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/package.xml
+[0.791s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/imu_description

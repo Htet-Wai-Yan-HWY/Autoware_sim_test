@@ -1,0 +1,18 @@
+{
+  "package_name": "autoware_vehicle_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/ControlModeCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/ControlModeReport.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/Engage.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/GearCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/GearReport.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/HazardLightsCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/HazardLightsReport.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/SteeringReport.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/TurnIndicatorsCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/TurnIndicatorsReport.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/VehicleOdometry.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:msg/VelocityReport.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_vehicle_msgs:srv/ControlModeCommand.srv"
+  ]
+}

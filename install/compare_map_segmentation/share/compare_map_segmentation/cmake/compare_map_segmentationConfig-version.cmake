@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/compare_map_segmentation/ament_cmake_core/compare_map_segmentationConfig-version.cmake

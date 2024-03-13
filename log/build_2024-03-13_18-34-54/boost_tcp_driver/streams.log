@@ -1,0 +1,59 @@
+[0.676s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/tcp_driver -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver
+[0.725s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.126s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.424s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.429s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.443s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.666s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.667s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.767s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.499s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.528s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.534s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/tcp_driver/include
+[2.535s] -- Configured cppcheck exclude dirs and/or files: 
+[2.536s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.536s] -- Configured cpplint exclude dirs and/or files: 
+[2.537s] -- Added test 'lint_cmake' to check CMake code style
+[2.539s] -- Added test 'uncrustify' to check C / C++ code style
+[2.539s] -- Configured uncrustify additional arguments: 
+[2.540s] -- Added test 'xmllint' to check XML markup files
+[2.545s] -- Configuring done
+[2.567s] -- Generating done
+[2.570s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver
+[2.768s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/tcp_driver -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver
+[2.778s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver -- -j12 -l12
+[3.103s] [35m[1mConsolidate compiler generated dependencies of target boost_tcp_driver[0m
+[3.103s] [100%] Built target boost_tcp_driver
+[3.382s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver -- -j12 -l12
+[4.075s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver
+[4.197s] -- Install configuration: "Release"
+[4.197s] -- Execute custom install script
+[4.198s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/include/boost_tcp_driver/http_client.hpp
+[4.198s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/include/boost_tcp_driver/http_client_driver.hpp
+[4.198s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/include/boost_tcp_driver/tcp_driver.hpp
+[4.198s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/include/boost_tcp_driver/tcp_socket.hpp
+[4.199s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/environment/library_path.sh
+[4.199s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/environment/library_path.dsv
+[4.199s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib/libboost_tcp_driver.so
+[4.199s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/ament_index/resource_index/package_run_dependencies/boost_tcp_driver
+[4.200s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/ament_index/resource_index/parent_prefix_path/boost_tcp_driver
+[4.200s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/environment/ament_prefix_path.sh
+[4.200s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/environment/ament_prefix_path.dsv
+[4.200s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/environment/path.sh
+[4.201s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/environment/path.dsv
+[4.201s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/local_setup.bash
+[4.201s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/local_setup.sh
+[4.201s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/local_setup.zsh
+[4.202s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/local_setup.dsv
+[4.202s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/package.dsv
+[4.202s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/ament_index/resource_index/packages/boost_tcp_driver
+[4.202s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.202s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.202s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/cmake/boost_tcp_driverConfig.cmake
+[4.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/cmake/boost_tcp_driverConfig-version.cmake
+[4.203s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/share/boost_tcp_driver/package.xml
+[4.859s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/boost_tcp_driver

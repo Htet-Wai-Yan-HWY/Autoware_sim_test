@@ -1,0 +1,31 @@
+[0.143s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_common/autoware_lint_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common
+[0.154s] -- Found ament_cmake_core: 1.3.8 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.370s] -- Found ament_cmake_export_dependencies: 1.3.8 (/opt/ros/humble/share/ament_cmake_export_dependencies/cmake)
+[0.370s] -- Found ament_cmake_test: 1.3.8 (/opt/ros/humble/share/ament_cmake_test/cmake)
+[0.493s] -- Configuring done
+[0.496s] -- Generating done
+[0.498s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common
+[0.501s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_common/autoware_lint_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common
+[0.503s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common -- -j12 -l12
+[0.554s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common -- -j12 -l12
+[0.584s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common
+[0.592s] -- Install configuration: "Release"
+[0.593s] -- Execute custom install script
+[0.593s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/ament_index/resource_index/package_run_dependencies/autoware_lint_common
+[0.593s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/ament_index/resource_index/parent_prefix_path/autoware_lint_common
+[0.594s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.sh
+[0.594s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.dsv
+[0.594s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/environment/path.sh
+[0.595s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/environment/path.dsv
+[0.595s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/local_setup.bash
+[0.595s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/local_setup.sh
+[0.595s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/local_setup.zsh
+[0.595s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/local_setup.dsv
+[0.595s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/package.dsv
+[0.612s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/ament_index/resource_index/packages/autoware_lint_common
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig.cmake
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig-version.cmake
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common/share/autoware_lint_common/package.xml
+[0.619s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_lint_common

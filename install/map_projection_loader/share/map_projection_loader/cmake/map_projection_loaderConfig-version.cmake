@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/map_projection_loader/ament_cmake_core/map_projection_loaderConfig-version.cmake

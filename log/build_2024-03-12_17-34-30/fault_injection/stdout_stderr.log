@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target fault_injection_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/fault_injection_node_component.dir/src/fault_injection_node/fault_injection_node.cpp.o[0m
+[ 45%] Built target gtest
+[ 45%] Built target gtest_main
+[ 63%] Built target fault_injection_node
+[ 72%] [32m[1mLinking CXX shared library libfault_injection_node_component.so[0m
+[ 72%] Built target fault_injection_node_component
+[ 90%] [32mBuilding CXX object CMakeFiles/test_fault_injection_node_component.dir/test/src/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_fault_injection_node_component.dir/test/src/test_diagnostic_storage.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_fault_injection_node_component[0m
+[100%] Built target test_fault_injection_node_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/lib/fault_injection/fault_injection_node
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection//config/test_event_diag.param.yaml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection//launch/test_fault_injection.launch.xml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/include/fault_injection/diagnostic_storage.hpp
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/include/fault_injection/fault_injection_node.hpp
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/environment/library_path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/environment/library_path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/lib/libfault_injection_node_component.so
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/config/fault_injection.param.yaml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/launch/fault_injection.launch.xml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/ament_index/resource_index/package_run_dependencies/fault_injection
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/ament_index/resource_index/parent_prefix_path/fault_injection
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/environment/ament_prefix_path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/environment/path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/environment/path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/local_setup.bash
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/local_setup.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/local_setup.zsh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/local_setup.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/package.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/ament_index/resource_index/packages/fault_injection
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/ament_index/resource_index/rclcpp_components/fault_injection
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/cmake/fault_injectionConfig.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/cmake/fault_injectionConfig-version.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fault_injection/share/fault_injection/package.xml

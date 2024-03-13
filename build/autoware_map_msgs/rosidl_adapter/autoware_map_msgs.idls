@@ -1,0 +1,9 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/AreaInfo.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/LaneletMapBin.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapCellWithID.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapCellMetaData.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapCellMetaDataWithID.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapMetaData.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:srv/GetPartialPointCloudMap.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:srv/GetDifferentialPointCloudMap.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:srv/GetSelectedPointCloudMap.idl

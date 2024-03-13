@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/radar_scan_to_pointcloud2/libradar_scan_to_pointcloud2_node_component.so" "TARGETS" "radar_scan_to_pointcloud2_node_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

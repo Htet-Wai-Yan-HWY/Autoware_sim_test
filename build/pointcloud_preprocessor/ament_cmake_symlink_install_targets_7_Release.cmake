@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/pointcloud_preprocessor/ring_outlier_filter_node" "TARGETS" "ring_outlier_filter_node" "DESTINATION" "lib/pointcloud_preprocessor")

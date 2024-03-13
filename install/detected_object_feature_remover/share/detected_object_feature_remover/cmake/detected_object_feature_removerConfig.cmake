@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/detected_object_feature_remover/ament_cmake_core/detected_object_feature_removerConfig.cmake

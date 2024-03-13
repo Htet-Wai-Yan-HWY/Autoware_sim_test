@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/object_merger/object_association_merger_node" "TARGETS" "object_association_merger_node" "DESTINATION" "lib/object_merger")

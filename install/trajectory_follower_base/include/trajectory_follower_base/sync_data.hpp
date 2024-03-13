@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/trajectory_follower_base/include/trajectory_follower_base/sync_data.hpp

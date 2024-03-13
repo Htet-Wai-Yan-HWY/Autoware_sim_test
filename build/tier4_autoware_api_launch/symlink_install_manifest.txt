@@ -1,0 +1,17 @@
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/launch/autoware_api.launch.xml
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/launch/deprecated_api.launch.xml
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/ament_index/resource_index/package_run_dependencies/tier4_autoware_api_launch
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/ament_index/resource_index/parent_prefix_path/tier4_autoware_api_launch
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/environment/ament_prefix_path.sh
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/environment/ament_prefix_path.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/environment/path.sh
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/environment/path.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/local_setup.bash
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/local_setup.sh
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/local_setup.zsh
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/local_setup.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/package.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/ament_index/resource_index/packages/tier4_autoware_api_launch
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/cmake/tier4_autoware_api_launchConfig.cmake
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/cmake/tier4_autoware_api_launchConfig-version.cmake
+/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_api_launch/share/tier4_autoware_api_launch/package.xml

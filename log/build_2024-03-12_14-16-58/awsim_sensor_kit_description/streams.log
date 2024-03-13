@@ -1,0 +1,46 @@
+[0.052s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_kit/external/awsim_sensor_kit_launch/awsim_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.269s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.519s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.573s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.655s] -- Configuring done
+[0.658s] -- Generating done
+[0.659s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description
+[0.663s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_kit/external/awsim_sensor_kit_launch/awsim_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description
+[0.664s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description -- -j12 -l12
+[0.697s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description -- -j12 -l12
+[0.722s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description
+[0.731s] -- Install configuration: "Release"
+[0.732s] -- Execute custom install script
+[0.733s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/urdf/sensor_kit.xacro
+[0.745s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/urdf/sensors.xacro
+[0.758s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/config/sensor_kit_calibration.yaml
+[0.770s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/config/sensors_calibration.yaml
+[0.782s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/awsim_sensor_kit_description
+[0.794s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/awsim_sensor_kit_description
+[0.806s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/ament_prefix_path.sh
+[0.817s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/ament_prefix_path.dsv
+[0.829s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/path.sh
+[0.841s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/path.dsv
+[0.853s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.bash
+[0.864s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.sh
+[0.876s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.zsh
+[0.888s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.dsv
+[0.899s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/package.dsv
+[0.911s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/ament_index/resource_index/packages/awsim_sensor_kit_description
+[0.924s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.936s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/awsim_sensor_kit_descriptionConfig.cmake
+[0.948s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/awsim_sensor_kit_descriptionConfig-version.cmake
+[0.960s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/package.xml
+[0.975s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_description:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/awsim_sensor_kit_description

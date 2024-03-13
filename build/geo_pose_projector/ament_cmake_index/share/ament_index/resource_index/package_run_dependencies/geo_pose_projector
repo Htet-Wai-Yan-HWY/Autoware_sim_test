@@ -1,0 +1,1 @@
+component_interface_specs;component_interface_utils;geographic_msgs;geography_utils;geometry_msgs;rclcpp;tf2_geometry_msgs;tf2_ros;ament_lint_auto;autoware_lint_common

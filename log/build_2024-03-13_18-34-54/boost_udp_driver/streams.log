@@ -1,0 +1,86 @@
+[0.582s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver
+[0.779s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.933s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.187s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.193s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.211s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.442s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.503s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.253s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.263s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.287s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.289s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/udp_driver/include
+[2.290s] -- Configured cppcheck exclude dirs and/or files: 
+[2.291s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.291s] -- Configured cpplint exclude dirs and/or files: 
+[2.292s] -- Added test 'lint_cmake' to check CMake code style
+[2.297s] -- Added test 'uncrustify' to check C / C++ code style
+[2.297s] -- Configured uncrustify additional arguments: 
+[2.298s] -- Added test 'xmllint' to check XML markup files
+[2.303s] -- Configuring done
+[2.573s] -- Generating done
+[2.573s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver
+[2.981s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver
+[2.983s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver -- -j12 -l12
+[3.104s] [35m[1mConsolidate compiler generated dependencies of target udp_sender_node_exe[0m
+[3.105s] [35m[1mConsolidate compiler generated dependencies of target udp_receiver_node_exe[0m
+[3.105s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[3.106s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[3.106s] [35m[1mConsolidate compiler generated dependencies of target boost_udp_driver[0m
+[3.106s] [  8%] Built target gtest_main
+[3.107s] [ 16%] Built target udp_sender_node_exe
+[3.107s] [ 25%] Built target gtest
+[3.107s] [ 33%] Built target udp_receiver_node_exe
+[3.107s] [ 45%] Built target boost_udp_driver
+[3.114s] [35m[1mConsolidate compiler generated dependencies of target boost_udp_driver_nodes[0m
+[3.147s] [ 58%] Built target boost_udp_driver_nodes
+[3.166s] [35m[1mConsolidate compiler generated dependencies of target udp_bridge_node_exe[0m
+[3.166s] [35m[1mConsolidate compiler generated dependencies of target test_udp_driver[0m
+[3.168s] [35m[1mConsolidate compiler generated dependencies of target test_udp_socket[0m
+[3.171s] [35m[1mConsolidate compiler generated dependencies of target test_udp_driver_nodes[0m
+[3.172s] [35m[1mConsolidate compiler generated dependencies of target test_udp_data[0m
+[3.209s] [ 66%] Built target udp_bridge_node_exe
+[3.216s] [ 75%] Built target test_udp_socket
+[3.218s] [ 83%] Built target test_udp_driver_nodes
+[3.219s] [ 91%] Built target test_udp_data
+[3.220s] [100%] Built target test_udp_driver
+[3.905s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver -- -j12 -l12
+[4.755s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver
+[5.140s] -- Install configuration: "Release"
+[5.141s] -- Execute custom install script
+[5.141s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib/boost_udp_driver/udp_receiver_node_exe
+[5.141s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib/boost_udp_driver/udp_sender_node_exe
+[5.142s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/include/boost_udp_driver/udp_driver.hpp
+[5.142s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/include/boost_udp_driver/udp_receiver_node.hpp
+[5.142s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/include/boost_udp_driver/udp_sender_node.hpp
+[5.142s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/include/boost_udp_driver/udp_socket.hpp
+[5.142s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/include/boost_udp_driver/visibility_control.hpp
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/environment/library_path.sh
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/environment/library_path.dsv
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib/libboost_udp_driver.so
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib/libboost_udp_driver_nodes.so
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib/boost_udp_driver/udp_bridge_node_exe
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/ament_index/resource_index/package_run_dependencies/boost_udp_driver
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/ament_index/resource_index/parent_prefix_path/boost_udp_driver
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/environment/ament_prefix_path.sh
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/environment/ament_prefix_path.dsv
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/environment/path.sh
+[5.143s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/environment/path.dsv
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/local_setup.bash
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/local_setup.sh
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/local_setup.zsh
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/local_setup.dsv
+[5.144s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/package.dsv
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/ament_index/resource_index/packages/boost_udp_driver
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/ament_index/resource_index/rclcpp_components/boost_udp_driver
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/cmake/boost_udp_driverConfig.cmake
+[5.144s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/cmake/boost_udp_driverConfig-version.cmake
+[5.145s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/share/boost_udp_driver/package.xml
+[5.572s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver

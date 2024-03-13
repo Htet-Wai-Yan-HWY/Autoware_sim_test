@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/operation_mode_transition_manager/rosidl_generator_py/operation_mode_transition_manager/__init__.py

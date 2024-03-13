@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/pointcloud_to_laserscan/dummy_pointcloud_publisher" "TARGETS" "dummy_pointcloud_publisher" "DESTINATION" "lib/pointcloud_to_laserscan")

@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/diagnostic_graph_aggregator/src/common
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/diagnostic_graph_aggregator
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/diagnostic_graph_aggregator.dir/src/common/graph/graph.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/diagnostic_graph_aggregator.dir/src/common/graph/debug.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/diagnostic_graph_aggregator.dir/src/common/graph/config.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/diagnostic_graph_aggregator.dir/src/common/graph/units.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 35%] Built target gtest_main
+[ 40%] [32m[1mLinking CXX shared library libdiagnostic_graph_aggregator.so[0m
+[ 40%] Built target diagnostic_graph_aggregator
+[ 55%] [32mBuilding CXX object CMakeFiles/aggregator.dir/src/node/plugin/modes.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/aggregator.dir/src/node/aggregator.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/converter.dir/src/node/converter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/tool.dir/src/tool/tool.cpp.o[0m
+[ 65%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 65%] Built target gtest
+[ 70%] [32mBuilding CXX object CMakeFiles/gtest_diagnostic_graph_aggregator.dir/test/src/utils.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/gtest_diagnostic_graph_aggregator.dir/test/src/test1.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/gtest_diagnostic_graph_aggregator.dir/test/src/test2.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable tool[0m
+[ 85%] Built target tool
+[ 90%] [32m[1mLinking CXX executable gtest_diagnostic_graph_aggregator[0m
+[ 90%] Built target gtest_diagnostic_graph_aggregator
+[ 95%] [32m[1mLinking CXX executable converter[0m
+[100%] [32m[1mLinking CXX executable aggregator[0m
+[100%] Built target converter
+[100%] Built target aggregator
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/library_path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/library_path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/libdiagnostic_graph_aggregator.so
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/aggregator
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/converter
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/tool
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/config/default.param.yaml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example.launch.xml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_0.yaml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_1.yaml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_2.yaml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_diags.py
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/launch/diagnostic_graph_aggregator.launch.xml
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_graph_aggregator
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_graph_aggregator
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/ament_prefix_path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.bash
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.zsh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/package.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/ament_index/resource_index/packages/diagnostic_graph_aggregator
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/diagnostic_graph_aggregatorConfig.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/diagnostic_graph_aggregatorConfig-version.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/package.xml

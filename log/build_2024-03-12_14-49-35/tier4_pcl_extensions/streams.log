@@ -1,0 +1,32 @@
+[0.055s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions -- -j12 -l12
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_pcl_extensions.dir/src/voxel_grid_nearest_centroid.cpp.o[0m
+[28.022s] [100%] [32m[1mLinking CXX shared library libtier4_pcl_extensions.so[0m
+[28.141s] [100%] Built target tier4_pcl_extensions
+[28.152s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions -- -j12 -l12
+[28.180s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions
+[28.188s] -- Install configuration: "Release"
+[28.188s] -- Execute custom install script
+[28.189s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid.hpp
+[28.198s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid_impl.hpp
+[28.208s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.sh
+[28.218s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.dsv
+[28.228s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/lib/libtier4_pcl_extensions.so
+[28.238s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/ament_index/resource_index/package_run_dependencies/tier4_pcl_extensions
+[28.248s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/ament_index/resource_index/parent_prefix_path/tier4_pcl_extensions
+[28.257s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.sh
+[28.266s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.dsv
+[28.275s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.sh
+[28.284s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.dsv
+[28.294s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.bash
+[28.303s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.sh
+[28.313s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.zsh
+[28.322s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.dsv
+[28.331s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.dsv
+[28.341s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/ament_index/resource_index/packages/tier4_pcl_extensions
+[28.350s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.360s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.369s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_libraries-extras.cmake
+[28.378s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig.cmake
+[28.388s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig-version.cmake
+[28.397s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.xml
+[28.409s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_pcl_extensions

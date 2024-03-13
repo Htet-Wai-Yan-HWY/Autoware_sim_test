@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/mrm_comfortable_stop_operator/launch/mrm_comfortable_stop_operator.launch.py

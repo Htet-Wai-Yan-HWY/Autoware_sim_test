@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:22 (if):
+  Flow control statements are not properly nested.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm_nodes/CMakeFiles/CMakeOutput.log".

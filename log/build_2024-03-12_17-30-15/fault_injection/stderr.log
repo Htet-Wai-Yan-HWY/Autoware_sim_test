@@ -1,0 +1,10 @@
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/fault_injection/include/fault_injection/fault_injection_node.hpp:18[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/fault_injection/src/fault_injection_node/fault_injection_node.cpp:15[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/simulator/fault_injection/include/fault_injection/diagnostic_storage.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdiagnostic_aggregator/status_item.hpp: No such file or directory
+   18 | #include [01;31m[K<diagnostic_aggregator/status_item.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fault_injection_node_component.dir/build.make:76: CMakeFiles/fault_injection_node_component.dir/src/fault_injection_node/fault_injection_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/fault_injection_node_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

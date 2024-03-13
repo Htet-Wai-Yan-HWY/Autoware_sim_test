@@ -1,0 +1,91 @@
+[0.075s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders
+[0.185s] [ 18%] Built target nebula_decoders_hesai
+[0.248s] [ 63%] Built target nebula_decoders_velodyne
+[0.281s] [ 81%] Built target nebula_decoders_robosense
+[0.321s] [100%] Built target nebula_decoders_robosense_info
+[0.333s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders
+[0.379s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders
+[0.387s] -- Install configuration: "Release"
+[0.388s] -- Execute custom install script
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_common/nebula_driver_base.hpp
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/angle_corrector.hpp
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/angle_corrector_calibration_based.hpp
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/angle_corrector_correction_based.hpp
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/hesai_decoder.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/hesai_packet.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/hesai_scan_decoder.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/hesai_sensor.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_128e3x.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_128e4x.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_40.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_64.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_at128.hpp
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_qt128.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_qt64.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_xt32.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/decoders/pandar_xt32m.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_hesai/hesai_driver.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/angle_corrector.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/angle_corrector_calibration_based.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/bpearl_v3.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/bpearl_v4.hpp
+[0.391s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/helios.hpp
+[0.392s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/robosense_decoder.hpp
+[0.392s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/robosense_info_decoder.hpp
+[0.392s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/robosense_info_decoder_base.hpp
+[0.392s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/robosense_packet.hpp
+[0.392s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/robosense_scan_decoder.hpp
+[0.392s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/decoders/robosense_sensor.hpp
+[0.393s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/robosense_driver.hpp
+[0.393s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_robosense/robosense_info_driver.hpp
+[0.393s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_velodyne/decoders/velodyne_scan_decoder.hpp
+[0.393s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_velodyne/decoders/vlp16_decoder.hpp
+[0.393s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_velodyne/decoders/vlp32_decoder.hpp
+[0.393s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_velodyne/decoders/vls128_decoder.hpp
+[0.394s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/include/nebula_decoders/nebula_decoders_velodyne/velodyne_driver.hpp
+[0.394s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/environment/library_path.sh
+[0.394s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/environment/library_path.dsv
+[0.394s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib/libnebula_decoders_hesai.so
+[0.395s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib/libnebula_decoders_velodyne.so
+[0.395s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib/libnebula_decoders_robosense.so
+[0.395s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib/libnebula_decoders_robosense_info.so
+[0.396s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/Pandar128E4X.csv
+[0.396s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/Pandar40P.csv
+[0.396s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/Pandar64.csv
+[0.396s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarAT128.csv
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarAT128.dat
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarAT128.dat.2209
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarAT128.dat.2303
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarAT128.dat_or
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarQT128.csv
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarQT64.csv
+[0.397s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarXT32.csv
+[0.398s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/hesai/PandarXT32M.csv
+[0.398s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/HDL32.yaml
+[0.398s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/HDL64e_s2.yaml
+[0.398s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/HDL64e_s3.yaml
+[0.398s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/HDL64e_utexas.yaml
+[0.399s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP16.yaml
+[0.399s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP16_hires.yaml
+[0.399s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP32.yaml
+[0.399s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP32MR.yaml
+[0.399s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLS128.yaml
+[0.399s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/ament_index/resource_index/package_run_dependencies/nebula_decoders
+[0.400s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/ament_index/resource_index/parent_prefix_path/nebula_decoders
+[0.400s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/environment/ament_prefix_path.sh
+[0.400s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/environment/ament_prefix_path.dsv
+[0.400s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/environment/path.sh
+[0.401s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/environment/path.dsv
+[0.401s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/local_setup.bash
+[0.401s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/local_setup.sh
+[0.401s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/local_setup.zsh
+[0.401s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/local_setup.dsv
+[0.401s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/package.dsv
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/ament_index/resource_index/packages/nebula_decoders
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.411s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/cmake/ament_cmake_export_libraries-extras.cmake
+[0.411s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/cmake/nebula_decodersConfig.cmake
+[0.411s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/cmake/nebula_decodersConfig-version.cmake
+[0.411s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/package.xml
+[0.413s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/nebula_decoders

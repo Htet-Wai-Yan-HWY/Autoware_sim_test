@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_ad_api_adaptor/autoware_iv_internal_api_adaptor/launch/internal_api_adaptor.launch.py

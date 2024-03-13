@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/planning_validator/rosidl_generator_py/planning_validator/__init__.py

@@ -1,0 +1,248 @@
+[0.057s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_messages/robosense_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.332s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.470s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.545s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.580s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.587s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.394s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.395s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.418s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.418s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.418s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.418s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.437s] -- Found PythonExtra: .so  
+[1.489s] -- Configuring done
+[1.522s] -- Generating done
+[1.524s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs
+[1.530s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_messages/robosense_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs
+[1.531s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs -- -j12 -l12
+[1.568s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.578s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.586s] [  4%] Built target ament_cmake_python_symlink_robosense_msgs
+[1.839s] running egg_info
+[1.840s] creating robosense_msgs.egg-info
+[1.840s] writing robosense_msgs.egg-info/PKG-INFO
+[1.840s] writing dependency_links to robosense_msgs.egg-info/dependency_links.txt
+[1.840s] writing top-level names to robosense_msgs.egg-info/top_level.txt
+[1.840s] writing manifest file 'robosense_msgs.egg-info/SOURCES.txt'
+[1.842s] reading manifest file 'robosense_msgs.egg-info/SOURCES.txt'
+[1.842s] writing manifest file 'robosense_msgs.egg-info/SOURCES.txt'
+[1.870s] [  4%] Built target ament_cmake_python_build_robosense_msgs_egg
+[1.897s] [  4%] Built target robosense_msgs__cpp
+[1.922s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.927s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.931s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.952s] [ 14%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_generator_c.dir/rosidl_generator_c/robosense_msgs/msg/detail/robosense_info_packet__functions.c.o[0m
+[1.953s] [ 14%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_generator_c.dir/rosidl_generator_c/robosense_msgs/msg/detail/robosense_packet__functions.c.o[0m
+[1.953s] [ 17%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_generator_c.dir/rosidl_generator_c/robosense_msgs/msg/detail/robosense_scan__functions.c.o[0m
+[2.064s] [ 19%] [32m[1mLinking C shared library librobosense_msgs__rosidl_generator_c.so[0m
+[2.108s] [ 19%] Built target robosense_msgs__rosidl_generator_c
+[2.119s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.120s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.120s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.262s] [ 27%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robosense_msgs/msg/robosense_packet__type_support.cpp.o[0m
+[2.268s] [ 31%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robosense_msgs/msg/robosense_scan__type_support.cpp.o[0m
+[2.268s] [ 31%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robosense_msgs/msg/robosense_info_packet__type_support.cpp.o[0m
+[2.337s] [ 34%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robosense_msgs/msg/detail/robosense_packet__type_support.cpp.o[0m
+[2.337s] [ 36%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robosense_msgs/msg/detail/robosense_info_packet__type_support.cpp.o[0m
+[2.351s] [ 38%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robosense_msgs/msg/detail/robosense_scan__type_support.cpp.o[0m
+[2.382s] [ 40%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robosense_msgs/msg/detail/dds_fastrtps/robosense_packet__type_support.cpp.o[0m
+[2.383s] [ 42%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robosense_msgs/msg/detail/dds_fastrtps/robosense_scan__type_support.cpp.o[0m
+[2.387s] [ 44%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robosense_msgs/msg/detail/dds_fastrtps/robosense_info_packet__type_support.cpp.o[0m
+[2.729s] [ 46%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robosense_msgs/msg/robosense_packet__type_support.cpp.o[0m
+[2.805s] [ 48%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robosense_msgs/msg/robosense_info_packet__type_support.cpp.o[0m
+[2.907s] [ 51%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robosense_msgs/msg/detail/robosense_packet__type_support.c.o[0m
+[2.921s] [ 53%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robosense_msgs/msg/detail/robosense_info_packet__type_support.c.o[0m
+[2.928s] [ 55%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robosense_msgs/msg/robosense_scan__type_support.cpp.o[0m
+[2.930s] [ 57%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robosense_msgs/msg/detail/robosense_packet__type_support_c.cpp.o[0m
+[2.938s] [ 59%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robosense_msgs/msg/detail/robosense_info_packet__type_support_c.cpp.o[0m
+[2.942s] [ 61%] [32m[1mLinking CXX shared library librobosense_msgs__rosidl_typesupport_cpp.so[0m
+[3.004s] [ 63%] [32m[1mLinking CXX shared library librobosense_msgs__rosidl_typesupport_c.so[0m
+[3.012s] [ 65%] [32mBuilding CXX object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robosense_msgs/msg/detail/robosense_scan__type_support_c.cpp.o[0m
+[3.017s] [ 68%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robosense_msgs/msg/detail/robosense_scan__type_support.c.o[0m
+[3.046s] [ 68%] Built target robosense_msgs__rosidl_typesupport_cpp
+[3.108s] [ 68%] Built target robosense_msgs__rosidl_typesupport_c
+[3.130s] [ 70%] [32m[1mLinking C shared library librobosense_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.202s] [ 70%] Built target robosense_msgs__rosidl_typesupport_introspection_c
+[3.433s] [ 72%] [32m[1mLinking CXX shared library librobosense_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.448s] [ 74%] [32m[1mLinking CXX shared library librobosense_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.560s] [ 74%] Built target robosense_msgs__rosidl_typesupport_fastrtps_cpp
+[3.566s] [ 74%] Built target robosense_msgs__rosidl_typesupport_introspection_cpp
+[3.641s] [ 76%] [32m[1mLinking CXX shared library librobosense_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.708s] [ 76%] Built target robosense_msgs__rosidl_typesupport_fastrtps_c
+[3.727s] [ 76%] Built target robosense_msgs
+[3.745s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.180s] [ 78%] Built target robosense_msgs__py
+[4.200s] [ 85%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_generator_py.dir/rosidl_generator_py/robosense_msgs/msg/_robosense_packet_s.c.o[0m
+[4.200s] [ 85%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_generator_py.dir/rosidl_generator_py/robosense_msgs/msg/_robosense_info_packet_s.c.o[0m
+[4.200s] [ 85%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_generator_py.dir/rosidl_generator_py/robosense_msgs/msg/_robosense_scan_s.c.o[0m
+[4.334s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robosense_msgs/librobosense_msgs__rosidl_generator_py.so[0m
+[4.374s] [ 87%] Built target robosense_msgs__rosidl_generator_py
+[4.395s] [ 93%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robosense_msgs/_robosense_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.395s] [ 93%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robosense_msgs/_robosense_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.395s] [ 93%] [32mBuilding C object CMakeFiles/robosense_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robosense_msgs/_robosense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.539s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robosense_msgs/robosense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.539s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robosense_msgs/robosense_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.539s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robosense_msgs/robosense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.578s] [100%] Built target robosense_msgs__rosidl_typesupport_introspection_c__pyext
+[4.578s] [100%] Built target robosense_msgs__rosidl_typesupport_c__pyext
+[4.578s] [100%] Built target robosense_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.590s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs -- -j12 -l12
+[4.747s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs
+[4.756s] -- Install configuration: "Release"
+[4.757s] -- Execute custom install script
+[4.757s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/ament_index/resource_index/rosidl_interfaces/robosense_msgs
+[4.769s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__functions.h
+[4.781s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__struct.h
+[4.792s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__type_support.h
+[4.801s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__functions.h
+[4.809s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__struct.h
+[4.817s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__type_support.h
+[4.825s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__functions.h
+[4.833s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__struct.h
+[4.842s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__type_support.h
+[4.850s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/robosense_info_packet.h
+[4.858s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/robosense_packet.h
+[4.866s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/robosense_scan.h
+[4.874s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.883s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/library_path.sh
+[4.891s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/library_path.dsv
+[4.900s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__rosidl_typesupport_fastrtps_c.h
+[4.908s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__rosidl_typesupport_fastrtps_c.h
+[4.916s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__rosidl_typesupport_fastrtps_c.h
+[4.924s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.933s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__builder.hpp
+[4.941s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__struct.hpp
+[4.949s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__traits.hpp
+[4.957s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__builder.hpp
+[4.966s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__struct.hpp
+[4.974s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__traits.hpp
+[4.982s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__builder.hpp
+[4.991s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__struct.hpp
+[4.999s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__traits.hpp
+[5.007s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/robosense_info_packet.hpp
+[5.015s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/robosense_packet.hpp
+[5.024s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/robosense_scan.hpp
+[5.032s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[5.040s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[5.048s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[5.056s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.064s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__rosidl_typesupport_introspection_c.h
+[5.072s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__rosidl_typesupport_introspection_c.h
+[5.081s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__rosidl_typesupport_introspection_c.h
+[5.089s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.097s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_info_packet__rosidl_typesupport_introspection_cpp.hpp
+[5.106s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_packet__rosidl_typesupport_introspection_cpp.hpp
+[5.114s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/include/robosense_msgs/robosense_msgs/msg/detail/robosense_scan__rosidl_typesupport_introspection_cpp.hpp
+[5.122s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/pythonpath.sh
+[5.130s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/pythonpath.dsv
+[5.139s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.147s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.155s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.163s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.173s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/__init__.py
+[5.182s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/_robosense_msgs_s.ep.rosidl_typesupport_c.c
+[5.190s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/_robosense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.198s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/_robosense_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.206s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/librobosense_msgs__rosidl_generator_py.so
+[5.214s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/__init__.py
+[5.222s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_info_packet.py
+[5.231s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_info_packet_s.c
+[5.239s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_packet.py
+[5.247s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_packet_s.c
+[5.255s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_scan.py
+[5.263s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_scan_s.c
+[5.271s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/robosense_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.279s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/robosense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.288s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/robosense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.297s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/robosense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.297s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/robosense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.297s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/robosense_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.297s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/msg/RobosensePacket.idl
+[5.305s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/msg/RobosenseInfoPacket.idl
+[5.313s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/msg/RobosenseScan.idl
+[5.321s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/msg/RobosensePacket.msg
+[5.329s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/msg/RobosenseInfoPacket.msg
+[5.336s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/msg/RobosenseScan.msg
+[5.344s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/ament_index/resource_index/package_run_dependencies/robosense_msgs
+[5.352s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/ament_index/resource_index/parent_prefix_path/robosense_msgs
+[5.360s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/ament_prefix_path.sh
+[5.367s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/ament_prefix_path.dsv
+[5.375s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/path.sh
+[5.383s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/environment/path.dsv
+[5.391s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/local_setup.bash
+[5.399s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/local_setup.sh
+[5.407s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/local_setup.zsh
+[5.415s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/local_setup.dsv
+[5.422s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/package.dsv
+[5.430s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/ament_index/resource_index/packages/robosense_msgs
+[5.438s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/rosidl_cmake-extras.cmake
+[5.446s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.454s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.462s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.470s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.477s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.486s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.493s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgsConfig.cmake
+[5.501s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgsConfig-version.cmake
+[5.509s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/package.xml
+[5.517s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_generator_c.so
+[5.517s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_generator_c.so" to ""
+[5.517s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_fastrtps_c.so
+[5.517s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.518s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.518s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.518s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_introspection_c.so
+[5.518s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.518s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_c.so
+[5.519s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_c.so" to ""
+[5.519s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_introspection_cpp.so
+[5.519s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.519s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_cpp.so
+[5.519s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_typesupport_cpp.so" to ""
+[5.551s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs'...
+[5.551s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/__init__.py'...
+[5.551s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg'...
+[5.551s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/__init__.py'...
+[5.551s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_info_packet.py'...
+[5.551s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_packet.py'...
+[5.551s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages/robosense_msgs/msg/_robosense_scan.py'...
+[5.554s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_generator_py.so
+[5.555s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib/librobosense_msgs__rosidl_generator_py.so" to ""
+[5.555s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_generator_cExport.cmake
+[5.555s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_generator_cExport-release.cmake
+[5.555s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.555s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[5.555s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_generator_cppExport.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_cExport.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_cExport-release.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.556s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[5.557s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_cppExport.cmake
+[5.557s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/robosense_msgs__rosidl_typesupport_cppExport-release.cmake
+[5.557s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_generator_pyExport.cmake
+[5.557s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/share/robosense_msgs/cmake/export_robosense_msgs__rosidl_generator_pyExport-release.cmake
+[5.559s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs

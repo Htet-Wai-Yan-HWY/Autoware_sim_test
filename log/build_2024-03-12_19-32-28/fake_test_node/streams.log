@@ -1,0 +1,33 @@
+[0.125s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node -- -j12 -l12
+[0.223s] [ 50%] Built target gtest_main
+[0.223s] [ 50%] Built target gtest
+[0.226s] [ 75%] Built target fake_test_node
+[0.276s] [100%] Built target test_fake_test_node
+[0.294s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node -- -j12 -l12
+[0.350s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node
+[0.362s] -- Install configuration: "Release"
+[0.364s] -- Execute custom install script
+[0.365s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/include/fake_test_node/fake_test_node.hpp
+[0.366s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/include/fake_test_node/visibility_control.hpp
+[0.366s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/environment/library_path.sh
+[0.366s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/environment/library_path.dsv
+[0.367s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/lib/libfake_test_node.so
+[0.368s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/ament_index/resource_index/package_run_dependencies/fake_test_node
+[0.369s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/ament_index/resource_index/parent_prefix_path/fake_test_node
+[0.369s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/environment/ament_prefix_path.dsv
+[0.370s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/environment/path.sh
+[0.370s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/environment/path.dsv
+[0.371s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/local_setup.bash
+[0.371s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/local_setup.sh
+[0.372s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/local_setup.zsh
+[0.372s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/local_setup.dsv
+[0.372s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/package.dsv
+[0.388s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/ament_index/resource_index/packages/fake_test_node
+[0.388s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.388s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/cmake/ament_cmake_export_libraries-extras.cmake
+[0.389s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/cmake/fake_test_nodeConfig.cmake
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/cmake/fake_test_nodeConfig-version.cmake
+[0.390s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/fake_test_node/share/fake_test_node/package.xml
+[0.394s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/fake_test_node

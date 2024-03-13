@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target behavior_path_side_shift_module[0m
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 81%] Built target behavior_path_side_shift_module
+[35m[1mConsolidate compiler generated dependencies of target test_behavior_path_side_shift_module[0m
+[100%] Built target test_behavior_path_side_shift_module
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module//plugins.xml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/include/behavior_path_side_shift_module/data_structs.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/include/behavior_path_side_shift_module/manager.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/include/behavior_path_side_shift_module/scene.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/include/behavior_path_side_shift_module/utils.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/environment/library_path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/environment/library_path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/lib/libbehavior_path_side_shift_module.so
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/config/side_shift.param.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/ament_index/resource_index/package_run_dependencies/behavior_path_side_shift_module
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/ament_index/resource_index/parent_prefix_path/behavior_path_side_shift_module
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/environment/path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/environment/path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/local_setup.bash
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/local_setup.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/local_setup.zsh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/local_setup.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/package.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/ament_index/resource_index/packages/behavior_path_side_shift_module
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/ament_index/resource_index/behavior_path_planner__pluginlib__plugin/behavior_path_side_shift_module
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/cmake/behavior_path_side_shift_moduleConfig.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/cmake/behavior_path_side_shift_moduleConfig-version.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/behavior_path_side_shift_module/share/behavior_path_side_shift_module/package.xml

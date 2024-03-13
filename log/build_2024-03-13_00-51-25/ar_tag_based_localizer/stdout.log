@@ -1,0 +1,8 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/ar_tag_based_localizer.dir/src/main.cpp.o[0m
+[ 30%] Built target gtest
+[ 40%] [32mBuilding CXX object CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o[0m
+[ 60%] Built target gtest_main
+[ 80%] [32mBuilding CXX object CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_ar_tag_based_localizer.dir/test/test.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable ar_tag_based_localizer[0m
+[100%] [32m[1mLinking CXX executable test_ar_tag_based_localizer[0m

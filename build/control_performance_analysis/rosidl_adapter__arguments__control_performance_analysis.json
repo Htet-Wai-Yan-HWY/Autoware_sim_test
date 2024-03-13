@@ -1,0 +1,9 @@
+{
+  "package_name": "control_performance_analysis",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/Error.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/ErrorStamped.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/DrivingMonitorStamped.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/FloatStamped.msg"
+  ]
+}

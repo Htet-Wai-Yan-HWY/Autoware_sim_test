@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/steer_offset_estimator/ament_cmake_core/steer_offset_estimatorConfig-version.cmake

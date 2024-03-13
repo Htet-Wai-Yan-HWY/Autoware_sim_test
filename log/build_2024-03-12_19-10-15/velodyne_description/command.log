@@ -1,0 +1,4 @@
+Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description
+Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description
+Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description
+Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_description

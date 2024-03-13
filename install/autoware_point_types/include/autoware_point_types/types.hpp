@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/autoware_point_types/include/autoware_point_types/types.hpp

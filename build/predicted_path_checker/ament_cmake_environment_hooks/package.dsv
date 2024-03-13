@@ -1,0 +1,4 @@
+source;share/predicted_path_checker/local_setup.bash
+source;share/predicted_path_checker/local_setup.dsv
+source;share/predicted_path_checker/local_setup.sh
+source;share/predicted_path_checker/local_setup.zsh

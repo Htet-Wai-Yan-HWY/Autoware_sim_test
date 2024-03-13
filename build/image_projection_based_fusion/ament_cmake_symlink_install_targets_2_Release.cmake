@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/image_projection_based_fusion/roi_pointcloud_fusion_node" "TARGETS" "roi_pointcloud_fusion_node" "DESTINATION" "lib/image_projection_based_fusion")

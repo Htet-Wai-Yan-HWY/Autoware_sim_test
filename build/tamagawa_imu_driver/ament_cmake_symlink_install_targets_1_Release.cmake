@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver/tag_serial_driver" "/home/zyme/ros_ws/Autoware_sim_test/build/tamagawa_imu_driver/tag_can_driver" "TARGETS" "tag_serial_driver" "tag_can_driver" "DESTINATION" "lib/tamagawa_imu_driver")

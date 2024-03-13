@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/tensorrt_yolox/tensorrt_yolox_node_exe" "TARGETS" "tensorrt_yolox_node_exe" "DESTINATION" "lib/tensorrt_yolox")

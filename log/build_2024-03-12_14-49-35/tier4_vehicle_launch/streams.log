@@ -1,0 +1,47 @@
+[0.063s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/launch/tier4_vehicle_launch -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.187s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.269s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.356s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.561s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.650s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.662s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.665s] -- Added test 'lint_cmake' to check CMake code style
+[0.666s] -- Added test 'xmllint' to check XML markup files
+[0.668s] -- Configuring done
+[0.671s] -- Generating done
+[0.672s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch
+[0.676s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/launch/tier4_vehicle_launch -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch
+[0.677s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch -- -j12 -l12
+[0.714s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch -- -j12 -l12
+[0.735s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch
+[0.743s] -- Install configuration: "Release"
+[0.743s] -- Execute custom install script
+[0.744s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/launch/vehicle.launch.xml
+[0.754s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/urdf/vehicle.xacro
+[0.763s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/ament_index/resource_index/package_run_dependencies/tier4_vehicle_launch
+[0.772s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/ament_index/resource_index/parent_prefix_path/tier4_vehicle_launch
+[0.780s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/ament_prefix_path.sh
+[0.790s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/ament_prefix_path.dsv
+[0.799s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/path.sh
+[0.809s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/path.dsv
+[0.818s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.bash
+[0.826s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.sh
+[0.836s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.zsh
+[0.844s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.dsv
+[0.853s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/package.dsv
+[0.861s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/ament_index/resource_index/packages/tier4_vehicle_launch
+[0.869s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/cmake/tier4_vehicle_launchConfig.cmake
+[0.882s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/cmake/tier4_vehicle_launchConfig-version.cmake
+[0.893s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_vehicle_launch/share/tier4_vehicle_launch/package.xml
+[0.903s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_vehicle_launch

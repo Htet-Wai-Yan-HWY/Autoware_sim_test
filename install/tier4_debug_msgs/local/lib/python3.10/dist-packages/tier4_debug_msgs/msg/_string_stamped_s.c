@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_debug_msgs/rosidl_generator_py/tier4_debug_msgs/msg/_string_stamped_s.c

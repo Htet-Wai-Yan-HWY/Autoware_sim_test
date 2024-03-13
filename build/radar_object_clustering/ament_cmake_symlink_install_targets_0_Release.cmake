@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/radar_object_clustering/radar_object_clustering_node" "TARGETS" "radar_object_clustering_node" "DESTINATION" "lib/radar_object_clustering")

@@ -1,0 +1,112 @@
+[0.055s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/polar_grid': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/polar_grid -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/polar_grid
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.240s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.326s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.670s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.671s] -- Found OGRE
+[0.671s] --   static     : OFF
+[0.671s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.671s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.671s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.672s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.672s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.672s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.672s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.672s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.672s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.672s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.672s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.676s] -- Could not find freeimage library
+[0.691s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.695s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.771s] -- Found X11: /usr/include   
+[0.771s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.839s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.839s] -- Looking for gethostbyname
+[0.910s] -- Looking for gethostbyname - found
+[0.910s] -- Looking for connect
+[1.011s] -- Looking for connect - found
+[1.012s] -- Looking for remove
+[1.176s] -- Looking for remove - found
+[1.176s] -- Looking for shmat
+[1.272s] -- Looking for shmat - found
+[1.272s] -- Looking for IceConnectionNumber in ICE
+[1.381s] -- Looking for IceConnectionNumber in ICE - found
+[1.383s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[1.384s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[1.464s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.497s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.502s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.510s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.743s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.746s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.777s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.786s] -- Looking for pthread.h
+[1.852s] -- Looking for pthread.h - found
+[1.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.921s] -- Found Threads: TRUE  
+[2.166s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.166s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.157s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.173s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.175s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.175s] -- Configured cppcheck include dirs: 
+[3.175s] -- Configured cppcheck exclude dirs and/or files: 
+[3.176s] -- Added test 'lint_cmake' to check CMake code style
+[3.176s] -- Added test 'xmllint' to check XML markup files
+[3.178s] -- Configuring done
+[3.216s] -- Generating done
+[3.218s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/polar_grid
+[3.230s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/polar_grid -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/polar_grid
+[3.232s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/polar_grid': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/polar_grid -- -j12 -l12
+[3.282s] [ 25%] [34m[1mAutomatic MOC for target polar_grid[0m
+[3.735s] [ 25%] Built target polar_grid_autogen
+[3.754s] [ 75%] [32mBuilding CXX object CMakeFiles/polar_grid.dir/polar_grid_autogen/mocs_compilation.cpp.o[0m
+[3.754s] [ 75%] [32mBuilding CXX object CMakeFiles/polar_grid.dir/src/polar_grid_display.cpp.o[0m
+[9.262s] [100%] [32m[1mLinking CXX shared library libpolar_grid.so[0m
+[10.902s] [100%] Built target polar_grid
+[10.913s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/polar_grid -- -j12 -l12
+[10.940s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/polar_grid': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/polar_grid
+[10.947s] -- Install configuration: "Release"
+[10.947s] -- Execute custom install script
+[10.947s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid//libpolar_grid.so
+[10.955s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/plugins/plugin_description.xml
+[10.963s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/environment/library_path.sh
+[10.971s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/environment/library_path.dsv
+[10.979s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/lib/libpolar_grid.so
+[10.987s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/icons/classes/PolarGridDisplay.png
+[10.995s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/plugins/plugin_description.xml
+[10.995s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/ament_index/resource_index/package_run_dependencies/polar_grid
+[11.003s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/ament_index/resource_index/parent_prefix_path/polar_grid
+[11.011s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/environment/ament_prefix_path.sh
+[11.018s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/environment/ament_prefix_path.dsv
+[11.026s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/environment/path.sh
+[11.034s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/environment/path.dsv
+[11.042s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/local_setup.bash
+[11.050s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/local_setup.sh
+[11.058s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/local_setup.zsh
+[11.065s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/local_setup.dsv
+[11.073s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/package.dsv
+[11.080s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/ament_index/resource_index/packages/polar_grid
+[11.088s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/ament_index/resource_index/rviz_common__pluginlib__plugin/polar_grid
+[11.096s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.103s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[11.111s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/cmake/polar_gridConfig.cmake
+[11.119s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/cmake/polar_gridConfig-version.cmake
+[11.127s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/polar_grid/share/polar_grid/package.xml
+[11.137s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/polar_grid

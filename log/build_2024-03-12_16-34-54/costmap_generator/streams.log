@@ -1,0 +1,131 @@
+[0.080s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/costmap_generator
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.276s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.366s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.586s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.746s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.764s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.071s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.076s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.117s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.132s] -- Looking for pthread.h
+[2.210s] -- Looking for pthread.h - found
+[2.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.289s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.290s] -- Found Threads: TRUE  
+[2.469s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[2.590s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[2.856s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[2.943s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.944s] -- Found OpenMP: TRUE (found version "4.5")  
+[2.958s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[2.986s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.988s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[3.091s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.092s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.093s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.834s] -- Checking for module 'eigen3'
+[3.850s] --   Found eigen3, version 3.4.0
+[3.886s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.887s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.910s] -- Checking for module 'flann'
+[3.928s] --   Found flann, version 1.9.1
+[3.972s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.050s] -- Checking for module 'libusb-1.0'
+[5.066s] --   Found libusb-1.0, version 1.0.25
+[5.107s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.109s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.172s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.327s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.334s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.341s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.503s] -- Found Qhull version 8.0.2
+[5.661s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.809s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.810s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.811s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.812s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.813s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.814s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.814s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.815s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.816s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.817s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.818s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.818s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.820s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.821s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.822s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.823s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.824s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.825s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.826s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.827s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.828s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.828s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.829s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.830s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.831s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.037s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.485s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.492s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.501s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.504s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.505s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include
+[8.505s] -- Configured cppcheck exclude dirs and/or files: 
+[8.506s] -- Added test 'lint_cmake' to check CMake code style
+[8.507s] -- Added test 'xmllint' to check XML markup files
+[8.511s] -- Configuring done
+[8.895s] -- Generating done
+[8.898s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator
+[8.923s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/costmap_generator
+[8.925s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator -- -j12 -l12
+[8.988s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.988s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.988s] [ 25%] [32mBuilding CXX object CMakeFiles/costmap_generator.dir/rclcpp_components/node_main_costmap_generator.cpp.o[0m
+[8.988s] [ 25%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o[0m
+[8.989s] [ 31%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o[0m
+[8.989s] [ 37%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o[0m
+[9.005s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/objects_to_costmap.cpp:45[m[K:
+[9.006s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/objects_to_costmap.hpp:48:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_ros/grid_map_ros.hpp: No such file or directory
+[9.006s]    48 | #include [01;31m[K<grid_map_ros/grid_map_ros.hpp>[m[K
+[9.006s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.006s] compilation terminated.
+[9.006s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/object_map_utils.cpp:33[m[K:
+[9.006s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/object_map_utils.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_cv/grid_map_cv.hpp: No such file or directory
+[9.006s]    36 | #include [01;31m[K<grid_map_cv/grid_map_cv.hpp>[m[K
+[9.007s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.007s] compilation terminated.
+[9.007s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:45[m[K:
+[9.007s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/points_to_costmap.hpp:48:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_ros/grid_map_ros.hpp: No such file or directory
+[9.008s]    48 | #include [01;31m[K<grid_map_ros/grid_map_ros.hpp>[m[K
+[9.008s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.008s] compilation terminated.
+[9.008s] gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:76: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o] Error 1
+[9.008s] gmake[2]: *** Waiting for unfinished jobs....
+[9.008s] gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:90: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o] Error 1
+[9.008s] gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:104: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o] Error 1
+[9.008s] gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/costmap_generator_lib.dir/all] Error 2
+[9.008s] gmake[1]: *** Waiting for unfinished jobs....
+[10.068s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.112s] [ 43%] Built target gtest_main
+[12.502s] [ 50%] [32m[1mLinking CXX executable costmap_generator[0m
+[12.633s] [ 50%] Built target costmap_generator
+[16.549s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.591s] [ 56%] Built target gtest
+[16.592s] gmake: *** [Makefile:146: all] Error 2
+[16.594s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator' returned '2': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/lanelet2_extension/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/costmap_generator -- -j12 -l12

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs/rosidl_generator_py/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array_s.c

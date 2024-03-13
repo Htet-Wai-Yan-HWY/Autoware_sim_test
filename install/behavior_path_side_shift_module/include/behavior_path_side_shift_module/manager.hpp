@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/behavior_path_side_shift_module/include/behavior_path_side_shift_module/manager.hpp

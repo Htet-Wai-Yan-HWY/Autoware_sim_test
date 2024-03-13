@@ -1,0 +1,22 @@
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/objects_to_costmap.cpp:45[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/objects_to_costmap.hpp:48:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_ros/grid_map_ros.hpp: No such file or directory
+   48 | #include [01;31m[K<grid_map_ros/grid_map_ros.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/object_map_utils.cpp:33[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/object_map_utils.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_cv/grid_map_cv.hpp: No such file or directory
+   36 | #include [01;31m[K<grid_map_cv/grid_map_cv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:45[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/points_to_costmap.hpp:48:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_ros/grid_map_ros.hpp: No such file or directory
+   48 | #include [01;31m[K<grid_map_ros/grid_map_ros.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:76: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:90: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:104: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/costmap_generator_lib.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

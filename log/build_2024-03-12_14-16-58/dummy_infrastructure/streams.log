@@ -1,0 +1,78 @@
+[0.063s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/dummy_infrastructure -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.342s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.533s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.668s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.673s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.715s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.789s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.824s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.834s] -- Looking for pthread.h
+[0.907s] -- Looking for pthread.h - found
+[0.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.981s] -- Found Threads: TRUE  
+[1.272s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.292s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.292s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/dummy_infrastructure/include
+[1.292s] -- Configured cppcheck exclude dirs and/or files: 
+[1.293s] -- Added test 'lint_cmake' to check CMake code style
+[1.293s] -- Added test 'xmllint' to check XML markup files
+[1.297s] -- Configuring done
+[1.310s] -- Generating done
+[1.311s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure
+[1.320s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/dummy_infrastructure -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure
+[1.320s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure -- -j12 -l12
+[1.366s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_infrastructure_node_component.dir/src/dummy_infrastructure_node/dummy_infrastructure_node.cpp.o[0m
+[1.366s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_infrastructure_node.dir/rclcpp_components/node_main_dummy_infrastructure_node.cpp.o[0m
+[4.484s] [ 75%] [32m[1mLinking CXX executable dummy_infrastructure_node[0m
+[4.594s] [ 75%] Built target dummy_infrastructure_node
+[11.667s] [100%] [32m[1mLinking CXX shared library libdummy_infrastructure_node_component.so[0m
+[11.809s] [100%] Built target dummy_infrastructure_node_component
+[11.819s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure -- -j12 -l12
+[11.846s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure
+[11.852s] -- Install configuration: "Release"
+[11.853s] -- Execute custom install script
+[11.853s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/lib/dummy_infrastructure/dummy_infrastructure_node
+[11.862s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/include/dummy_infrastructure/dummy_infrastructure_node.hpp
+[11.870s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/environment/library_path.sh
+[11.879s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/environment/library_path.dsv
+[11.887s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/lib/libdummy_infrastructure_node_component.so
+[11.896s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/config/dummy_infrastructure.param.yaml
+[11.905s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/launch/dummy_infrastructure.launch.xml
+[11.913s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/ament_index/resource_index/package_run_dependencies/dummy_infrastructure
+[11.922s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/ament_index/resource_index/parent_prefix_path/dummy_infrastructure
+[11.931s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/environment/ament_prefix_path.sh
+[11.939s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/environment/ament_prefix_path.dsv
+[11.948s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/environment/path.sh
+[11.956s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/environment/path.dsv
+[11.964s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.bash
+[11.972s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.sh
+[11.979s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.zsh
+[11.988s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.dsv
+[11.996s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/package.dsv
+[12.004s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/ament_index/resource_index/packages/dummy_infrastructure
+[12.012s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/ament_index/resource_index/rclcpp_components/dummy_infrastructure
+[12.020s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.027s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.035s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_libraries-extras.cmake
+[12.043s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/cmake/dummy_infrastructureConfig.cmake
+[12.051s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/cmake/dummy_infrastructureConfig-version.cmake
+[12.059s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/dummy_infrastructure/share/dummy_infrastructure/package.xml
+[12.068s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure

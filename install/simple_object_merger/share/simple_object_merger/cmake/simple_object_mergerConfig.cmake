@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/simple_object_merger/ament_cmake_core/simple_object_mergerConfig.cmake

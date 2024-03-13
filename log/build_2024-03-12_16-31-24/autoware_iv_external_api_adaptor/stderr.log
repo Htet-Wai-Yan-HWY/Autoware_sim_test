@@ -1,0 +1,8 @@
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_ad_api_adaptor/autoware_iv_external_api_adaptor/src/metadata_packages.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+   19 | #include [01;31m[K"nlohmann/json.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/autoware_iv_external_api_adaptor.dir/build.make:216: CMakeFiles/autoware_iv_external_api_adaptor.dir/src/metadata_packages.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autoware_iv_external_api_adaptor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

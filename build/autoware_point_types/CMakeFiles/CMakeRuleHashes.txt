@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8da27ead957339519131a540fb522dee CMakeFiles/autoware_point_types_uninstall

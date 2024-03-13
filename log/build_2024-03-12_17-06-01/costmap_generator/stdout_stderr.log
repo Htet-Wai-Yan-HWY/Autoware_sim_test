@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_generator[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o[0m
+[ 31%] Built target gtest
+[ 43%] Built target gtest_main
+[ 56%] Built target costmap_generator
+In file included from [01m[K/opt/ros/humble/include/grid_map_cv/grid_map_cv.hpp:13[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/object_map_utils.hpp:36[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/object_map_utils.cpp:33[m[K:
+[01m[K/opt/ros/humble/include/grid_map_cv/GridMapCvConverter.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+   15 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:104: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/humble/include/grid_map_ros/grid_map_ros.hpp:14[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/points_to_costmap.hpp:48[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:45[m[K:
+[01m[K/opt/ros/humble/include/grid_map_ros/GridMapRosConverter.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_msgs/msg/grid_map.hpp: No such file or directory
+   13 | #include [01;31m[K<grid_map_msgs/msg/grid_map.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/opt/ros/humble/include/grid_map_ros/grid_map_ros.hpp:14[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/include/costmap_generator/objects_to_costmap.hpp:48[m[K,
+                 from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/costmap_generator/nodes/costmap_generator/objects_to_costmap.cpp:45[m[K:
+[01m[K/opt/ros/humble/include/grid_map_ros/GridMapRosConverter.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kgrid_map_msgs/msg/grid_map.hpp: No such file or directory
+   13 | #include [01;31m[K<grid_map_msgs/msg/grid_map.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:76: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/costmap_generator_lib.dir/build.make:90: CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/costmap_generator_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/transport_drivers/serial_driver/include/boost_serial_driver/serial_bridge_node.hpp

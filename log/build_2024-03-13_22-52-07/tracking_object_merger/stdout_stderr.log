@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target decorative_tracker_merger[0m
+[35m[1mConsolidate compiler generated dependencies of target decorative_tracker_merger_node[0m
+[ 25%] Built target decorative_tracker_merger
+[100%] Built target decorative_tracker_merger_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/lib/tracking_object_merger/decorative_tracker_merger
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/data_association/data_association.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/data_association/solver/gnn_solver.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/data_association/solver/gnn_solver_interface.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/data_association/solver/mu_successive_shortest_path.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/data_association/solver/successive_shortest_path.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/decorative_tracker_merger.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/utils/tracker_state.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/include/tracking_object_merger/utils/utils.hpp
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/environment/library_path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/environment/library_path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/lib/libdecorative_tracker_merger_node.so
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/launch/decorative_tracker_merger.launch.xml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/config/data_association_matrix.param.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/config/decorative_tracker_merger.param.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/config/decorative_tracker_merger_policy.param.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/ament_index/resource_index/package_run_dependencies/tracking_object_merger
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/ament_index/resource_index/parent_prefix_path/tracking_object_merger
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/environment/path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/environment/path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/local_setup.bash
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/local_setup.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/local_setup.zsh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/local_setup.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/package.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/ament_index/resource_index/packages/tracking_object_merger
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/ament_index/resource_index/rclcpp_components/tracking_object_merger
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/cmake/tracking_object_mergerConfig.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/cmake/tracking_object_mergerConfig-version.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tracking_object_merger/share/tracking_object_merger/package.xml

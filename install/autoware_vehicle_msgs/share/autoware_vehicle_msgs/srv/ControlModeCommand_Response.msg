@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_cmake/srv/ControlModeCommand_Response.msg

@@ -1,0 +1,39 @@
+[ 10%] Built target gtest_main
+[ 20%] Built target gtest
+[ 45%] Built target diagnostic_graph_aggregator
+[ 70%] Built target tool
+[ 70%] Built target aggregator
+[ 80%] Built target converter
+[100%] Built target gtest_diagnostic_graph_aggregator
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/library_path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/library_path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/libdiagnostic_graph_aggregator.so
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/aggregator
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/converter
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/tool
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/config/default.param.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example.launch.xml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_0.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_1.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_2.yaml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/example/example_diags.py
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/launch/diagnostic_graph_aggregator.launch.xml
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_graph_aggregator
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_graph_aggregator
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/path.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/environment/path.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.bash
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.sh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.zsh
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/local_setup.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/package.dsv
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/ament_index/resource_index/packages/diagnostic_graph_aggregator
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/diagnostic_graph_aggregatorConfig.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/cmake/diagnostic_graph_aggregatorConfig-version.cmake
+-- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/package.xml

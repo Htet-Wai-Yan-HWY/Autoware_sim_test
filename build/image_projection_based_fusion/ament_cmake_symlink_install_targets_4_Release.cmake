@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/image_projection_based_fusion/libpointpainting_cuda_lib.so" "TARGETS" "pointpainting_cuda_lib" "DESTINATION" "lib")

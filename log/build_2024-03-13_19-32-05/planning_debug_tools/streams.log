@@ -1,0 +1,284 @@
+[0.079s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/planning_debug_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.183s] -- The CXX compiler identification is GNU 11.4.0
+[0.190s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.268s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.268s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.358s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.577s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.704s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.315s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.319s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.358s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.371s] -- Looking for pthread.h
+[2.444s] -- Looking for pthread.h - found
+[2.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.520s] -- Found Threads: TRUE  
+[3.059s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.060s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.060s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.390s] -- Checking for module 'eigen3'
+[3.404s] --   Found eigen3, version 3.4.0
+[3.437s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.437s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.483s] -- Checking for module 'flann'
+[3.498s] --   Found flann, version 1.9.1
+[3.542s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.543s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.537s] -- Checking for module 'libusb-1.0'
+[4.586s] --   Found libusb-1.0, version 1.0.25
+[4.712s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.715s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.889s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.061s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.068s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.074s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.216s] -- Found Qhull version 8.0.2
+[5.359s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.498s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.499s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.500s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.501s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.502s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.502s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.503s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.503s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.504s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.505s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.506s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.507s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.507s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.508s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.509s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.510s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.511s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.512s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.513s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.514s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.514s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.515s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.515s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.516s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.517s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.329s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.528s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.978s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.981s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.007s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.008s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.008s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.008s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.030s] -- Found PythonExtra: .so  
+[20.935s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.941s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/planning_debug_tools/include
+[20.941s] -- Configured cppcheck exclude dirs and/or files: 
+[20.942s] -- Added test 'lint_cmake' to check CMake code style
+[20.943s] -- Added test 'xmllint' to check XML markup files
+[20.951s] -- Configuring done
+[21.155s] -- Generating done
+[21.160s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools
+[21.184s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/planning_debug_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools
+[21.185s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools -- -j12 -l12
+[21.233s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[21.246s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.246s] [  7%] [32mBuilding CXX object CMakeFiles/stop_reason_visualizer_exe.dir/rclcpp_components/node_main_stop_reason_visualizer_exe.cpp.o[0m
+[21.246s] [ 10%] [32mBuilding CXX object CMakeFiles/trajectory_analyzer_exe.dir/rclcpp_components/node_main_trajectory_analyzer_exe.cpp.o[0m
+[21.257s] [ 10%] Built target ament_cmake_python_symlink_planning_debug_tools
+[21.535s] [ 10%] Built target planning_debug_tools__cpp
+[21.536s] [ 12%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_generator_c.dir/rosidl_generator_c/planning_debug_tools/msg/detail/trajectory_debug_info__functions.c.o[0m
+[21.550s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.550s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.550s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.590s] running egg_info
+[21.591s] creating planning_debug_tools.egg-info
+[21.591s] writing planning_debug_tools.egg-info/PKG-INFO
+[21.591s] writing dependency_links to planning_debug_tools.egg-info/dependency_links.txt
+[21.591s] writing top-level names to planning_debug_tools.egg-info/top_level.txt
+[21.592s] writing manifest file 'planning_debug_tools.egg-info/SOURCES.txt'
+[21.596s] reading manifest file 'planning_debug_tools.egg-info/SOURCES.txt'
+[21.597s] writing manifest file 'planning_debug_tools.egg-info/SOURCES.txt'
+[21.643s] [ 20%] Built target ament_cmake_python_build_planning_debug_tools_egg
+[21.716s] [ 23%] [32m[1mLinking C shared library libplanning_debug_tools__rosidl_generator_c.so[0m
+[21.764s] [ 23%] Built target planning_debug_tools__rosidl_generator_c
+[21.786s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.787s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.787s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.865s] [ 33%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/planning_debug_tools/msg/trajectory_debug_info__type_support.cpp.o[0m
+[21.913s] [ 35%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/planning_debug_tools/msg/detail/dds_fastrtps/trajectory_debug_info__type_support.cpp.o[0m
+[21.934s] [ 38%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/planning_debug_tools/msg/detail/trajectory_debug_info__type_support.cpp.o[0m
+[22.157s] [ 41%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_c.dir/rosidl_typesupport_c/planning_debug_tools/msg/trajectory_debug_info__type_support.cpp.o[0m
+[22.182s] [ 43%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/planning_debug_tools/msg/detail/trajectory_debug_info__type_support_c.cpp.o[0m
+[22.203s] [ 46%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_c.so[0m
+[22.259s] [ 48%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_cpp.so[0m
+[22.262s] [ 48%] Built target planning_debug_tools__rosidl_typesupport_c
+[22.316s] [ 48%] Built target planning_debug_tools__rosidl_typesupport_cpp
+[22.349s] [ 51%] [32mBuilding CXX object CMakeFiles/trajectory_analyzer_node.dir/src/trajectory_analyzer.cpp.o[0m
+[22.349s] [ 53%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/planning_debug_tools/msg/detail/trajectory_debug_info__type_support.c.o[0m
+[22.445s] [ 56%] [32m[1mLinking C shared library libplanning_debug_tools__rosidl_typesupport_introspection_c.so[0m
+[22.487s] [ 56%] Built target planning_debug_tools__rosidl_typesupport_introspection_c
+[22.642s] [ 58%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_fastrtps_c.so[0m
+[22.754s] [ 61%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.763s] [ 61%] Built target planning_debug_tools__rosidl_typesupport_fastrtps_c
+[22.778s] [ 64%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_introspection_cpp.so[0m
+[22.861s] [ 64%] Built target planning_debug_tools__rosidl_typesupport_fastrtps_cpp
+[22.885s] [ 64%] Built target planning_debug_tools__rosidl_typesupport_introspection_cpp
+[22.910s] [ 64%] Built target planning_debug_tools
+[22.935s] [ 66%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.280s] [ 66%] Built target planning_debug_tools__py
+[23.305s] [ 69%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_generator_py.dir/rosidl_generator_py/planning_debug_tools/msg/_trajectory_debug_info_s.c.o[0m
+[23.551s] [ 71%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/libplanning_debug_tools__rosidl_generator_py.so[0m
+[23.596s] [ 71%] Built target planning_debug_tools__rosidl_generator_py
+[23.624s] [ 79%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.624s] [ 79%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.624s] [ 79%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_c.c.o[0m
+[23.777s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.777s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.777s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.826s] [ 87%] Built target planning_debug_tools__rosidl_typesupport_c__pyext
+[23.826s] [ 87%] Built target planning_debug_tools__rosidl_typesupport_introspection_c__pyext
+[23.826s] [ 87%] Built target planning_debug_tools__rosidl_typesupport_fastrtps_c__pyext
+[25.037s] [ 89%] [32m[1mLinking CXX executable stop_reason_visualizer_exe[0m
+[25.164s] [ 89%] Built target stop_reason_visualizer_exe
+[25.190s] [ 92%] [32m[1mLinking CXX executable trajectory_analyzer_exe[0m
+[25.308s] [ 92%] Built target trajectory_analyzer_exe
+[43.967s] [ 94%] [32m[1mLinking CXX shared library libtrajectory_analyzer_node.so[0m
+[44.494s] [ 94%] Built target trajectory_analyzer_node
+[44.518s] [ 97%] [32mBuilding CXX object CMakeFiles/stop_reason_visualizer_node.dir/src/stop_reason_visualizer.cpp.o[0m
+[54.132s] [100%] [32m[1mLinking CXX shared library libstop_reason_visualizer_node.so[0m
+[54.541s] [100%] Built target stop_reason_visualizer_node
+[54.552s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools -- -j12 -l12
+[54.681s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools
+[54.709s] -- Install configuration: "Release"
+[54.710s] -- Execute custom install script
+[54.711s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/ament_index/resource_index/rosidl_interfaces/planning_debug_tools
+[54.730s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__functions.h
+[54.747s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__struct.h
+[54.765s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__type_support.h
+[54.781s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_generator_c__visibility_control.h
+[54.792s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/trajectory_debug_info.h
+[54.801s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/library_path.sh
+[54.809s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/library_path.dsv
+[54.818s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_fastrtps_c.h
+[54.827s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[54.836s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_introspection_c.h
+[54.845s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[54.854s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__builder.hpp
+[54.863s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__struct.hpp
+[54.872s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__traits.hpp
+[54.881s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/trajectory_debug_info.hpp
+[54.890s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_fastrtps_cpp.hpp
+[54.899s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[54.908s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_introspection_cpp.hpp
+[54.917s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/pythonpath.sh
+[54.925s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/pythonpath.dsv
+[54.934s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/PKG-INFO
+[54.943s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/SOURCES.txt
+[54.953s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/dependency_links.txt
+[54.962s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/top_level.txt
+[54.972s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/__init__.py
+[54.982s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_c.c
+[54.991s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_fastrtps_c.c
+[55.000s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_introspection_c.c
+[55.010s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/libplanning_debug_tools__rosidl_generator_py.so
+[55.019s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/__init__.py
+[55.028s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/_trajectory_debug_info.py
+[55.037s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/_trajectory_debug_info_s.c
+[55.047s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[55.057s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[55.067s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[55.076s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[55.076s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[55.077s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[55.077s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/msg/TrajectoryDebugInfo.idl
+[55.086s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/msg/TrajectoryDebugInfo.msg
+[55.097s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/trajectory_analyzer_exe
+[55.106s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/stop_reason_visualizer_exe
+[55.116s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/trajectory_analyzer.hpp
+[55.126s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/include/planning_debug_tools/util.hpp
+[55.135s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libtrajectory_analyzer_node.so
+[55.144s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libstop_reason_visualizer_node.so
+[55.154s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/launch/behavior_velocity_analyzer.launch.xml
+[55.163s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/launch/stop_reason_visualizer.launch.xml
+[55.173s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/launch/trajectory_analyzer.launch.xml
+[55.182s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/ament_index/resource_index/package_run_dependencies/planning_debug_tools
+[55.192s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/ament_index/resource_index/parent_prefix_path/planning_debug_tools
+[55.201s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/ament_prefix_path.sh
+[55.211s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/ament_prefix_path.dsv
+[55.220s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/path.sh
+[55.229s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/environment/path.dsv
+[55.238s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/local_setup.bash
+[55.247s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/local_setup.sh
+[55.256s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/local_setup.zsh
+[55.265s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/local_setup.dsv
+[55.274s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/package.dsv
+[55.283s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/ament_index/resource_index/packages/planning_debug_tools
+[55.292s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/ament_index/resource_index/rclcpp_components/planning_debug_tools
+[55.301s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/rosidl_cmake-extras.cmake
+[55.310s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.318s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.327s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[55.336s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_targets-extras.cmake
+[55.345s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[55.354s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[55.363s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_toolsConfig.cmake
+[55.372s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_toolsConfig-version.cmake
+[55.381s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/package.xml
+[55.389s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/processing_time_checker.py
+[55.398s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/trajectory_visualizer.py
+[55.407s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/closest_velocity_checker.py
+[55.416s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/perception_reproducer.py
+[55.425s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/perception_replayer.py
+[55.433s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/planning_debug_tools/update_logger_level.sh
+[55.443s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_c.so
+[55.443s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_c.so" to ""
+[55.443s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_c.so
+[55.444s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_c.so" to ""
+[55.444s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_c.so
+[55.444s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_c.so" to ""
+[55.445s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_c.so
+[55.445s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_c.so" to ""
+[55.445s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_cpp.so
+[55.446s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_cpp.so" to ""
+[55.446s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_cpp.so
+[55.447s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_cpp.so" to ""
+[55.447s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_cpp.so
+[55.447s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_cpp.so" to ""
+[55.491s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools'...
+[55.491s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/__init__.py'...
+[55.491s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg'...
+[55.491s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/__init__.py'...
+[55.491s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/_trajectory_debug_info.py'...
+[55.494s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_py.so
+[55.495s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_py.so" to ""
+[55.495s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_cExport.cmake
+[55.495s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_cExport-release.cmake
+[55.495s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cExport.cmake
+[55.496s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cExport-release.cmake
+[55.496s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cExport.cmake
+[55.496s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cExport-release.cmake
+[55.496s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cExport.cmake
+[55.496s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cExport-release.cmake
+[55.497s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_cppExport.cmake
+[55.497s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cppExport.cmake
+[55.497s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[55.497s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cppExport.cmake
+[55.497s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cppExport-release.cmake
+[55.498s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cppExport.cmake
+[55.498s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cppExport-release.cmake
+[55.498s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_pyExport.cmake
+[55.498s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_pyExport-release.cmake
+[55.501s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/motion_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/interpolation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/planning_debug_tools

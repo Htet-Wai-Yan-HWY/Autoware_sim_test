@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/vehicle/external/pacmod_interface/pacmod_interface/include/pacmod_interface/pacmod_diag_publisher.hpp

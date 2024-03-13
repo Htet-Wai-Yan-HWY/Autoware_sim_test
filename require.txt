@@ -1,0 +1,52 @@
+  999  sudo apt-get install nvidia-525
+ 1003  sudo apt-get install nvidia-525
+ 1027  sudo apt-get -y update
+ 1028  sudo apt-get -y install git
+ 1106  sudo apt install ros-dev-tools
+ 1211  sudo apt install ros-dev-tools
+ 1231  sudo apt install docker.io 
+ 1272  sudo apt-get install docker
+ 1334  sudo apt-get install nvidia-driver-525
+ 1336  sudo apt-get install nvidia-driver-525
+ 1417  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 92635A407F7A020C
+ 1418  sudo add-apt-repository "deb [arch=amd64 trusted=yes] http://dist.carla.org/carla-0.9.9/ all main".
+ 1419  sudo apt-get update
+ 1420  sudo add-apt-repository "deb [arch=amd64 trusted=yes] http://dist.carla.org/carla-0.9.9/ all main"
+ 1421  sudo rm -rf /var/lib/apt/lists/lock 
+ 1422  sudo add-apt-repository "deb [arch=amd64 trusted=yes] http://dist.carla.org/carla-0.9.9/ all main"
+ 1425  sudo apt-get update
+ 1426  cd /etc/apt/sources.list.d/
+ 1430  sudo apt-get update 
+ 1459  sudo apt-get install docker.io 
+ 1463  sudo apt install libvulkan1
+ 1543  sudo apt-get install geographiclib-tools 
+ 1544  sudo apt-get install ros-humble-geographic-msgs
+ 1546  sudo apt-get install ros-humble-udp-msgs
+ 1547  sudo apt-get install ros-humble-autoware-auto-msgs
+ 1549  sudo apt install nvidia-driver-525 nvidia-dkms-525
+ 1555  sudo apt-get install ros-humble-can-msgs
+ 1559  sudo apt-get install libgeographic-dev 
+ 1566  sudo apt-get install ros-humble-cudnn-cmake-module 
+ 1568  sudo apt-get install ros-humble-tensorrt-cmake-module 
+ 1570  sudo apt-get install ros-humble-velodyne-msgs
+ 1574  sudo apt-get install ros-humble-point-cloud-msg-wrapper 
+ 1576  sudo apt-get install ros-humble-diagnostic-updater
+ 1577  sudo apt-get install ros-humble-diagnostic-msgs
+ 1579  sudo apt-get install ros-humble-nmea-msgs
+ 1583  sudo apt-get install glogclear
+ 1585  sudo apt-get install libgoogle-glog-dev 
+ 1587  sudo apt-get install ros-humble-osqp-vendor
+ 1589  sudo apt-get install ros-humble-proxsuite
+ 1591  sudo apt-get install ros-humble-radar-msgs
+ 1604  sudo apt-get install ros-humble-radar-msgs
+ 1606  sudo apt-get install ros-humble-radar-msgs
+ 1673  sudo apt-get install ros-humble-rviz-imu-plugin
+ 1762  sudo apt-get install uwsls
+ 1809  sudo apt-get install ros-humble-tf-transformations 
+ 1890  sudo apt-get install ros-humble-ament-pyflakes 
+ 1907  sudo apt-get install cheese
+ 1938  sudo apt-get install ros-humble-sophus 
+ 1959  sudo apt-get install ros-humble-aruco
+ 1976  sudo apt-get install ros-humble-magic-enum 
+ 1991  sudo apt-get install ros-humble-ros-testing 
+ 1998  history | grep apt > require.txt

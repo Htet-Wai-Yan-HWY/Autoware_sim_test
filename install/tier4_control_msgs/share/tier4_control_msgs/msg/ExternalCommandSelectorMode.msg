@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_control_msgs/msg/ExternalCommandSelectorMode.msg

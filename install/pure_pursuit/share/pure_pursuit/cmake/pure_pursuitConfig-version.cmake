@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/ament_cmake_core/pure_pursuitConfig-version.cmake

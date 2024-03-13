@@ -1,0 +1,10 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletPrimitive.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletRoute.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletSegment.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PoseWithUuidStamped.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Trajectory.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/TrajectoryPoint.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Path.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathPoint.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathWithLaneId.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathPointWithLaneId.idl

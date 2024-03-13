@@ -1,0 +1,78 @@
+[0.074s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/external_velocity_limit_selector -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.231s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.313s] -- Detecting CXX compiler ABI info
+[0.397s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.406s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.570s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.641s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.817s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.829s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.872s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.954s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.958s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.000s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.014s] -- Looking for pthread.h
+[1.083s] -- Looking for pthread.h - found
+[1.083s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.153s] -- Found Threads: TRUE  
+[1.701s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.724s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.727s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.727s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/external_velocity_limit_selector/include
+[1.727s] -- Configured cppcheck exclude dirs and/or files: 
+[1.728s] -- Added test 'lint_cmake' to check CMake code style
+[1.729s] -- Added test 'xmllint' to check XML markup files
+[1.733s] -- Configuring done
+[1.748s] -- Generating done
+[1.750s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector
+[1.758s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/external_velocity_limit_selector -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector
+[1.760s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector -- -j12 -l12
+[1.807s] [ 50%] [32mBuilding CXX object CMakeFiles/external_velocity_limit_selector.dir/rclcpp_components/node_main_external_velocity_limit_selector.cpp.o[0m
+[1.807s] [ 50%] [32mBuilding CXX object CMakeFiles/external_velocity_limit_selector_node.dir/src/external_velocity_limit_selector_node.cpp.o[0m
+[4.989s] [ 75%] [32m[1mLinking CXX executable external_velocity_limit_selector[0m
+[5.113s] [ 75%] Built target external_velocity_limit_selector
+[15.028s] [100%] [32m[1mLinking CXX shared library libexternal_velocity_limit_selector_node.so[0m
+[15.216s] [100%] Built target external_velocity_limit_selector_node
+[15.228s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector -- -j12 -l12
+[15.253s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector
+[15.260s] -- Install configuration: "Release"
+[15.260s] -- Execute custom install script
+[15.261s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/lib/external_velocity_limit_selector/external_velocity_limit_selector
+[15.270s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/include/external_velocity_limit_selector/external_velocity_limit_selector_node.hpp
+[15.278s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/library_path.sh
+[15.286s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/library_path.dsv
+[15.294s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/lib/libexternal_velocity_limit_selector_node.so
+[15.302s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/launch/external_velocity_limit_selector.launch.xml
+[15.310s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/config/external_velocity_limit_selector.param.yaml
+[15.318s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/ament_index/resource_index/package_run_dependencies/external_velocity_limit_selector
+[15.326s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/ament_index/resource_index/parent_prefix_path/external_velocity_limit_selector
+[15.334s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/ament_prefix_path.sh
+[15.342s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/ament_prefix_path.dsv
+[15.350s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/path.sh
+[15.358s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/path.dsv
+[15.366s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.bash
+[15.374s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.sh
+[15.382s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.zsh
+[15.390s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.dsv
+[15.398s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/package.dsv
+[15.406s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/ament_index/resource_index/packages/external_velocity_limit_selector
+[15.414s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/ament_index/resource_index/rclcpp_components/external_velocity_limit_selector
+[15.422s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.430s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.438s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/ament_cmake_export_libraries-extras.cmake
+[15.446s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/external_velocity_limit_selectorConfig.cmake
+[15.454s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/external_velocity_limit_selectorConfig-version.cmake
+[15.462s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/external_velocity_limit_selector/share/external_velocity_limit_selector/package.xml
+[15.472s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/external_velocity_limit_selector

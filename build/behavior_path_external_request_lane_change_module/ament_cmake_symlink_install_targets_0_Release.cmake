@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/behavior_path_external_request_lane_change_module/libbehavior_path_external_request_lane_change_module.so" "TARGETS" "behavior_path_external_request_lane_change_module" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

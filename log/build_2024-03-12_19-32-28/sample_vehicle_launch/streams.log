@@ -1,0 +1,22 @@
+[0.058s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch -- -j12 -l12
+[0.091s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch -- -j12 -l12
+[0.111s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch
+[0.118s] -- Install configuration: "Release"
+[0.118s] -- Execute custom install script
+[0.119s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/launch/vehicle_interface.launch.xml
+[0.120s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/ament_index/resource_index/package_run_dependencies/sample_vehicle_launch
+[0.120s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/ament_index/resource_index/parent_prefix_path/sample_vehicle_launch
+[0.120s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/path.sh
+[0.121s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/path.dsv
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.bash
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.sh
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.zsh
+[0.122s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.dsv
+[0.123s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/package.dsv
+[0.131s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/ament_index/resource_index/packages/sample_vehicle_launch
+[0.131s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/cmake/sample_vehicle_launchConfig.cmake
+[0.131s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/cmake/sample_vehicle_launchConfig-version.cmake
+[0.131s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/sample_vehicle_launch/share/sample_vehicle_launch/package.xml
+[0.133s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/sample_vehicle_launch

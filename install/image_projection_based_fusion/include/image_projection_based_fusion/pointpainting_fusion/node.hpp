@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/perception/image_projection_based_fusion/include/image_projection_based_fusion/pointpainting_fusion/node.hpp

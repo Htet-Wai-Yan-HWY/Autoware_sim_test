@@ -1,0 +1,4 @@
+source;share/planning_topic_converter/local_setup.bash
+source;share/planning_topic_converter/local_setup.dsv
+source;share/planning_topic_converter/local_setup.sh
+source;share/planning_topic_converter/local_setup.zsh

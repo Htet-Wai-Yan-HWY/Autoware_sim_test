@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs/vehicle/msg/HazardLights.msg

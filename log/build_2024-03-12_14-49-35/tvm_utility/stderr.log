@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:37 (find_package):
+  Could not find a package configuration file provided by "tvm_runtime" with
+  any of the following names:
+
+    tvm_runtimeConfig.cmake
+    tvm_runtime-config.cmake
+
+  Add the installation prefix of "tvm_runtime" to CMAKE_PREFIX_PATH or set
+  "tvm_runtime_DIR" to a directory containing one of the above files.  If
+  "tvm_runtime" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

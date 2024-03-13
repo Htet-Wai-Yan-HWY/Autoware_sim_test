@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robosense_msgs/msg/RobosenseInfoPacket.msg
+// generated code does not contain a copyright notice
+
+#include "robosense_msgs/msg/RobosensePacket.idl"
+
+module robosense_msgs {
+  module msg {
+    struct RobosenseInfoPacket {
+      string lidar_model;
+
+      robosense_msgs::msg::RobosensePacket packet;
+    };
+  };
+};

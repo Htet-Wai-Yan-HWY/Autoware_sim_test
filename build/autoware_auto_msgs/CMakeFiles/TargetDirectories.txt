@@ -1,0 +1,9 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/autoware_auto_msgs_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_msgs/CMakeFiles/install/strip.dir

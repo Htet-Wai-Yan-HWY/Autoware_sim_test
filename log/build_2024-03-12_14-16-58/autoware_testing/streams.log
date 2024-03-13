@@ -1,0 +1,47 @@
+[0.052s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/autoware_testing -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.242s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.242s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.325s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.511s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.632s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.677s] -- Added test 'lint_cmake' to check CMake code style
+[0.678s] -- Configuring done
+[0.681s] -- Generating done
+[0.681s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing
+[0.686s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/autoware_testing -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing
+[0.686s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing -- -j12 -l12
+[0.720s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing -- -j12 -l12
+[0.740s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing
+[0.746s] -- Install configuration: "Release"
+[0.747s] -- Execute custom install script
+[0.747s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/cmake/add_smoke_test.cmake
+[0.756s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/autoware_testing/__init__.py
+[0.764s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/autoware_testing/smoke_test.py
+[0.773s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/ament_index/resource_index/package_run_dependencies/autoware_testing
+[0.782s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/ament_index/resource_index/parent_prefix_path/autoware_testing
+[0.791s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.sh
+[0.800s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.dsv
+[0.809s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/environment/path.sh
+[0.818s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/environment/path.dsv
+[0.827s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/local_setup.bash
+[0.836s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/local_setup.sh
+[0.846s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/local_setup.zsh
+[0.855s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/local_setup.dsv
+[0.865s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/package.dsv
+[0.875s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/ament_index/resource_index/packages/autoware_testing
+[0.885s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/cmake/autoware_testing-extras.cmake
+[0.895s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig.cmake
+[0.904s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig-version.cmake
+[0.914s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_testing/share/autoware_testing/package.xml
+[0.926s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_testing

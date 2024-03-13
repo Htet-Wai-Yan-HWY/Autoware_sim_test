@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher/ament_cmake_core/dummy_perception_publisherConfig.cmake

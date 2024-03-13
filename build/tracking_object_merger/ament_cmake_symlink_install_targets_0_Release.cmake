@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/tracking_object_merger/decorative_tracker_merger" "TARGETS" "decorative_tracker_merger" "DESTINATION" "lib/tracking_object_merger")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/crosswalk_traffic_light_estimator/crosswalk_traffic_light_estimator_node" "TARGETS" "crosswalk_traffic_light_estimator_node" "DESTINATION" "lib/crosswalk_traffic_light_estimator")

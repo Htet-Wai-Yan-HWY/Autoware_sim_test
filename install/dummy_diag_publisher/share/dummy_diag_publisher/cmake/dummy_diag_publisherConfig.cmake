@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_diag_publisher/ament_cmake_core/dummy_diag_publisherConfig.cmake

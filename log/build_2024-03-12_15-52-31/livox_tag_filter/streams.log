@@ -1,0 +1,33 @@
+[0.084s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter -- -j12 -l12
+[0.159s] [ 50%] Built target livox_tag_filter_node
+[0.167s] [100%] Built target livox_tag_filter
+[0.184s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter -- -j12 -l12
+[0.229s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter
+[0.240s] -- Install configuration: "Release"
+[0.241s] -- Execute custom install script
+[0.242s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/lib/livox_tag_filter/livox_tag_filter_node
+[0.244s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/include/livox_tag_filter/livox_tag_filter_node.hpp
+[0.244s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.sh
+[0.244s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.dsv
+[0.245s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/lib/liblivox_tag_filter.so
+[0.246s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/launch/livox_tag_filter.launch.xml
+[0.246s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/ament_index/resource_index/package_run_dependencies/livox_tag_filter
+[0.247s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/ament_index/resource_index/parent_prefix_path/livox_tag_filter
+[0.247s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.sh
+[0.247s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.dsv
+[0.247s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/environment/path.sh
+[0.248s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/environment/path.dsv
+[0.248s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/local_setup.bash
+[0.248s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/local_setup.sh
+[0.249s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/local_setup.zsh
+[0.249s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/local_setup.dsv
+[0.249s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/package.dsv
+[0.264s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/ament_index/resource_index/packages/livox_tag_filter
+[0.264s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/ament_index/resource_index/rclcpp_components/livox_tag_filter
+[0.264s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.265s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.265s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[0.265s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig.cmake
+[0.265s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig-version.cmake
+[0.266s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/livox_tag_filter/share/livox_tag_filter/package.xml
+[0.268s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/livox_tag_filter

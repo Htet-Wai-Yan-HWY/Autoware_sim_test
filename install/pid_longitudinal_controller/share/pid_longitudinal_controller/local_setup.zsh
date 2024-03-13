@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/pid_longitudinal_controller/ament_cmake_environment_hooks/local_setup.zsh

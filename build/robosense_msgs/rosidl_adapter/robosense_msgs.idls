@@ -1,0 +1,3 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs/rosidl_adapter/robosense_msgs:msg/RobosensePacket.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs/rosidl_adapter/robosense_msgs:msg/RobosenseInfoPacket.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/robosense_msgs/rosidl_adapter/robosense_msgs:msg/RobosenseScan.idl

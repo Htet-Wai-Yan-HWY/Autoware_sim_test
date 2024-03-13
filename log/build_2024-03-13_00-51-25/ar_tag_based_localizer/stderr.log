@@ -1,0 +1,46 @@
+/usr/bin/ld: CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::cam_info_callback(std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > const> const&)':
+ar_tag_based_localizer.cpp:(.text+0xc19): undefined reference to `aruco::CameraParameters::CameraParameters(cv::Mat, cv::Mat, cv::Size_<int>)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0xc29): undefined reference to `aruco::CameraParameters::operator=(aruco::CameraParameters const&)'
+/usr/bin/ld: CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::ArTagBasedLocalizer(rclcpp::NodeOptions const&)':
+ar_tag_based_localizer.cpp:(.text+0x631d): undefined reference to `aruco::MarkerDetector::MarkerDetector()'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x6333): undefined reference to `aruco::CameraParameters::CameraParameters()'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x6874): undefined reference to `aruco::MarkerDetector::setDetectionMode(aruco::DetectionMode, float)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x6c8e): undefined reference to `aruco::MarkerDetector::getParameters()'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x819c): undefined reference to `aruco::MarkerDetector::setDetectionMode(aruco::DetectionMode, float)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x840b): undefined reference to `aruco::MarkerDetector::setDetectionMode(aruco::DetectionMode, float)'
+/usr/bin/ld: CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::detect_landmarks(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const> const&)':
+ar_tag_based_localizer.cpp:(.text+0x8f71): undefined reference to `aruco::CameraParameters::CameraParameters(aruco::CameraParameters const&)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x8f9c): undefined reference to `aruco::MarkerDetector::detect(cv::Mat const&, std::vector<aruco::Marker, std::allocator<aruco::Marker> >&, aruco::CameraParameters, float, bool, bool)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x909d): undefined reference to `aruco::Marker::draw(cv::Mat&, cv::Scalar_<double>, int, bool, bool) const'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x90b2): undefined reference to `aruco::CvDrawingUtils::draw3dAxis(cv::Mat&, aruco::Marker&, aruco::CameraParameters const&, int)'
+/usr/bin/ld: CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::ArTagBasedLocalizer(rclcpp::NodeOptions const&) [clone .cold]':
+ar_tag_based_localizer.cpp:(.text.unlikely+0x1346): undefined reference to `aruco::MarkerDetector::~MarkerDetector()'
+/usr/bin/ld: CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::cam_info_callback(std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > const> const&)':
+ar_tag_based_localizer.cpp:(.text+0xc19): undefined reference to `aruco::CameraParameters::CameraParameters(cv::Mat, cv::Mat, cv::Size_<int>)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0xc29): undefined reference to `aruco::CameraParameters::operator=(aruco::CameraParameters const&)'
+/usr/bin/ld: CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::ArTagBasedLocalizer(rclcpp::NodeOptions const&)':
+ar_tag_based_localizer.cpp:(.text+0x631d): undefined reference to `aruco::MarkerDetector::MarkerDetector()'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x6333): undefined reference to `aruco::CameraParameters::CameraParameters()'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x6874): undefined reference to `aruco::MarkerDetector::setDetectionMode(aruco::DetectionMode, float)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x6c8e): undefined reference to `aruco::MarkerDetector::getParameters()'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x819c): undefined reference to `aruco::MarkerDetector::setDetectionMode(aruco::DetectionMode, float)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x840b): undefined reference to `aruco::MarkerDetector::setDetectionMode(aruco::DetectionMode, float)'
+/usr/bin/ld: CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::detect_landmarks(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const> const&)':
+ar_tag_based_localizer.cpp:(.text+0x8f71): undefined reference to `aruco::CameraParameters::CameraParameters(aruco::CameraParameters const&)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x8f9c): undefined reference to `aruco::MarkerDetector::detect(cv::Mat const&, std::vector<aruco::Marker, std::allocator<aruco::Marker> >&, aruco::CameraParameters, float, bool, bool)'
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x909d): undefined reference to `/usr/bin/ldaruco::Marker::draw(cv::Mat&, cv::Scalar_<double>, int, bool, bool) const: '
+/usr/bin/ld: ar_tag_based_localizer.cpp:(.text+0x90b2): undefined reference to `aruco::CvDrawingUtils::draw3dAxis(cv::Mat&, aruco::Marker&, aruco::CameraParameters const&, int)'
+CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::~ArTagBasedLocalizer()':
+ar_tag_based_localizer.cpp:(.text._ZN19ArTagBasedLocalizerD2Ev[_ZN19ArTagBasedLocalizerD5Ev]+0x29a): undefined reference to `aruco::MarkerDetector::~MarkerDetector()'
+/usr/bin/ld: CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::ArTagBasedLocalizer(rclcpp::NodeOptions const&) [clone .cold]':
+ar_tag_based_localizer.cpp:(.text.unlikely+0x1346): undefined reference to `aruco::MarkerDetector::~MarkerDetector()'
+/usr/bin/ld: CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o: in function `ArTagBasedLocalizer::~ArTagBasedLocalizer()':
+ar_tag_based_localizer.cpp:(.text._ZN19ArTagBasedLocalizerD2Ev[_ZN19ArTagBasedLocalizerD5Ev]+0x29a): undefined reference to `aruco::MarkerDetector::~MarkerDetector()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ar_tag_based_localizer.dir/build.make:657: ar_tag_based_localizer] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/ar_tag_based_localizer.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_ar_tag_based_localizer.dir/build.make:659: test_ar_tag_based_localizer] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_ar_tag_based_localizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

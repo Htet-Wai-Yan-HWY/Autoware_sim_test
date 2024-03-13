@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/morai_msgs/rosidl_generator_c/morai_msgs/msg/detail/sensor_pos_control__struct.h

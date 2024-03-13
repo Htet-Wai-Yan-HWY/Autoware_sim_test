@@ -1,0 +1,6 @@
+{
+  "package_name": "operation_mode_transition_manager",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/control/operation_mode_transition_manager:msg/OperationModeTransitionManagerDebug.msg"
+  ]
+}

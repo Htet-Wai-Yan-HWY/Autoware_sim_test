@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/obstacle_collision_checker/obstacle_collision_checker_node" "TARGETS" "obstacle_collision_checker_node" "DESTINATION" "lib/obstacle_collision_checker")

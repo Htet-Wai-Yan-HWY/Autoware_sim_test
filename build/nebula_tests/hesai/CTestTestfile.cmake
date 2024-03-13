@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_tests/hesai
+# Build directory: /home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/hesai
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(hesai_ros_decoder_test_main "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/test_results/nebula_tests/hesai_ros_decoder_test_main.gtest.xml" "--package-name" "nebula_tests" "--output-file" "/home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/ament_cmake_gtest/hesai_ros_decoder_test_main.txt" "--command" "/home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/hesai/hesai_ros_decoder_test_main" "--gtest_output=xml:/home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/test_results/nebula_tests/hesai_ros_decoder_test_main.gtest.xml")
+set_tests_properties(hesai_ros_decoder_test_main PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/hesai/hesai_ros_decoder_test_main" TIMEOUT "60" WORKING_DIRECTORY "/home/zyme/ros_ws/Autoware_sim_test/build/nebula_tests/hesai" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_tests/hesai/CMakeLists.txt;6;ament_add_gtest;/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_tests/hesai/CMakeLists.txt;0;")
+subdirs("../gtest")

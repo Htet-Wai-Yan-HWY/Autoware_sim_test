@@ -1,0 +1,141 @@
+[0.087s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/imu_corrector -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.437s] -- Detecting CXX compile features - done
+[0.439s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.651s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.736s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.933s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.944s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.956s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.223s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.228s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.282s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.308s] -- Looking for pthread.h
+[1.401s] -- Looking for pthread.h - found
+[1.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.489s] -- Found Threads: TRUE  
+[1.939s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.941s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.941s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.871s] -- Checking for module 'eigen3'
+[3.888s] --   Found eigen3, version 3.4.0
+[3.929s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.929s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.977s] -- Checking for module 'flann'
+[3.994s] --   Found flann, version 1.9.1
+[4.048s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.049s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.138s] -- Checking for module 'libusb-1.0'
+[5.153s] --   Found libusb-1.0, version 1.0.25
+[5.194s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.195s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.256s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.411s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.417s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.424s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.576s] -- Found Qhull version 8.0.2
+[5.731s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.884s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.885s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.886s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.887s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.887s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.889s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.889s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.889s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.891s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.892s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.893s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.894s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.896s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.896s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.898s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.899s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.900s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.901s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.902s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.903s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.904s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.904s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.904s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.906s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.907s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.287s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.610s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[9.616s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.753s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.754s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.755s] -- Configured cppcheck include dirs: 
+[10.755s] -- Configured cppcheck exclude dirs and/or files: 
+[10.756s] -- Added test 'lint_cmake' to check CMake code style
+[10.757s] -- Added test 'xmllint' to check XML markup files
+[10.760s] -- Configuring done
+[11.125s] -- Generating done
+[11.132s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector
+[11.165s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/imu_corrector -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector
+[11.166s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector -- -j12 -l12
+[11.240s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[11.241s] [ 13%] [32mBuilding CXX object CMakeFiles/gyro_bias_estimation_module.dir/src/gyro_bias_estimation_module.cpp.o[0m
+[11.244s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[11.244s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[13.188s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.238s] [ 33%] Built target gmock_main
+[18.017s] [ 40%] [32m[1mLinking CXX shared library libgyro_bias_estimation_module.so[0m
+[18.533s] [ 40%] Built target gyro_bias_estimation_module
+[18.561s] [ 46%] [32mBuilding CXX object CMakeFiles/imu_corrector.dir/src/imu_corrector_core.cpp.o[0m
+[18.561s] [ 66%] [32mBuilding CXX object CMakeFiles/imu_corrector.dir/src/imu_corrector_node.cpp.o[0m
+[18.562s] [ 66%] [32mBuilding CXX object CMakeFiles/gyro_bias_estimator.dir/src/gyro_bias_estimator.cpp.o[0m
+[18.562s] [ 66%] [32mBuilding CXX object CMakeFiles/gyro_bias_estimator.dir/src/gyro_bias_estimator_node.cpp.o[0m
+[22.022s] [ 73%] [32m[1mLinking CXX static library libgmock.a[0m
+[22.088s] [ 73%] Built target gmock
+[22.125s] [ 80%] [32mBuilding CXX object CMakeFiles/test_gyro_bias_estimation_module.dir/test/test_gyro_bias_estimation_module.cpp.o[0m
+[26.869s] [ 86%] [32m[1mLinking CXX executable test_gyro_bias_estimation_module[0m
+[27.383s] [ 86%] Built target test_gyro_bias_estimation_module
+[32.850s] [ 93%] [32m[1mLinking CXX executable imu_corrector[0m
+[33.536s] [ 93%] Built target imu_corrector
+[40.360s] [100%] [32m[1mLinking CXX executable gyro_bias_estimator[0m
+[41.011s] [100%] Built target gyro_bias_estimator
+[41.025s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector -- -j12 -l12
+[41.069s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector
+[41.077s] -- Install configuration: "Release"
+[41.078s] -- Execute custom install script
+[41.078s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/environment/library_path.sh
+[41.088s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/environment/library_path.dsv
+[41.097s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/lib/libgyro_bias_estimation_module.so
+[41.108s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/lib/imu_corrector/imu_corrector
+[41.117s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/lib/imu_corrector/gyro_bias_estimator
+[41.127s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/launch/gyro_bias_estimator.launch.xml
+[41.137s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/launch/imu_corrector.launch.xml
+[41.148s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/config/gyro_bias_estimator.param.yaml
+[41.157s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/config/imu_corrector.param.yaml
+[41.167s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/ament_index/resource_index/package_run_dependencies/imu_corrector
+[41.176s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/ament_index/resource_index/parent_prefix_path/imu_corrector
+[41.186s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/environment/ament_prefix_path.sh
+[41.195s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/environment/ament_prefix_path.dsv
+[41.205s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/environment/path.sh
+[41.215s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/environment/path.dsv
+[41.224s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/local_setup.bash
+[41.234s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/local_setup.sh
+[41.243s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/local_setup.zsh
+[41.253s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/local_setup.dsv
+[41.263s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/package.dsv
+[41.273s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/ament_index/resource_index/packages/imu_corrector
+[41.283s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.292s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/cmake/ament_cmake_export_libraries-extras.cmake
+[41.301s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/cmake/imu_correctorConfig.cmake
+[41.311s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/cmake/imu_correctorConfig-version.cmake
+[41.320s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/imu_corrector/share/imu_corrector/package.xml
+[41.331s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_autoware_utils/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/imu_corrector

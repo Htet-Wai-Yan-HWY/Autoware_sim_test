@@ -1,0 +1,383 @@
+[0.056s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_control_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.607s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.982s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.466s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.490s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.490s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.490s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.490s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.509s] -- Found PythonExtra: .so  
+[1.561s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.582s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.584s] -- Added test 'lint_cmake' to check CMake code style
+[1.586s] -- Added test 'xmllint' to check XML markup files
+[1.589s] -- Configuring done
+[1.635s] -- Generating done
+[1.637s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs
+[1.645s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_control_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs
+[1.647s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs -- -j12 -l12
+[1.686s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.696s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.704s] [  2%] Built target ament_cmake_python_symlink_tier4_control_msgs
+[1.962s] running egg_info
+[1.962s] creating tier4_control_msgs.egg-info
+[1.962s] writing tier4_control_msgs.egg-info/PKG-INFO
+[1.962s] writing dependency_links to tier4_control_msgs.egg-info/dependency_links.txt
+[1.963s] writing top-level names to tier4_control_msgs.egg-info/top_level.txt
+[1.963s] writing manifest file 'tier4_control_msgs.egg-info/SOURCES.txt'
+[1.965s] reading manifest file 'tier4_control_msgs.egg-info/SOURCES.txt'
+[1.965s] writing manifest file 'tier4_control_msgs.egg-info/SOURCES.txt'
+[1.991s] [  2%] Built target ament_cmake_python_build_tier4_control_msgs_egg
+[2.339s] [  2%] Built target tier4_control_msgs__cpp
+[2.350s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.351s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.351s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.455s] [  6%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/gate_mode__functions.c.o[0m
+[2.455s] [  9%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_start_requested__functions.c.o[0m
+[2.455s] [ 10%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/set_pause__functions.c.o[0m
+[2.455s] [ 10%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/external_command_select__functions.c.o[0m
+[2.456s] [ 12%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.c.o[0m
+[2.456s] [ 12%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_paused__functions.c.o[0m
+[2.457s] [ 13%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_stopped__functions.c.o[0m
+[2.458s] [ 14%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/set_stop__functions.c.o[0m
+[2.705s] [ 16%] [32m[1mLinking C shared library libtier4_control_msgs__rosidl_generator_c.so[0m
+[2.745s] [ 16%] Built target tier4_control_msgs__rosidl_generator_c
+[2.758s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.758s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.758s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.008s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_start_requested__type_support.cpp.o[0m
+[3.009s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/gate_mode__type_support.cpp.o[0m
+[3.009s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/external_command_selector_mode__type_support.cpp.o[0m
+[3.010s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/set_pause__type_support.cpp.o[0m
+[3.010s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_paused__type_support.cpp.o[0m
+[3.014s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/external_command_select__type_support.cpp.o[0m
+[3.018s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_stopped__type_support.cpp.o[0m
+[3.551s] [ 28%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/gate_mode__type_support.cpp.o[0m
+[3.693s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/set_stop__type_support.cpp.o[0m
+[3.700s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.cpp.o[0m
+[3.723s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/external_command_select__type_support.cpp.o[0m
+[3.733s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_start_requested__type_support.cpp.o[0m
+[3.733s] [ 34%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_paused__type_support.cpp.o[0m
+[3.744s] [ 35%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/set_pause__type_support.cpp.o[0m
+[3.744s] [ 36%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_stopped__type_support.cpp.o[0m
+[3.769s] [ 37%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/gate_mode__type_support.cpp.o[0m
+[3.769s] [ 39%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/gate_mode__type_support.cpp.o[0m
+[3.839s] [ 40%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/external_command_selector_mode__type_support.cpp.o[0m
+[3.908s] [ 41%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/external_command_select__type_support.cpp.o[0m
+[3.987s] [ 42%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_start_requested__type_support.cpp.o[0m
+[4.059s] [ 43%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_paused__type_support.cpp.o[0m
+[4.137s] [ 44%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/set_pause__type_support.cpp.o[0m
+[4.224s] [ 45%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_stopped__type_support.cpp.o[0m
+[4.296s] [ 47%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/set_stop__type_support.cpp.o[0m
+[4.316s] [ 48%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/gate_mode__type_support.c.o[0m
+[4.386s] [ 49%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_c.so[0m
+[4.413s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/gate_mode__type_support_c.cpp.o[0m
+[4.419s] [ 51%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.c.o[0m
+[4.460s] [ 52%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_cpp.so[0m
+[4.494s] [ 54%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/external_command_select__type_support.c.o[0m
+[4.495s] [ 54%] Built target tier4_control_msgs__rosidl_typesupport_c
+[4.517s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support_c.cpp.o[0m
+[4.517s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/external_command_select__type_support_c.cpp.o[0m
+[4.582s] [ 56%] Built target tier4_control_msgs__rosidl_typesupport_cpp
+[4.601s] [ 57%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_start_requested__type_support.c.o[0m
+[4.604s] [ 58%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_start_requested__type_support_c.cpp.o[0m
+[4.689s] [ 59%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_paused__type_support.c.o[0m
+[4.735s] [ 60%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/set_pause__type_support.c.o[0m
+[4.744s] [ 62%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/external_command_selector_mode__type_support.cpp.o[0m
+[4.762s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/set_pause__type_support_c.cpp.o[0m
+[4.767s] [ 64%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_paused__type_support_c.cpp.o[0m
+[4.792s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_stopped__type_support_c.cpp.o[0m
+[4.805s] [ 66%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/set_stop__type_support_c.cpp.o[0m
+[4.814s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/external_command_select__type_support.cpp.o[0m
+[4.856s] [ 68%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_stopped__type_support.c.o[0m
+[4.906s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/set_stop__type_support.cpp.o[0m
+[4.965s] [ 71%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/set_stop__type_support.c.o[0m
+[5.076s] [ 72%] [32m[1mLinking C shared library libtier4_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.158s] [ 72%] Built target tier4_control_msgs__rosidl_typesupport_introspection_c
+[5.176s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_start_requested__type_support.cpp.o[0m
+[5.287s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_paused__type_support.cpp.o[0m
+[5.402s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/set_pause__type_support.cpp.o[0m
+[5.518s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_stopped__type_support.cpp.o[0m
+[5.555s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/set_stop__type_support.cpp.o[0m
+[5.763s] [ 79%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.901s] [ 79%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_c
+[5.919s] [ 80%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.021s] [ 80%] Built target tier4_control_msgs__rosidl_typesupport_introspection_cpp
+[6.274s] [ 81%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.343s] [ 81%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_cpp
+[6.362s] [ 81%] Built target tier4_control_msgs
+[6.381s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.428s] [ 82%] Built target tier4_control_msgs__py
+[7.451s] [ 85%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/msg/_external_command_selector_mode_s.c.o[0m
+[7.451s] [ 85%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/msg/_gate_mode_s.c.o[0m
+[7.452s] [ 86%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_start_requested_s.c.o[0m
+[7.452s] [ 87%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_paused_s.c.o[0m
+[7.455s] [ 88%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/srv/_external_command_select_s.c.o[0m
+[7.457s] [ 89%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/srv/_set_pause_s.c.o[0m
+[7.457s] [ 91%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_stopped_s.c.o[0m
+[7.457s] [ 91%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_control_msgs/srv/_set_stop_s.c.o[0m
+[7.715s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/libtier4_control_msgs__rosidl_generator_py.so[0m
+[7.757s] [ 93%] Built target tier4_control_msgs__rosidl_generator_py
+[7.777s] [ 96%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.777s] [ 96%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.777s] [ 96%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.015s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.015s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.015s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.057s] [100%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.058s] [100%] Built target tier4_control_msgs__rosidl_typesupport_introspection_c__pyext
+[8.058s] [100%] Built target tier4_control_msgs__rosidl_typesupport_c__pyext
+[8.070s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs -- -j12 -l12
+[8.477s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs
+[8.500s] -- Install configuration: "Release"
+[8.502s] -- Execute custom install script
+[8.503s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_control_msgs
+[8.532s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.h
+[8.554s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__struct.h
+[8.567s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.h
+[8.580s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__functions.h
+[8.593s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__struct.h
+[8.605s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__type_support.h
+[8.614s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__functions.h
+[8.622s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__struct.h
+[8.630s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__type_support.h
+[8.638s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__functions.h
+[8.646s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__struct.h
+[8.654s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__type_support.h
+[8.662s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__functions.h
+[8.670s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__struct.h
+[8.678s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__type_support.h
+[8.686s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/external_command_selector_mode.h
+[8.694s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/gate_mode.h
+[8.701s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/is_paused.h
+[8.710s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/is_start_requested.h
+[8.717s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/is_stopped.h
+[8.725s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.733s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__functions.h
+[8.741s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__struct.h
+[8.749s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__type_support.h
+[8.757s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__functions.h
+[8.764s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__struct.h
+[8.772s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__type_support.h
+[8.780s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__functions.h
+[8.788s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__struct.h
+[8.796s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__type_support.h
+[8.804s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/external_command_select.h
+[8.811s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/set_pause.h
+[8.819s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/set_stop.h
+[8.827s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/library_path.sh
+[8.835s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/library_path.dsv
+[8.843s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_fastrtps_c.h
+[8.851s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_fastrtps_c.h
+[8.859s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_fastrtps_c.h
+[8.867s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_fastrtps_c.h
+[8.875s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_fastrtps_c.h
+[8.882s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.891s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_fastrtps_c.h
+[8.899s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_c.h
+[8.906s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_fastrtps_c.h
+[8.914s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_introspection_c.h
+[8.922s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_introspection_c.h
+[8.930s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_introspection_c.h
+[8.938s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_introspection_c.h
+[8.946s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_introspection_c.h
+[8.954s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.962s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_introspection_c.h
+[8.970s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_c.h
+[8.977s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_introspection_c.h
+[8.986s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__builder.hpp
+[8.994s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__struct.hpp
+[9.002s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__traits.hpp
+[9.010s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__builder.hpp
+[9.018s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__struct.hpp
+[9.026s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__traits.hpp
+[9.034s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__builder.hpp
+[9.043s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__struct.hpp
+[9.051s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__traits.hpp
+[9.059s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__builder.hpp
+[9.067s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__struct.hpp
+[9.075s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__traits.hpp
+[9.083s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__builder.hpp
+[9.091s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__struct.hpp
+[9.099s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__traits.hpp
+[9.107s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/external_command_selector_mode.hpp
+[9.115s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/gate_mode.hpp
+[9.123s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/is_paused.hpp
+[9.131s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/is_start_requested.hpp
+[9.139s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/is_stopped.hpp
+[9.147s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__builder.hpp
+[9.155s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__struct.hpp
+[9.163s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__traits.hpp
+[9.170s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__builder.hpp
+[9.179s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__struct.hpp
+[9.186s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__traits.hpp
+[9.195s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__builder.hpp
+[9.203s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__struct.hpp
+[9.211s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__traits.hpp
+[9.218s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/external_command_select.hpp
+[9.226s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/set_pause.hpp
+[9.234s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/set_stop.hpp
+[9.242s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[9.250s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[9.258s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_fastrtps_cpp.hpp
+[9.266s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_fastrtps_cpp.hpp
+[9.273s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.281s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.289s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_fastrtps_cpp.hpp
+[9.297s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_cpp.hpp
+[9.305s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[9.313s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_introspection_cpp.hpp
+[9.321s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_introspection_cpp.hpp
+[9.329s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_introspection_cpp.hpp
+[9.337s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_introspection_cpp.hpp
+[9.344s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_introspection_cpp.hpp
+[9.352s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_introspection_cpp.hpp
+[9.360s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_cpp.hpp
+[9.368s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/include/tier4_control_msgs/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_introspection_cpp.hpp
+[9.376s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/pythonpath.sh
+[9.384s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/pythonpath.dsv
+[9.392s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[9.400s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[9.408s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[9.415s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[9.424s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/__init__.py
+[9.432s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_c.c
+[9.440s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.448s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.456s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/libtier4_control_msgs__rosidl_generator_py.so
+[9.463s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/__init__.py
+[9.471s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_external_command_selector_mode.py
+[9.479s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_external_command_selector_mode_s.c
+[9.487s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_gate_mode.py
+[9.495s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_gate_mode_s.c
+[9.502s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_paused.py
+[9.511s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_paused_s.c
+[9.519s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_start_requested.py
+[9.527s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_start_requested_s.c
+[9.535s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_stopped.py
+[9.543s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_stopped_s.c
+[9.551s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/__init__.py
+[9.558s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_external_command_select.py
+[9.566s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_external_command_select_s.c
+[9.574s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_set_pause.py
+[9.582s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_set_pause_s.c
+[9.590s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_set_stop.py
+[9.598s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_set_stop_s.c
+[9.606s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.614s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.622s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.630s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.630s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.630s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.630s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/GateMode.idl
+[9.639s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/ExternalCommandSelectorMode.idl
+[9.647s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect.idl
+[9.654s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsStartRequested.idl
+[9.662s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsPaused.idl
+[9.670s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause.idl
+[9.678s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsStopped.idl
+[9.686s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetStop.idl
+[9.694s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/GateMode.msg
+[9.702s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/ExternalCommandSelectorMode.msg
+[9.710s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect.srv
+[9.718s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect_Request.msg
+[9.726s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect_Response.msg
+[9.734s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsStartRequested.msg
+[9.742s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsPaused.msg
+[9.750s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause.srv
+[9.757s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause_Request.msg
+[9.765s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause_Response.msg
+[9.773s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsStopped.msg
+[9.781s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetStop.srv
+[9.789s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetStop_Request.msg
+[9.798s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetStop_Response.msg
+[9.806s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_control_msgs
+[9.814s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_control_msgs
+[9.822s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/ament_prefix_path.sh
+[9.830s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/ament_prefix_path.dsv
+[9.838s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/path.sh
+[9.846s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/environment/path.dsv
+[9.854s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.bash
+[9.861s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.sh
+[9.869s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.zsh
+[9.877s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.dsv
+[9.885s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/package.dsv
+[9.893s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/ament_index/resource_index/packages/tier4_control_msgs
+[9.901s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/rosidl_cmake-extras.cmake
+[9.909s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.917s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.925s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.932s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.940s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.948s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.956s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgsConfig.cmake
+[9.964s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgsConfig-version.cmake
+[9.972s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/package.xml
+[9.980s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_c.so
+[9.980s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_c.so" to ""
+[9.980s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so
+[9.980s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.981s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_c.so
+[9.981s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.981s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_c.so
+[9.981s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_c.so" to ""
+[9.981s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.982s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.982s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so
+[9.982s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.982s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_cpp.so
+[9.982s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_cpp.so" to ""
+[10.021s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/__init__.py'...
+[10.021s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/__init__.py'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_external_command_selector_mode.py'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_gate_mode.py'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_paused.py'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_start_requested.py'...
+[10.021s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/msg/_is_stopped.py'...
+[10.022s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv'...
+[10.022s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/__init__.py'...
+[10.022s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_external_command_select.py'...
+[10.022s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_set_pause.py'...
+[10.022s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/local/lib/python3.10/dist-packages/tier4_control_msgs/srv/_set_stop.py'...
+[10.025s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_py.so
+[10.025s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_py.so" to ""
+[10.025s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_generator_cExport.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_generator_cExport-release.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cExport.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cExport-release.cmake
+[10.026s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_generator_cppExport.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cppExport.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cppExport-release.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_generator_pyExport.cmake
+[10.027s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_control_msgs/share/tier4_control_msgs/cmake/export_tier4_control_msgs__rosidl_generator_pyExport-release.cmake
+[10.030s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_control_msgs

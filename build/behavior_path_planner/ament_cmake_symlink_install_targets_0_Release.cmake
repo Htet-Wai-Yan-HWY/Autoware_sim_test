@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/behavior_path_planner/behavior_path_planner_node" "TARGETS" "behavior_path_planner_node" "DESTINATION" "lib/behavior_path_planner")

@@ -1,0 +1,78 @@
+[0.059s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/image_transport_decompressor -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.242s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.332s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.333s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.653s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.665s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.971s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.974s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.005s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.014s] -- Looking for pthread.h
+[1.080s] -- Looking for pthread.h - found
+[1.080s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.146s] -- Found Threads: TRUE  
+[1.338s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.350s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.358s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.360s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.360s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/image_transport_decompressor/include
+[1.360s] -- Configured cppcheck exclude dirs and/or files: 
+[1.361s] -- Added test 'lint_cmake' to check CMake code style
+[1.361s] -- Added test 'xmllint' to check XML markup files
+[1.364s] -- Configuring done
+[1.380s] -- Generating done
+[1.382s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor
+[1.390s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/sensing/image_transport_decompressor -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor
+[1.392s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor -- -j12 -l12
+[1.438s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport_decompressor.dir/src/image_transport_decompressor.cpp.o[0m
+[1.438s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport_decompressor_node.dir/rclcpp_components/node_main_image_transport_decompressor_node.cpp.o[0m
+[4.675s] [ 75%] [32m[1mLinking CXX executable image_transport_decompressor_node[0m
+[4.789s] [ 75%] Built target image_transport_decompressor_node
+[11.470s] [100%] [32m[1mLinking CXX shared library libimage_transport_decompressor.so[0m
+[11.678s] [100%] Built target image_transport_decompressor
+[11.689s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor -- -j12 -l12
+[11.721s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor
+[11.731s] -- Install configuration: "Release"
+[11.732s] -- Execute custom install script
+[11.733s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/lib/image_transport_decompressor/image_transport_decompressor_node
+[11.746s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/include/image_transport_decompressor/image_transport_decompressor.hpp
+[11.760s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/environment/library_path.sh
+[11.773s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/environment/library_path.dsv
+[11.787s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/lib/libimage_transport_decompressor.so
+[11.801s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/launch/image_transport_decompressor.launch.xml
+[11.814s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/ament_index/resource_index/package_run_dependencies/image_transport_decompressor
+[11.823s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/ament_index/resource_index/parent_prefix_path/image_transport_decompressor
+[11.832s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/environment/ament_prefix_path.sh
+[11.840s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/environment/ament_prefix_path.dsv
+[11.848s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/environment/path.sh
+[11.856s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/environment/path.dsv
+[11.864s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.bash
+[11.873s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.sh
+[11.881s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.zsh
+[11.890s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.dsv
+[11.898s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/package.dsv
+[11.906s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/ament_index/resource_index/packages/image_transport_decompressor
+[11.915s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/ament_index/resource_index/rclcpp_components/image_transport_decompressor
+[11.923s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.931s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.939s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/cmake/ament_cmake_export_libraries-extras.cmake
+[11.948s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/cmake/image_transport_decompressorConfig.cmake
+[11.956s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/cmake/image_transport_decompressorConfig-version.cmake
+[11.964s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/image_transport_decompressor/share/image_transport_decompressor/package.xml
+[11.975s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/image_transport_decompressor

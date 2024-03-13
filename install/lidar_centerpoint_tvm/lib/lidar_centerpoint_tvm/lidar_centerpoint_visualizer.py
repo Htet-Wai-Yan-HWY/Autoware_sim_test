@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/perception/lidar_centerpoint_tvm/scripts/lidar_centerpoint_visualizer.py

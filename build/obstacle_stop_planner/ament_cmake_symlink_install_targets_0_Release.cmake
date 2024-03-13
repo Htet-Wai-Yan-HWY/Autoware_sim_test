@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/obstacle_stop_planner/obstacle_stop_planner_node" "TARGETS" "obstacle_stop_planner_node" "DESTINATION" "lib/obstacle_stop_planner")

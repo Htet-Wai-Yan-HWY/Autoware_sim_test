@@ -1,0 +1,87 @@
+[0.057s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/signal_processing': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/signal_processing -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/signal_processing
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.247s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.365s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.366s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.500s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.554s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.686s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.691s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.699s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.899s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.901s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.932s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.940s] -- Looking for pthread.h
+[1.005s] -- Looking for pthread.h - found
+[1.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.075s] -- Found Threads: TRUE  
+[1.203s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.221s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.229s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.233s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.233s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/signal_processing/include;/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/signal_processing/test/include
+[1.233s] -- Configured cppcheck exclude dirs and/or files: 
+[1.234s] -- Added test 'lint_cmake' to check CMake code style
+[1.235s] -- Added test 'xmllint' to check XML markup files
+[1.238s] -- Configuring done
+[1.254s] -- Generating done
+[1.255s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/signal_processing
+[1.263s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/signal_processing -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/signal_processing
+[1.264s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/signal_processing': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/signal_processing -- -j12 -l12
+[1.310s] [ 25%] [32mBuilding CXX object CMakeFiles/lowpass_filters.dir/src/lowpass_filter_1d.cpp.o[0m
+[1.311s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.311s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.311s] [ 41%] [32mBuilding CXX object CMakeFiles/lowpass_filters.dir/src/butterworth.cpp.o[0m
+[1.311s] [ 41%] [32mBuilding CXX object CMakeFiles/lowpass_filters.dir/src/lowpass_filter.cpp.o[0m
+[2.345s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.377s] [ 50%] Built target gtest_main
+[2.696s] [ 58%] [32m[1mLinking CXX shared library liblowpass_filters.so[0m
+[2.808s] [ 58%] Built target lowpass_filters
+[8.283s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.316s] [ 66%] Built target gtest
+[8.335s] [ 75%] [32mBuilding CXX object CMakeFiles/test_signal_processing.dir/test/src/lowpass_filter_1d_test.cpp.o[0m
+[8.335s] [ 83%] [32mBuilding CXX object CMakeFiles/test_signal_processing.dir/test/src/butterworth_filter_test.cpp.o[0m
+[8.335s] [ 91%] [32mBuilding CXX object CMakeFiles/test_signal_processing.dir/test/src/lowpass_filter_test.cpp.o[0m
+[12.001s] [100%] [32m[1mLinking CXX executable test_signal_processing[0m
+[12.116s] [100%] Built target test_signal_processing
+[12.127s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/signal_processing -- -j12 -l12
+[12.164s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/signal_processing': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/signal_processing
+[12.170s] -- Install configuration: "Release"
+[12.171s] -- Execute custom install script
+[12.171s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/include/signal_processing/butterworth.hpp
+[12.180s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/include/signal_processing/lowpass_filter.hpp
+[12.188s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/include/signal_processing/lowpass_filter_1d.hpp
+[12.196s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/environment/library_path.sh
+[12.204s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/environment/library_path.dsv
+[12.212s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/lib/liblowpass_filters.so
+[12.220s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/ament_index/resource_index/package_run_dependencies/signal_processing
+[12.228s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/ament_index/resource_index/parent_prefix_path/signal_processing
+[12.235s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/environment/ament_prefix_path.sh
+[12.244s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/environment/ament_prefix_path.dsv
+[12.252s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/environment/path.sh
+[12.259s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/environment/path.dsv
+[12.267s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/local_setup.bash
+[12.275s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/local_setup.sh
+[12.282s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/local_setup.zsh
+[12.290s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/local_setup.dsv
+[12.298s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/package.dsv
+[12.306s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/ament_index/resource_index/packages/signal_processing
+[12.314s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.322s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.330s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_libraries-extras.cmake
+[12.337s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/cmake/signal_processingConfig.cmake
+[12.345s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/cmake/signal_processingConfig-version.cmake
+[12.353s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/signal_processing/share/signal_processing/package.xml
+[12.363s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/signal_processing

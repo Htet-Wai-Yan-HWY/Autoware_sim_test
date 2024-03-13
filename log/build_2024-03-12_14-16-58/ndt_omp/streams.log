@@ -1,0 +1,201 @@
+[0.057s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.460s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.513s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.618s] -- Checking for module 'eigen3'
+[0.631s] --   Found eigen3, version 3.4.0
+[0.658s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.658s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.677s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.692s] -- Checking for module 'flann'
+[0.704s] --   Found flann, version 1.9.1
+[0.746s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.746s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.780s] -- Looking for pthread.h
+[0.848s] -- Looking for pthread.h - found
+[0.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.954s] -- Found Threads: TRUE  
+[0.958s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.964s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.102s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.102s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.105s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.114s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.130s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.158s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.238s] -- Found X11: /usr/include   
+[1.239s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.311s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.311s] -- Looking for gethostbyname
+[1.375s] -- Looking for gethostbyname - found
+[1.375s] -- Looking for connect
+[1.443s] -- Looking for connect - found
+[1.443s] -- Looking for remove
+[1.518s] -- Looking for remove - found
+[1.519s] -- Looking for shmat
+[1.608s] -- Looking for shmat - found
+[1.608s] -- Looking for IceConnectionNumber in ICE
+[1.704s] -- Looking for IceConnectionNumber in ICE - found
+[1.777s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.780s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.782s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.784s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.1") 
+[1.837s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.842s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.845s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.851s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.921s] -- Checking for module 'libusb-1.0'
+[1.933s] --   Found libusb-1.0, version 1.0.25
+[1.964s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.965s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.965s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.012s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.012s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.012s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.150s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.155s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.161s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.291s] -- Found Qhull version 8.0.2
+[2.427s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.565s] -- looking for PCL_COMMON
+[2.566s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.566s] -- looking for PCL_KDTREE
+[2.567s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.567s] -- looking for PCL_OCTREE
+[2.568s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.568s] -- looking for PCL_SEARCH
+[2.569s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.569s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.570s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.570s] -- looking for PCL_FILTERS
+[2.571s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.572s] -- looking for PCL_2D
+[2.572s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.572s] -- looking for PCL_GEOMETRY
+[2.572s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.573s] -- looking for PCL_IO
+[2.573s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.574s] -- looking for PCL_FEATURES
+[2.574s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.575s] -- looking for PCL_ML
+[2.575s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.576s] -- looking for PCL_SEGMENTATION
+[2.576s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.577s] -- looking for PCL_VISUALIZATION
+[2.577s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.578s] -- looking for PCL_SURFACE
+[2.578s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.579s] -- looking for PCL_REGISTRATION
+[2.580s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.580s] -- looking for PCL_KEYPOINTS
+[2.581s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.581s] -- looking for PCL_TRACKING
+[2.582s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.582s] -- looking for PCL_RECOGNITION
+[2.583s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.583s] -- looking for PCL_STEREO
+[2.584s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.584s] -- looking for PCL_APPS
+[2.585s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.585s] -- looking for PCL_IN_HAND_SCANNER
+[2.586s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.586s] -- looking for PCL_MODELER
+[2.586s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.586s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.587s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.587s] -- looking for PCL_OUTOFCORE
+[2.588s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.588s] -- looking for PCL_PEOPLE
+[2.589s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.589s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.7") 
+[2.590s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2
+[2.590s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[2.590s] -- PCL_DEFINITIONS:-DDISABLE_PCAP
+[2.831s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[2.921s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.922s] -- Found OpenMP: TRUE (found version "4.5")  
+[2.935s] -- Configuring done
+[2.990s] -- Generating done
+[2.991s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp
+[3.004s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp
+[3.006s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp -- -j12 -l12
+[3.051s] [ 42%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o[0m
+[3.051s] [ 42%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o[0m
+[3.051s] [ 42%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+[7.617s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:2[m[K:
+[7.618s] /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp: In instantiation of ‘[01m[Kvoid pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::estimateRigidTransformationBFGS(const PointCloudSource&, const std::vector<int, std::allocator<int> >&, const PointCloudTarget&, const std::vector<int, std::allocator<int> >&, Eigen::Matrix4f&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZ>; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudTarget = pcl::PointCloud<pcl::PointXYZ>; Eigen::Matrix4f = Eigen::Matrix<float, 4, 4>][m[K’:
+[7.618s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:4:24:[m[K   required from here
+[7.618s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp:230:31:[m[K [01;35m[Kwarning: [m[K‘[01m[KBFGSSpace::Status BFGS<FunctorType>::testGradient(BFGS<FunctorType>::Scalar) [with FunctorType = pclomp::GeneralizedIterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ>::OptimizationFunctorWithIndices; BFGS<FunctorType>::Scalar = double][m[K’ is deprecated: Use `testGradient()` instead (It will be removed in PCL 1.13) [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.618s]   230 |     result = [01;35m[Kbfgs.testGradient(gradient_tol)[m[K;
+[7.618s]       |              [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[7.618s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp.h:45[m[K,
+[7.618s]                  from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:1[m[K:
+[7.618s] [01m[K/usr/include/pcl-1.12/pcl/registration/bfgs.h:164:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.618s]   164 |   BFGSSpace::Status [01;36m[KtestGradient[m[K(Scalar) { return testGradient(); }
+[7.618s]       |                     [01;36m[K^~~~~~~~~~~~[m[K
+[7.883s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:2[m[K:
+[7.883s] /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp: In instantiation of ‘[01m[Kvoid pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::estimateRigidTransformationBFGS(const PointCloudSource&, const std::vector<int, std::allocator<int> >&, const PointCloudTarget&, const std::vector<int, std::allocator<int> >&, Eigen::Matrix4f&) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZI>; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudTarget = pcl::PointCloud<pcl::PointXYZI>; Eigen::Matrix4f = Eigen::Matrix<float, 4, 4>][m[K’:
+[7.883s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:5:24:[m[K   required from here
+[7.883s] [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp:230:31:[m[K [01;35m[Kwarning: [m[K‘[01m[KBFGSSpace::Status BFGS<FunctorType>::testGradient(BFGS<FunctorType>::Scalar) [with FunctorType = pclomp::GeneralizedIterativeClosestPoint<pcl::PointXYZI, pcl::PointXYZI>::OptimizationFunctorWithIndices; BFGS<FunctorType>::Scalar = double][m[K’ is deprecated: Use `testGradient()` instead (It will be removed in PCL 1.13) [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.883s]   230 |     result = [01;35m[Kbfgs.testGradient(gradient_tol)[m[K;
+[7.883s]       |              [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[7.883s] In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp.h:45[m[K,
+[7.883s]                  from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:1[m[K:
+[7.883s] [01m[K/usr/include/pcl-1.12/pcl/registration/bfgs.h:164:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.883s]   164 |   BFGSSpace::Status [01;36m[KtestGradient[m[K(Scalar) { return testGradient(); }
+[7.883s]       |                     [01;36m[K^~~~~~~~~~~~[m[K
+[19.465s] [ 57%] [32m[1mLinking CXX shared library libndt_omp.so[0m
+[21.213s] [ 57%] Built target ndt_omp
+[21.231s] [ 85%] [32mBuilding CXX object CMakeFiles/multigrid_ndt_omp.dir/src/multigrid_pclomp/multigrid_ndt_omp.cpp.o[0m
+[21.231s] [ 85%] [32mBuilding CXX object CMakeFiles/multigrid_ndt_omp.dir/src/multigrid_pclomp/multi_voxel_grid_covariance_omp.cpp.o[0m
+[33.384s] [100%] [32m[1mLinking CXX shared library libmultigrid_ndt_omp.so[0m
+[34.925s] [100%] Built target multigrid_ndt_omp
+[34.935s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp -- -j12 -l12
+[34.972s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp
+[34.982s] -- Install configuration: "RELEASE"
+[34.983s] -- Execute custom install script
+[34.984s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp.h
+[34.996s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp_impl.hpp
+[35.008s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp.h
+[35.020s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp_impl.hpp
+[35.032s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/gicp_omp.h
+[35.044s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+[35.056s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/ndt_omp.h
+[35.068s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+[35.080s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+[35.092s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[35.104s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+[35.116s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+[35.128s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/lib/libndt_omp.so
+[35.140s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/lib/libmultigrid_ndt_omp.so
+[35.152s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+[35.164s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+[35.176s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+[35.188s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+[35.200s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/path.sh
+[35.212s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/environment/path.dsv
+[35.224s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.bash
+[35.235s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.sh
+[35.247s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.zsh
+[35.259s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/local_setup.dsv
+[35.269s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/package.dsv
+[35.278s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+[35.286s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.294s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+[35.302s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+[35.310s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+[35.319s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/ndt_omp/share/ndt_omp/package.xml
+[35.329s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/behavior_path_planner_common/include/behavior_path_planner_common/utils/path_safety_checker/path_safety_checker_parameters.hpp

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_planning_msgs/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point_with_lane_id__struct.h

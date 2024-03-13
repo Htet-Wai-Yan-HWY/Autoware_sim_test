@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/morai_msgs/rosidl_generator_c/morai_msgs/srv/morai_sync_mode_sl_srv.h

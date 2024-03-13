@@ -1,0 +1,11 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/AwapiAutowareStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/AwapiVehicleStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/CrosswalkStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/DoorControlCommand.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/DoorStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/Euler.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/IntersectionStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/LaneChangeStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/ObstacleAvoidanceStatus.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/StopCommand.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/VelocityLimit.idl

@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_hmi_msgs/rosidl_generator_c/tier4_hmi_msgs/srv/detail/announce__type_support.h

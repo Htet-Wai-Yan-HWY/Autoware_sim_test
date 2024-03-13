@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/yabloc/yabloc_particle_filter/test
+# Build directory: /home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_resampler "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/test_results/yabloc_particle_filter/test_resampler.gtest.xml" "--package-name" "yabloc_particle_filter" "--output-file" "/home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/ament_cmake_gtest/test_resampler.txt" "--command" "/home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/test/test_resampler" "--gtest_output=xml:/home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/test_results/yabloc_particle_filter/test_resampler.gtest.xml")
+set_tests_properties(test_resampler PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/test/test_resampler" TIMEOUT "60" WORKING_DIRECTORY "/home/zyme/ros_ws/Autoware_sim_test/build/yabloc_particle_filter/test" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/yabloc/yabloc_particle_filter/test/CMakeLists.txt;1;ament_add_gtest;/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/yabloc/yabloc_particle_filter/test/CMakeLists.txt;0;")
+subdirs("../gtest")

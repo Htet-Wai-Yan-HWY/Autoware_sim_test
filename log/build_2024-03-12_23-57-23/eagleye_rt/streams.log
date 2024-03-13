@@ -1,0 +1,92 @@
+[0.064s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt -- -j12 -l12
+[0.160s] [ 13%] Built target twist_relay
+[0.160s] [ 13%] Built target heading
+[0.160s] [ 13%] Built target distance
+[0.160s] [ 17%] Built target heading_interpolate
+[0.160s] [ 21%] Built target height
+[0.160s] [ 26%] Built target monitor
+[0.161s] [ 32%] Built target slip_angle
+[0.161s] [ 34%] Built target correction_imu
+[0.161s] [ 39%] Built target tf_converted_imu
+[0.162s] [ 47%] Built target slip_coefficient
+[0.162s] [ 47%] Built target position
+[0.163s] [ 52%] Built target position_interpolate
+[0.221s] [ 56%] Built target rolling
+[0.221s] [ 60%] Built target smoothing
+[0.223s] [ 73%] Built target trajectory
+[0.223s] [ 73%] Built target enable_additional_rolling
+[0.223s] [ 73%] Built target velocity_scale_factor
+[0.226s] [ 78%] Built target angular_velocity_offset_stop
+[0.226s] [ 82%] Built target yaw_rate_offset
+[0.226s] [ 86%] Built target yaw_rate_offset_stop
+[0.228s] [ 91%] Built target rtk_dead_reckoning
+[0.229s] [ 97%] Built target rtk_heading
+[0.229s] [100%] Built target velocity_estimator
+[0.246s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt -- -j12 -l12
+[0.377s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt
+[0.400s] -- Install configuration: "Release"
+[0.401s] -- Execute custom install script
+[0.403s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/tf_converted_imu
+[0.403s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/correction_imu
+[0.404s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/distance
+[0.404s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/heading_interpolate
+[0.405s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/heading
+[0.405s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/height
+[0.406s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/monitor
+[0.406s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/position_interpolate
+[0.406s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/slip_angle
+[0.407s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/slip_coefficient
+[0.407s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/smoothing
+[0.408s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/trajectory
+[0.408s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/velocity_scale_factor
+[0.408s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/yaw_rate_offset
+[0.409s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/yaw_rate_offset_stop
+[0.409s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/angular_velocity_offset_stop
+[0.409s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/enable_additional_rolling
+[0.409s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/$(PROJECT_NAME)/rolling
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/config/README.md
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/config/eagleye_config.yaml
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/launch/eagleye_calibration.launch.xml
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/launch/eagleye_rt.launch.xml
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/launch/eagleye_rt_canless.launch.xml
+[0.410s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/log/.gitignore
+[0.411s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/tf_converted_imu
+[0.411s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/twist_relay
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/correction_imu
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/distance
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/heading_interpolate
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/heading
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/height
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/monitor
+[0.412s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/position_interpolate
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/position
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/slip_angle
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/slip_coefficient
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/enable_additional_rolling
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/rolling
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/smoothing
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/trajectory
+[0.413s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/velocity_scale_factor
+[0.414s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/yaw_rate_offset
+[0.414s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/yaw_rate_offset_stop
+[0.414s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/angular_velocity_offset_stop
+[0.414s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/rtk_dead_reckoning
+[0.414s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/rtk_heading
+[0.414s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/lib/eagleye_rt/velocity_estimator
+[0.415s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/ament_index/resource_index/package_run_dependencies/eagleye_rt
+[0.415s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/ament_index/resource_index/parent_prefix_path/eagleye_rt
+[0.415s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/environment/ament_prefix_path.sh
+[0.415s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/environment/ament_prefix_path.dsv
+[0.415s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/environment/path.sh
+[0.415s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/environment/path.dsv
+[0.416s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/local_setup.bash
+[0.416s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/local_setup.sh
+[0.416s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/local_setup.zsh
+[0.416s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/local_setup.dsv
+[0.416s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/package.dsv
+[0.425s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/ament_index/resource_index/packages/eagleye_rt
+[0.425s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/cmake/eagleye_rtConfig.cmake
+[0.425s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/cmake/eagleye_rtConfig-version.cmake
+[0.426s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/eagleye_rt/share/eagleye_rt/package.xml
+[0.427s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_navigation/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_coordinate/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/eagleye_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/rtklib_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/eagleye_rt

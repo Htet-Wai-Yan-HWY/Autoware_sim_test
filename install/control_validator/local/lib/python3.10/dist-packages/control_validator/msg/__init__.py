@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/control_validator/rosidl_generator_py/control_validator/msg/__init__.py

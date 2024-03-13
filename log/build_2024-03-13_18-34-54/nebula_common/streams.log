@@ -1,0 +1,90 @@
+[0.616s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_common -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common
+[0.659s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.886s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.950s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.007s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.686s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.699s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.700s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.116s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.130s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.140s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.440s] -- Found Qhull version 8.0.2
+[2.766s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.002s] -- looking for PCL_COMMON
+[3.003s] -- looking for PCL_KDTREE
+[3.003s] -- looking for PCL_OCTREE
+[3.004s] -- looking for PCL_SEARCH
+[3.007s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.007s] -- looking for PCL_FILTERS
+[3.007s] -- looking for PCL_2D
+[3.008s] -- looking for PCL_GEOMETRY
+[3.009s] -- looking for PCL_IO
+[3.009s] -- looking for PCL_FEATURES
+[3.010s] -- looking for PCL_ML
+[3.011s] -- looking for PCL_SEGMENTATION
+[3.012s] -- looking for PCL_VISUALIZATION
+[3.013s] -- looking for PCL_SURFACE
+[3.014s] -- looking for PCL_REGISTRATION
+[3.015s] -- looking for PCL_KEYPOINTS
+[3.018s] -- looking for PCL_TRACKING
+[3.019s] -- looking for PCL_RECOGNITION
+[3.019s] -- looking for PCL_STEREO
+[3.020s] -- looking for PCL_APPS
+[3.020s] -- looking for PCL_IN_HAND_SCANNER
+[3.021s] -- looking for PCL_MODELER
+[3.021s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.021s] -- looking for PCL_OUTOFCORE
+[3.022s] -- looking for PCL_PEOPLE
+[3.035s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.082s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.085s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.098s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.361s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.365s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.497s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.446s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.662s] -- Configuring done
+[5.731s] -- Generating done
+[5.742s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/nebula_common
+[6.289s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_common -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common
+[6.291s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/nebula_common -- -j12 -l12
+[6.681s] [35m[1mConsolidate compiler generated dependencies of target nebula_common[0m
+[6.681s] [100%] Built target nebula_common
+[6.863s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/nebula_common -- -j12 -l12
+[7.369s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/nebula_common
+[7.781s] -- Install configuration: "Release"
+[7.782s] -- Execute custom install script
+[7.782s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/hesai/hesai_common.hpp
+[7.783s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/hesai/hesai_status.hpp
+[7.783s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/nebula_common.hpp
+[7.783s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/nebula_status.hpp
+[7.783s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/point_types.hpp
+[7.784s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/robosense/robosense_common.hpp
+[7.784s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/velodyne/velodyne_calibration_decoder.hpp
+[7.784s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/velodyne/velodyne_common.hpp
+[7.784s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/include/nebula_common/velodyne/velodyne_status.hpp
+[7.784s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/environment/library_path.sh
+[7.784s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/environment/library_path.dsv
+[7.785s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib/libnebula_common.so
+[7.785s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/ament_index/resource_index/package_run_dependencies/nebula_common
+[7.785s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/ament_index/resource_index/parent_prefix_path/nebula_common
+[7.785s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/environment/ament_prefix_path.sh
+[7.785s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/environment/ament_prefix_path.dsv
+[7.785s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/environment/path.sh
+[7.786s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/environment/path.dsv
+[7.786s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/local_setup.bash
+[7.786s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/local_setup.sh
+[7.786s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/local_setup.zsh
+[7.786s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/local_setup.dsv
+[7.787s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/package.dsv
+[7.787s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/ament_index/resource_index/packages/nebula_common
+[7.787s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.787s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.787s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/cmake/ament_cmake_export_libraries-extras.cmake
+[7.788s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/cmake/nebula_commonConfig.cmake
+[7.788s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/cmake/nebula_commonConfig-version.cmake
+[7.788s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/share/nebula_common/package.xml
+[8.026s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/nebula_common

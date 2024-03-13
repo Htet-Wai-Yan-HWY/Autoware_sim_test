@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:54 (get_target_property):
+  get_target_property() called with non-existent target
+  "lanelet2_core::lanelet2_core".
+
+[0m

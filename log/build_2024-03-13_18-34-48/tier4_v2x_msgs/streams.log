@@ -1,0 +1,215 @@
+[0.073s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_v2x_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs
+[0.085s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.689s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.302s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.324s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.324s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.355s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.366s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.368s] -- Added test 'lint_cmake' to check CMake code style
+[1.369s] -- Added test 'xmllint' to check XML markup files
+[1.372s] -- Configuring done
+[1.416s] -- Generating done
+[1.419s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs
+[1.426s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_v2x_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs
+[1.427s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs -- -j12 -l12
+[1.466s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_generator_c[0m
+[1.476s] [  1%] Built target tier4_v2x_msgs__cpp
+[1.480s] [ 12%] Built target tier4_v2x_msgs__rosidl_generator_c
+[1.487s] [ 12%] Built target ament_cmake_python_symlink_tier4_v2x_msgs
+[1.494s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_cpp[0m
+[1.495s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.495s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.498s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_introspection_c[0m
+[1.499s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.501s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_c[0m
+[1.518s] [ 34%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_cpp
+[1.519s] [ 34%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_c
+[1.523s] [ 50%] Built target tier4_v2x_msgs__rosidl_typesupport_c
+[1.523s] [ 61%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c
+[1.523s] [ 68%] Built target tier4_v2x_msgs__rosidl_typesupport_cpp
+[1.524s] [ 79%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp
+[1.545s] [ 79%] Built target tier4_v2x_msgs
+[1.565s] [ 80%] Built target tier4_v2x_msgs__py
+[1.576s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_generator_py[0m
+[1.593s] [ 90%] Built target tier4_v2x_msgs__rosidl_generator_py
+[1.605s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.606s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_c__pyext[0m
+[1.606s] [35m[1mConsolidate compiler generated dependencies of target tier4_v2x_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.621s] [ 93%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.621s] [ 96%] Built target tier4_v2x_msgs__rosidl_typesupport_c__pyext
+[1.621s] [100%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_c__pyext
+[1.774s] running egg_info
+[1.774s] writing tier4_v2x_msgs.egg-info/PKG-INFO
+[1.774s] writing dependency_links to tier4_v2x_msgs.egg-info/dependency_links.txt
+[1.775s] writing top-level names to tier4_v2x_msgs.egg-info/top_level.txt
+[1.777s] reading manifest file 'tier4_v2x_msgs.egg-info/SOURCES.txt'
+[1.777s] writing manifest file 'tier4_v2x_msgs.egg-info/SOURCES.txt'
+[1.803s] [100%] Built target ament_cmake_python_build_tier4_v2x_msgs_egg
+[1.814s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs -- -j12 -l12
+[1.970s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs
+[1.980s] -- Install configuration: "Release"
+[1.981s] -- Execute custom install script
+[1.982s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_v2x_msgs
+[1.982s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__functions.h
+[1.983s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__struct.h
+[1.983s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__type_support.h
+[1.983s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__functions.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__struct.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__type_support.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__functions.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__struct.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__type_support.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__functions.h
+[1.984s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__struct.h
+[1.985s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__type_support.h
+[1.985s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__functions.h
+[1.985s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__struct.h
+[1.985s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__type_support.h
+[1.985s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command.h
+[1.986s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command_array.h
+[1.986s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/key_value.h
+[1.986s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.986s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state.h
+[1.986s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state_array.h
+[1.986s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/library_path.sh
+[1.987s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/library_path.dsv
+[1.988s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_fastrtps_c.h
+[1.988s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_fastrtps_c.h
+[1.988s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[1.988s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_fastrtps_c.h
+[1.989s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_fastrtps_c.h
+[1.989s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.989s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_introspection_c.h
+[1.989s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_introspection_c.h
+[1.990s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[1.990s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_introspection_c.h
+[1.990s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_introspection_c.h
+[1.990s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.991s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__builder.hpp
+[1.991s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__struct.hpp
+[1.991s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__traits.hpp
+[1.991s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__builder.hpp
+[1.992s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__struct.hpp
+[1.992s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__traits.hpp
+[1.992s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__builder.hpp
+[1.992s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__struct.hpp
+[1.992s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__traits.hpp
+[1.992s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__builder.hpp
+[1.993s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__struct.hpp
+[1.993s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__traits.hpp
+[1.993s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__builder.hpp
+[1.993s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__struct.hpp
+[1.993s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__traits.hpp
+[1.993s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command.hpp
+[1.994s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command_array.hpp
+[1.994s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/key_value.hpp
+[1.994s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state.hpp
+[1.994s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state_array.hpp
+[1.995s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.995s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.995s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[1.995s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.995s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.996s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.996s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_introspection_cpp.hpp
+[1.996s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_introspection_cpp.hpp
+[1.996s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[1.997s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_introspection_cpp.hpp
+[1.997s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_introspection_cpp.hpp
+[1.997s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/pythonpath.sh
+[1.998s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/pythonpath.dsv
+[1.998s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[1.998s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.998s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.998s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[1.999s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/__init__.py
+[1.999s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_c.c
+[1.999s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.999s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.999s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/libtier4_v2x_msgs__rosidl_generator_py.so
+[1.999s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/__init__.py
+[2.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command.py
+[2.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_array.py
+[2.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_array_s.c
+[2.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_s.c
+[2.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_key_value.py
+[2.000s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_key_value_s.c
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state.py
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array.py
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array_s.c
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_s.c
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.001s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.002s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.002s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.002s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.002s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommand.idl
+[2.002s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommandArray.idl
+[2.003s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/KeyValue.idl
+[2.003s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightState.idl
+[2.003s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightStateArray.idl
+[2.003s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommand.msg
+[2.003s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommandArray.msg
+[2.004s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/KeyValue.msg
+[2.004s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightState.msg
+[2.004s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightStateArray.msg
+[2.004s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_v2x_msgs
+[2.004s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_v2x_msgs
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/ament_prefix_path.sh
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/ament_prefix_path.dsv
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/path.sh
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/path.dsv
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.bash
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.sh
+[2.005s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.zsh
+[2.006s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.dsv
+[2.006s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/package.dsv
+[2.014s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/ament_index/resource_index/packages/tier4_v2x_msgs
+[2.014s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake-extras.cmake
+[2.014s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgsConfig.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgsConfig-version.cmake
+[2.015s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/package.xml
+[2.015s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_c.so
+[2.016s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_c.so
+[2.017s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_c.so
+[2.018s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_c.so
+[2.018s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.019s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_cpp.so
+[2.020s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_cpp.so
+[2.065s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs'...
+[2.065s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/__init__.py'...
+[2.065s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg'...
+[2.069s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_py.so
+[2.069s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_cExport.cmake
+[2.069s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_cExport-release.cmake
+[2.069s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cExport.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cExport-release.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_cppExport.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.070s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.071s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.071s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cppExport.cmake
+[2.071s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cppExport-release.cmake
+[2.071s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_pyExport.cmake
+[2.071s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_pyExport-release.cmake
+[2.072s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_v2x_msgs

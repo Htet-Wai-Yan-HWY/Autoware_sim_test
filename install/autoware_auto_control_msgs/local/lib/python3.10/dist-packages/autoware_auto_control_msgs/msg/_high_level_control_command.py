@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/msg/_high_level_control_command.py

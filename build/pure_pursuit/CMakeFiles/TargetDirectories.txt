@@ -1,0 +1,12 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/pure_pursuit_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/pure_pursuit_core.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/pure_pursuit_lateral_controller.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/pure_pursuit_lateral_controller_exe.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/CMakeFiles/install/strip.dir

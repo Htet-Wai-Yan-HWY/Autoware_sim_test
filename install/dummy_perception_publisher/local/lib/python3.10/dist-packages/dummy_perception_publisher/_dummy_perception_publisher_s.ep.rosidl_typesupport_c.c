@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_c.c

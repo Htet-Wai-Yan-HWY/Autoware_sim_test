@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/tensorrt_yolox/yolox_single_image_inference" "TARGETS" "yolox_single_image_inference" "DESTINATION" "lib/tensorrt_yolox")

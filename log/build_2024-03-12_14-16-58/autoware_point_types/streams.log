@@ -1,0 +1,120 @@
+[0.056s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/autoware_point_types -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.317s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.455s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.653s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.666s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.781s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.826s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.840s] -- Looking for pthread.h
+[0.906s] -- Looking for pthread.h - found
+[0.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.977s] -- Found Threads: TRUE  
+[1.690s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.691s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.691s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.115s] -- Checking for module 'eigen3'
+[2.129s] --   Found eigen3, version 3.4.0
+[2.158s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.158s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.198s] -- Checking for module 'flann'
+[2.210s] --   Found flann, version 1.9.1
+[2.249s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.249s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.418s] -- Checking for module 'libusb-1.0'
+[3.432s] --   Found libusb-1.0, version 1.0.25
+[3.471s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.473s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.543s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.715s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.721s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.727s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.872s] -- Found Qhull version 8.0.2
+[4.006s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.136s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.138s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.138s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.139s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.140s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.141s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.142s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.142s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.143s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.144s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.145s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.145s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.146s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.147s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.148s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.149s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.150s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.151s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.152s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.153s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.153s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.154s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.154s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.155s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.156s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.179s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.192s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.203s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.205s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.205s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/autoware_point_types/include
+[4.205s] -- Configured cppcheck exclude dirs and/or files: 
+[4.206s] -- Added test 'lint_cmake' to check CMake code style
+[4.206s] -- Added test 'xmllint' to check XML markup files
+[4.209s] -- Configuring done
+[4.227s] -- Generating done
+[4.229s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types
+[4.245s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/autoware_point_types -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types
+[4.246s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types -- -j12 -l12
+[4.294s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.294s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.266s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.299s] [ 50%] Built target gtest_main
+[11.235s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.269s] [ 66%] Built target gtest
+[11.287s] [ 83%] [32mBuilding CXX object CMakeFiles/test_autoware_point_types.dir/test/test_point_types.cpp.o[0m
+[14.213s] [100%] [32m[1mLinking CXX executable test_autoware_point_types[0m
+[14.310s] [100%] Built target test_autoware_point_types
+[14.322s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types -- -j12 -l12
+[14.349s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types
+[14.356s] -- Install configuration: "Release"
+[14.356s] -- Execute custom install script
+[14.357s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/include/autoware_point_types/types.hpp
+[14.366s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/ament_index/resource_index/package_run_dependencies/autoware_point_types
+[14.374s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/ament_index/resource_index/parent_prefix_path/autoware_point_types
+[14.382s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.sh
+[14.391s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.dsv
+[14.399s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/path.sh
+[14.407s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/environment/path.dsv
+[14.415s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.bash
+[14.423s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.sh
+[14.432s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.zsh
+[14.440s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/local_setup.dsv
+[14.449s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/package.dsv
+[14.457s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/ament_index/resource_index/packages/autoware_point_types
+[14.465s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.474s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.482s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig.cmake
+[14.490s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig-version.cmake
+[14.498s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_point_types/share/autoware_point_types/package.xml
+[14.508s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_point_types

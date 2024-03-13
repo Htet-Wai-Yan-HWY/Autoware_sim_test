@@ -1,0 +1,16 @@
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/urdf/imu.xacro
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/ament_index/resource_index/package_run_dependencies/imu_description
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/ament_index/resource_index/parent_prefix_path/imu_description
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/ament_prefix_path.sh
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/ament_prefix_path.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/path.sh
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/environment/path.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.bash
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.sh
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.zsh
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/local_setup.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/package.dsv
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/ament_index/resource_index/packages/imu_description
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/cmake/imu_descriptionConfig.cmake
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/cmake/imu_descriptionConfig-version.cmake
+/home/zyme/ros_ws/Autoware_sim_test/install/imu_description/share/imu_description/package.xml

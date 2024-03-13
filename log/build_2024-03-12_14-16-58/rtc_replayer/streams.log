@@ -1,0 +1,77 @@
+[0.055s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/rtc_replayer -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.328s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.330s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.465s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.520s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.645s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.650s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.658s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.759s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.791s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.799s] -- Looking for pthread.h
+[0.865s] -- Looking for pthread.h - found
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.944s] -- Found Threads: TRUE  
+[1.226s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.243s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.245s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/rtc_replayer/include
+[1.245s] -- Configured cppcheck exclude dirs and/or files: 
+[1.245s] -- Added test 'lint_cmake' to check CMake code style
+[1.246s] -- Added test 'xmllint' to check XML markup files
+[1.250s] -- Configuring done
+[1.262s] -- Generating done
+[1.263s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer
+[1.271s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/planning/rtc_replayer -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer
+[1.272s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer -- -j12 -l12
+[1.318s] [ 50%] [32mBuilding CXX object CMakeFiles/rtc_replayer.dir/src/rtc_replayer_node.cpp.o[0m
+[1.318s] [ 50%] [32mBuilding CXX object CMakeFiles/rtc_replayer_node.dir/rclcpp_components/node_main_rtc_replayer_node.cpp.o[0m
+[4.521s] [ 75%] [32m[1mLinking CXX executable rtc_replayer_node[0m
+[4.639s] [ 75%] Built target rtc_replayer_node
+[11.385s] [100%] [32m[1mLinking CXX shared library librtc_replayer.so[0m
+[11.527s] [100%] Built target rtc_replayer
+[11.537s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer -- -j12 -l12
+[11.566s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer
+[11.572s] -- Install configuration: "Release"
+[11.573s] -- Execute custom install script
+[11.573s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/lib/rtc_replayer/rtc_replayer_node
+[11.582s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/include/rtc_replayer/rtc_replayer_node.hpp
+[11.591s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/environment/library_path.sh
+[11.600s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/environment/library_path.dsv
+[11.608s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/lib/librtc_replayer.so
+[11.617s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/launch/rtc_replayer.launch.xml
+[11.625s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/ament_index/resource_index/package_run_dependencies/rtc_replayer
+[11.633s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/ament_index/resource_index/parent_prefix_path/rtc_replayer
+[11.642s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/environment/ament_prefix_path.sh
+[11.650s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/environment/ament_prefix_path.dsv
+[11.658s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/environment/path.sh
+[11.666s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/environment/path.dsv
+[11.675s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/local_setup.bash
+[11.683s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/local_setup.sh
+[11.692s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/local_setup.zsh
+[11.700s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/local_setup.dsv
+[11.708s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/package.dsv
+[11.717s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/ament_index/resource_index/packages/rtc_replayer
+[11.725s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/ament_index/resource_index/rclcpp_components/rtc_replayer
+[11.734s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.742s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.750s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_libraries-extras.cmake
+[11.759s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/cmake/rtc_replayerConfig.cmake
+[11.767s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/cmake/rtc_replayerConfig-version.cmake
+[11.775s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/rtc_replayer/share/rtc_replayer/package.xml
+[11.786s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/rtc_replayer

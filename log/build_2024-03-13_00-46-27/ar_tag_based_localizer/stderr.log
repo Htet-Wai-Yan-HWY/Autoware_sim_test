@@ -1,0 +1,30 @@
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/test/test.cpp:15[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/test/../src/ar_tag_based_localizer.hpp:60:10:[m[K [01;31m[Kfatal error: [m[Karuco/aruco.h: No such file or directory
+   60 | #include [01;31m[K<aruco/aruco.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/src/ar_tag_based_localizer.cpp:45[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/src/ar_tag_based_localizer.hpp:60:10:[m[K [01;31m[Kfatal error: [m[Karuco/aruco.h: No such file or directory
+   60 | #include [01;31m[K<aruco/aruco.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_ar_tag_based_localizer.dir/build.make:76: CMakeFiles/test_ar_tag_based_localizer.dir/test/test.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/test_ar_tag_based_localizer.dir/build.make:90: CMakeFiles/test_ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_ar_tag_based_localizer.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/src/main.cpp:45[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/src/ar_tag_based_localizer.hpp:60:10:[m[K [01;31m[Kfatal error: [m[Karuco/aruco.h: No such file or directory
+   60 | #include [01;31m[K<aruco/aruco.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/src/ar_tag_based_localizer.cpp:45[m[K:
+[01m[K/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/landmark_based_localizer/ar_tag_based_localizer/src/ar_tag_based_localizer.hpp:60:10:[m[K [01;31m[Kfatal error: [m[Karuco/aruco.h: No such file or directory
+   60 | #include [01;31m[K<aruco/aruco.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ar_tag_based_localizer.dir/build.make:76: CMakeFiles/ar_tag_based_localizer.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ar_tag_based_localizer.dir/build.make:90: CMakeFiles/ar_tag_based_localizer.dir/src/ar_tag_based_localizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/ar_tag_based_localizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

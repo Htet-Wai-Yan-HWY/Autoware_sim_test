@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/trajectory_follower_node/controller_node_exe" "TARGETS" "controller_node_exe" "DESTINATION" "lib/trajectory_follower_node")

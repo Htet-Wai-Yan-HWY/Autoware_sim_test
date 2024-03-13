@@ -1,0 +1,16 @@
+{
+  "package_name": "tier4_api_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/AwapiAutowareStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/AwapiVehicleStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/CrosswalkStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/DoorControlCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/DoorStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/Euler.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/IntersectionStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/LaneChangeStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/ObstacleAvoidanceStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/StopCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/VelocityLimit.msg"
+  ]
+}

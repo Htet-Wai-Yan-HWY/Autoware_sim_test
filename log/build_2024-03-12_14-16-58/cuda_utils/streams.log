@@ -1,0 +1,62 @@
+[0.054s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/cuda_utils -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.320s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.592s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.623s] -- Looking for pthread.h
+[0.695s] -- Looking for pthread.h - found
+[0.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.787s] -- Found Threads: TRUE  
+[0.808s] -- Found CUDA: /usr/local/cuda (found version "12.3") 
+[0.814s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.816s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.816s] -- Configured cppcheck include dirs: 
+[0.816s] -- Configured cppcheck exclude dirs and/or files: 
+[0.816s] -- Added test 'lint_cmake' to check CMake code style
+[0.817s] -- Added test 'xmllint' to check XML markup files
+[0.819s] -- Configuring done
+[0.822s] -- Generating done
+[0.823s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils
+[0.829s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/common/cuda_utils -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils
+[0.830s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils -- -j12 -l12
+[0.864s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils -- -j12 -l12
+[0.885s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils
+[0.892s] -- Install configuration: "Release"
+[0.892s] -- Execute custom install script
+[0.893s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/include/cuda_utils/cuda_check_error.hpp
+[0.901s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/include/cuda_utils/cuda_unique_ptr.hpp
+[0.908s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/include/cuda_utils/stream_unique_ptr.hpp
+[0.916s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/include/cuda_utils/cuda_check_error.hpp
+[0.917s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/include/cuda_utils/cuda_unique_ptr.hpp
+[0.917s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/include/cuda_utils/stream_unique_ptr.hpp
+[0.917s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/ament_index/resource_index/package_run_dependencies/cuda_utils
+[0.925s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/ament_index/resource_index/parent_prefix_path/cuda_utils
+[0.932s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/environment/ament_prefix_path.sh
+[0.940s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/environment/ament_prefix_path.dsv
+[0.948s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/environment/path.sh
+[0.955s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/environment/path.dsv
+[0.963s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/local_setup.bash
+[0.971s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/local_setup.sh
+[0.979s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/local_setup.zsh
+[0.987s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/local_setup.dsv
+[0.994s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/package.dsv
+[1.002s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/ament_index/resource_index/packages/cuda_utils
+[1.010s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.018s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.026s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/cmake/cuda_utilsConfig.cmake
+[1.033s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/cmake/cuda_utilsConfig-version.cmake
+[1.041s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/cuda_utils/share/cuda_utils/package.xml
+[1.050s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/cuda_utils

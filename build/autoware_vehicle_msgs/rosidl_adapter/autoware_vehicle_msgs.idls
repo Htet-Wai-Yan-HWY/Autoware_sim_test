@@ -1,0 +1,13 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/ControlModeCommand.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/ControlModeReport.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/Engage.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/GearCommand.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/GearReport.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/HazardLightsCommand.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/HazardLightsReport.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/SteeringReport.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/TurnIndicatorsCommand.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/TurnIndicatorsReport.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/VehicleOdometry.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/VelocityReport.idl
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:srv/ControlModeCommand.idl

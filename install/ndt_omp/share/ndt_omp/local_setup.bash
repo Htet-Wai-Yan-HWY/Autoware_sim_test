@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/ndt_omp/ament_cmake_environment_hooks/local_setup.bash

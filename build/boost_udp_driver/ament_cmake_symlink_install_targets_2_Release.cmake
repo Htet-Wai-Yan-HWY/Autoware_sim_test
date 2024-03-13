@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver/libboost_udp_driver.so" "/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver/libboost_udp_driver_nodes.so" "TARGETS" "boost_udp_driver" "boost_udp_driver_nodes" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

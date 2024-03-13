@@ -1,0 +1,206 @@
+[0.093s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_examples -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.633s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.704s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.769s] -- Checking for module 'eigen3'
+[0.786s] --   Found eigen3, version 3.4.0
+[0.828s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.828s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.863s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.864s] -- looking for PCL_COMMON
+[0.868s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.869s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[0.894s] -- Checking for module 'flann'
+[0.910s] --   Found flann, version 1.9.1
+[0.964s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.964s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.009s] -- Looking for pthread.h
+[1.090s] -- Looking for pthread.h - found
+[1.090s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.176s] -- Found Threads: TRUE  
+[1.178s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.187s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.342s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.343s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.346s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.360s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.380s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.393s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.503s] -- Found X11: /usr/include   
+[1.503s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.584s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.584s] -- Looking for gethostbyname
+[1.663s] -- Looking for gethostbyname - found
+[1.663s] -- Looking for connect
+[1.740s] -- Looking for connect - found
+[1.741s] -- Looking for remove
+[1.817s] -- Looking for remove - found
+[1.817s] -- Looking for shmat
+[1.897s] -- Looking for shmat - found
+[1.898s] -- Looking for IceConnectionNumber in ICE
+[1.976s] -- Looking for IceConnectionNumber in ICE - found
+[2.074s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.076s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.078s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.080s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.1") 
+[2.095s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.101s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.106s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.111s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.203s] -- Checking for module 'libusb-1.0'
+[2.220s] --   Found libusb-1.0, version 1.0.25
+[2.262s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.263s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.263s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.331s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.331s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.331s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.497s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.503s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.510s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.670s] -- Found Qhull version 8.0.2
+[2.843s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.004s] -- looking for PCL_KDTREE
+[3.005s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.005s] -- looking for PCL_OCTREE
+[3.006s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.007s] -- looking for PCL_SEARCH
+[3.009s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.009s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.010s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.010s] -- looking for PCL_FILTERS
+[3.011s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.011s] -- looking for PCL_2D
+[3.011s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.011s] -- looking for PCL_GEOMETRY
+[3.012s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.012s] -- looking for PCL_IO
+[3.014s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.014s] -- looking for PCL_FEATURES
+[3.015s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.015s] -- looking for PCL_ML
+[3.016s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.016s] -- looking for PCL_SEGMENTATION
+[3.017s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.017s] -- looking for PCL_VISUALIZATION
+[3.018s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.018s] -- looking for PCL_SURFACE
+[3.019s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.019s] -- looking for PCL_REGISTRATION
+[3.020s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.021s] -- looking for PCL_KEYPOINTS
+[3.021s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.022s] -- looking for PCL_TRACKING
+[3.023s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.023s] -- looking for PCL_RECOGNITION
+[3.025s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.026s] -- looking for PCL_STEREO
+[3.028s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.028s] -- looking for PCL_APPS
+[3.029s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.029s] -- looking for PCL_IN_HAND_SCANNER
+[3.030s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.030s] -- looking for PCL_MODELER
+[3.030s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.030s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.030s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.030s] -- looking for PCL_OUTOFCORE
+[3.031s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.031s] -- looking for PCL_PEOPLE
+[3.032s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.033s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.036s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.102s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.111s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.123s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.264s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.269s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.315s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.913s] -- Found nebula_decoders: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/share/nebula_decoders/cmake)
+[4.411s] -- Found nebula_ros: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/share/nebula_ros/cmake)
+[27.099s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[27.140s] -- Added test 'copyright' to check source files copyright and LICENSE
+[27.142s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[27.145s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_examples/include
+[27.145s] -- Configured cppcheck exclude dirs and/or files: 
+[27.147s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[27.147s] -- Configured cpplint exclude dirs and/or files: 
+[27.149s] -- Added test 'lint_cmake' to check CMake code style
+[27.151s] -- Added test 'uncrustify' to check C / C++ code style
+[27.151s] -- Configured uncrustify additional arguments: 
+[27.152s] -- Added test 'xmllint' to check XML markup files
+[27.156s] -- Configuring done
+[27.813s] -- Generating done
+[27.818s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples
+[27.844s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/sensor_component/external/nebula/nebula_examples -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples
+[27.846s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples -- -j12 -l12
+[27.912s] [  8%] [32mBuilding CXX object CMakeFiles/hesai_ros_offline_extract_pcd.dir/src/hesai/hesai_ros_offline_extract_pcd.cpp.o[0m
+[41.375s] [ 16%] [32m[1mLinking CXX shared library libhesai_ros_offline_extract_pcd.so[0m
+[41.884s] [ 16%] Built target hesai_ros_offline_extract_pcd
+[41.913s] [ 33%] [32mBuilding CXX object CMakeFiles/hesai_ros_offline_extract_bag_pcd.dir/src/hesai/hesai_ros_offline_extract_bag_pcd.cpp.o[0m
+[41.913s] [ 33%] [32mBuilding CXX object CMakeFiles/hesai_ros_offline_extract_pcd_node.dir/src/hesai/hesai_ros_offline_extract_pcd_main.cpp.o[0m
+[50.486s] [ 41%] [32m[1mLinking CXX executable hesai_ros_offline_extract_pcd_node[0m
+[51.276s] [ 41%] Built target hesai_ros_offline_extract_pcd_node
+[57.696s] [ 50%] [32m[1mLinking CXX shared library libhesai_ros_offline_extract_bag_pcd.so[0m
+[58.214s] [ 50%] Built target hesai_ros_offline_extract_bag_pcd
+[58.242s] [ 58%] [32mBuilding CXX object CMakeFiles/hesai_ros_offline_extract_bag_pcd_node.dir/src/hesai/hesai_ros_offline_extract_bag_pcd_main.cpp.o[0m
+[58.243s] [ 66%] [32mBuilding CXX object CMakeFiles/velodyne_ros_offline_extract_bag_pcd.dir/src/velodyne/velodyne_ros_offline_extract_bag_pcd.cpp.o[0m
+[67.046s] [ 75%] [32m[1mLinking CXX executable hesai_ros_offline_extract_bag_pcd_node[0m
+[68.139s] [ 75%] Built target hesai_ros_offline_extract_bag_pcd_node
+[74.358s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_ros_offline_extract_bag_pcd.so[0m
+[75.168s] [ 83%] Built target velodyne_ros_offline_extract_bag_pcd
+[75.214s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_ros_offline_extract_bag_pcd_node.dir/src/velodyne/velodyne_ros_offline_extract_bag_pcd_main.cpp.o[0m
+[83.748s] [100%] [32m[1mLinking CXX executable velodyne_ros_offline_extract_bag_pcd_node[0m
+[84.399s] [100%] Built target velodyne_ros_offline_extract_bag_pcd_node
+[84.413s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples -- -j12 -l12
+[84.458s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples
+[84.467s] -- Install configuration: "Release"
+[84.467s] -- Execute custom install script
+[84.468s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/include/hesai/hesai_ros_offline_extract_bag_pcd.hpp
+[84.478s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/include/hesai/hesai_ros_offline_extract_pcd.hpp
+[84.488s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/include/velodyne/velodyne_ros_offline_extract_bag_pcd.hpp
+[84.499s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/environment/library_path.sh
+[84.509s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/environment/library_path.dsv
+[84.520s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/lib/libhesai_ros_offline_extract_pcd.so
+[84.531s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/lib/libhesai_ros_offline_extract_bag_pcd.so
+[84.541s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/lib/libvelodyne_ros_offline_extract_bag_pcd.so
+[84.552s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/lib/nebula_examples/hesai_ros_offline_extract_pcd_node
+[84.563s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/lib/nebula_examples/hesai_ros_offline_extract_bag_pcd_node
+[84.574s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/lib/nebula_examples/velodyne_ros_offline_extract_bag_pcd_node
+[84.585s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/launch/hesai_offline.xml
+[84.595s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/launch/hesai_offline_bag_pcd.xml
+[84.606s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/launch/velodyne_offline_bag_pcd.xml
+[84.616s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/ament_index/resource_index/package_run_dependencies/nebula_examples
+[84.627s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/ament_index/resource_index/parent_prefix_path/nebula_examples
+[84.638s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/environment/ament_prefix_path.sh
+[84.648s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/environment/ament_prefix_path.dsv
+[84.658s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/environment/path.sh
+[84.669s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/environment/path.dsv
+[84.679s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/local_setup.bash
+[84.690s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/local_setup.sh
+[84.702s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/local_setup.zsh
+[84.712s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/local_setup.dsv
+[84.723s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/package.dsv
+[84.735s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/ament_index/resource_index/packages/nebula_examples
+[84.745s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.756s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.766s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/cmake/ament_cmake_export_libraries-extras.cmake
+[84.777s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/cmake/nebula_examplesConfig.cmake
+[84.788s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/cmake/nebula_examplesConfig-version.cmake
+[84.798s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/nebula_examples/share/nebula_examples/package.xml
+[84.810s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/nebula_ros/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_hw_interfaces/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_decoders/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_udp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/lib:/home/zyme/ros_ws/Autoware_sim_test/install/nebula_common/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_tcp_driver/lib:/home/zyme/ros_ws/Autoware_sim_test/install/boost_io_context/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zyme/ros_ws/Autoware_sim_test/install/robosense_msgs/local/lib/python3.10/dist-packages:/home/zyme/ros_ws/Autoware_sim_test/install/pandar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/nebula_examples

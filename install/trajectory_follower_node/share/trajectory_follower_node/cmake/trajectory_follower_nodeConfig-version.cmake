@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/trajectory_follower_node/ament_cmake_core/trajectory_follower_nodeConfig-version.cmake

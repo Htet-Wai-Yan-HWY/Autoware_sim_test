@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/pose_initializer/ament_cmake_core/pose_initializerConfig-version.cmake

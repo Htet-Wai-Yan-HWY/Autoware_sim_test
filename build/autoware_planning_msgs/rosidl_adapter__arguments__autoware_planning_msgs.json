@@ -1,0 +1,15 @@
+{
+  "package_name": "autoware_planning_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/LaneletPrimitive.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/LaneletRoute.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/LaneletSegment.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/PoseWithUuidStamped.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/Trajectory.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/TrajectoryPoint.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/Path.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/PathPoint.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/PathWithLaneId.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/PathPointWithLaneId.msg"
+  ]
+}

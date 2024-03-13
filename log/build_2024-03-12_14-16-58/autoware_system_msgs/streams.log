@@ -1,0 +1,254 @@
+[0.051s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_system_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.501s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.128s] -- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.130s] -- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.131s] -- Found ament_cmake_uncrustify: 0.12.10 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.133s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.725s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.748s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.748s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.748s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.748s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.767s] -- Found PythonExtra: .so  
+[1.833s] -- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.835s] -- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.838s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.852s] -- Added test 'lint_cmake' to check CMake code style
+[1.852s] -- Added test 'xmllint' to check XML markup files
+[1.855s] -- Configuring done
+[1.896s] -- Generating done
+[1.898s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs
+[1.907s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/core/autoware_msgs/autoware_system_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-w -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs
+[1.908s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs -- -j12 -l12
+[1.945s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.954s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.962s] [  4%] Built target ament_cmake_python_symlink_autoware_system_msgs
+[2.235s] running egg_info
+[2.235s] creating autoware_system_msgs.egg-info
+[2.235s] writing autoware_system_msgs.egg-info/PKG-INFO
+[2.235s] writing dependency_links to autoware_system_msgs.egg-info/dependency_links.txt
+[2.236s] writing top-level names to autoware_system_msgs.egg-info/top_level.txt
+[2.236s] writing manifest file 'autoware_system_msgs.egg-info/SOURCES.txt'
+[2.238s] reading manifest file 'autoware_system_msgs.egg-info/SOURCES.txt'
+[2.238s] writing manifest file 'autoware_system_msgs.egg-info/SOURCES.txt'
+[2.265s] [  4%] Built target ament_cmake_python_build_autoware_system_msgs_egg
+[2.359s] [  4%] Built target autoware_system_msgs__cpp
+[2.369s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.369s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.369s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.380s] [ 14%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_system_msgs/msg/detail/hazard_status__functions.c.o[0m
+[2.380s] [ 14%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_system_msgs/msg/detail/autoware_state__functions.c.o[0m
+[2.381s] [ 17%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_system_msgs/msg/detail/hazard_status_stamped__functions.c.o[0m
+[2.496s] [ 19%] [32m[1mLinking C shared library libautoware_system_msgs__rosidl_generator_c.so[0m
+[2.538s] [ 19%] Built target autoware_system_msgs__rosidl_generator_c
+[2.550s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.551s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.551s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.737s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_system_msgs/msg/autoware_state__type_support.cpp.o[0m
+[2.740s] [ 31%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_system_msgs/msg/hazard_status_stamped__type_support.cpp.o[0m
+[2.741s] [ 31%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_system_msgs/msg/hazard_status__type_support.cpp.o[0m
+[2.800s] [ 36%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_system_msgs/msg/detail/hazard_status_stamped__type_support.cpp.o[0m
+[2.800s] [ 36%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_system_msgs/msg/detail/hazard_status__type_support.cpp.o[0m
+[2.800s] [ 38%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_system_msgs/msg/detail/autoware_state__type_support.cpp.o[0m
+[2.857s] [ 42%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_system_msgs/msg/detail/dds_fastrtps/hazard_status__type_support.cpp.o[0m
+[2.857s] [ 42%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_system_msgs/msg/detail/dds_fastrtps/autoware_state__type_support.cpp.o[0m
+[2.860s] [ 44%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_system_msgs/msg/detail/dds_fastrtps/hazard_status_stamped__type_support.cpp.o[0m
+[3.203s] [ 46%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_system_msgs/msg/autoware_state__type_support.cpp.o[0m
+[3.300s] [ 48%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_system_msgs/msg/hazard_status__type_support.cpp.o[0m
+[3.380s] [ 51%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_system_msgs/msg/hazard_status_stamped__type_support.cpp.o[0m
+[3.380s] [ 53%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_system_msgs/msg/detail/autoware_state__type_support.c.o[0m
+[3.404s] [ 55%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_system_msgs/msg/detail/autoware_state__type_support_c.cpp.o[0m
+[3.428s] [ 57%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_system_msgs/msg/detail/hazard_status__type_support.c.o[0m
+[3.428s] [ 59%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_system_msgs/msg/detail/hazard_status__type_support_c.cpp.o[0m
+[3.456s] [ 61%] [32m[1mLinking CXX shared library libautoware_system_msgs__rosidl_typesupport_c.so[0m
+[3.462s] [ 63%] [32m[1mLinking CXX shared library libautoware_system_msgs__rosidl_typesupport_cpp.so[0m
+[3.479s] [ 65%] [32mBuilding CXX object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_system_msgs/msg/detail/hazard_status_stamped__type_support_c.cpp.o[0m
+[3.562s] [ 65%] Built target autoware_system_msgs__rosidl_typesupport_c
+[3.584s] [ 65%] Built target autoware_system_msgs__rosidl_typesupport_cpp
+[3.584s] [ 68%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_system_msgs/msg/detail/hazard_status_stamped__type_support.c.o[0m
+[3.664s] [ 70%] [32m[1mLinking C shared library libautoware_system_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.721s] [ 70%] Built target autoware_system_msgs__rosidl_typesupport_introspection_c
+[4.067s] [ 72%] [32m[1mLinking CXX shared library libautoware_system_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.083s] [ 74%] [32m[1mLinking CXX shared library libautoware_system_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.122s] [ 76%] [32m[1mLinking CXX shared library libautoware_system_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.169s] [ 76%] Built target autoware_system_msgs__rosidl_typesupport_introspection_cpp
+[4.185s] [ 76%] Built target autoware_system_msgs__rosidl_typesupport_fastrtps_cpp
+[4.212s] [ 76%] Built target autoware_system_msgs__rosidl_typesupport_fastrtps_c
+[4.231s] [ 76%] Built target autoware_system_msgs
+[4.250s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.802s] [ 78%] Built target autoware_system_msgs__py
+[4.822s] [ 82%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_system_msgs/msg/_hazard_status_s.c.o[0m
+[4.822s] [ 82%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_system_msgs/msg/_autoware_state_s.c.o[0m
+[4.822s] [ 85%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_system_msgs/msg/_hazard_status_stamped_s.c.o[0m
+[5.001s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/autoware_system_msgs/libautoware_system_msgs__rosidl_generator_py.so[0m
+[5.044s] [ 87%] Built target autoware_system_msgs__rosidl_generator_py
+[5.064s] [ 93%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_system_msgs/_autoware_system_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.064s] [ 93%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_system_msgs/_autoware_system_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.064s] [ 93%] [32mBuilding C object CMakeFiles/autoware_system_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_system_msgs/_autoware_system_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.215s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.216s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.216s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.265s] [100%] Built target autoware_system_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.265s] [100%] Built target autoware_system_msgs__rosidl_typesupport_introspection_c__pyext
+[5.265s] [100%] Built target autoware_system_msgs__rosidl_typesupport_c__pyext
+[5.277s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs -- -j12 -l12
+[5.377s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs
+[5.385s] -- Install configuration: "Release"
+[5.386s] -- Execute custom install script
+[5.386s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_system_msgs
+[5.396s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/autoware_state.h
+[5.406s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__functions.h
+[5.415s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__struct.h
+[5.425s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__type_support.h
+[5.435s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__functions.h
+[5.444s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__struct.h
+[5.454s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__type_support.h
+[5.463s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__functions.h
+[5.473s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__struct.h
+[5.483s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__type_support.h
+[5.493s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/hazard_status.h
+[5.503s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/hazard_status_stamped.h
+[5.512s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.522s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/library_path.sh
+[5.532s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/library_path.dsv
+[5.542s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__rosidl_typesupport_fastrtps_c.h
+[5.552s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__rosidl_typesupport_fastrtps_c.h
+[5.562s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_fastrtps_c.h
+[5.571s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.581s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__rosidl_typesupport_introspection_c.h
+[5.591s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__rosidl_typesupport_introspection_c.h
+[5.600s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_introspection_c.h
+[5.610s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.620s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/autoware_state.hpp
+[5.630s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__builder.hpp
+[5.640s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__struct.hpp
+[5.649s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__traits.hpp
+[5.659s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__builder.hpp
+[5.669s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__struct.hpp
+[5.679s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__traits.hpp
+[5.688s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__builder.hpp
+[5.697s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__struct.hpp
+[5.707s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__traits.hpp
+[5.717s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/hazard_status.hpp
+[5.727s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/hazard_status_stamped.hpp
+[5.737s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.747s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.756s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.766s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.776s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/autoware_state__rosidl_typesupport_introspection_cpp.hpp
+[5.785s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status__rosidl_typesupport_introspection_cpp.hpp
+[5.795s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/include/autoware_system_msgs/autoware_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.804s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/pythonpath.sh
+[5.814s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/pythonpath.dsv
+[5.824s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.834s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.844s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.853s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.864s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/__init__.py
+[5.873s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/_autoware_system_msgs_s.ep.rosidl_typesupport_c.c
+[5.883s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/_autoware_system_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.892s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/_autoware_system_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.902s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.912s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.922s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.931s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/libautoware_system_msgs__rosidl_generator_py.so
+[5.941s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/__init__.py
+[5.951s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_autoware_state.py
+[5.960s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_autoware_state_s.c
+[5.970s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_hazard_status.py
+[5.979s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_hazard_status_s.c
+[5.989s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_hazard_status_stamped.py
+[5.998s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_hazard_status_stamped_s.c
+[6.008s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.009s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.009s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/autoware_system_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.009s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/msg/AutowareState.idl
+[6.019s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/msg/HazardStatus.idl
+[6.029s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/msg/HazardStatusStamped.idl
+[6.038s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/msg/AutowareState.msg
+[6.048s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/msg/HazardStatus.msg
+[6.058s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/msg/HazardStatusStamped.msg
+[6.068s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_system_msgs
+[6.078s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_system_msgs
+[6.087s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/ament_prefix_path.sh
+[6.097s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/ament_prefix_path.dsv
+[6.107s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/path.sh
+[6.117s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/environment/path.dsv
+[6.126s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/local_setup.bash
+[6.134s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/local_setup.sh
+[6.141s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/local_setup.zsh
+[6.149s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/local_setup.dsv
+[6.157s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/package.dsv
+[6.165s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/ament_index/resource_index/packages/autoware_system_msgs
+[6.173s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/rosidl_cmake-extras.cmake
+[6.180s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.188s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.196s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.204s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.211s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.220s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.228s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgsConfig.cmake
+[6.236s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgsConfig-version.cmake
+[6.244s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/package.xml
+[6.252s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_generator_c.so
+[6.252s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_generator_c.so" to ""
+[6.253s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_fastrtps_c.so
+[6.253s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.253s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_introspection_c.so
+[6.253s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.254s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_c.so
+[6.254s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_c.so" to ""
+[6.254s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.254s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.254s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_introspection_cpp.so
+[6.255s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.255s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_cpp.so
+[6.255s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_typesupport_cpp.so" to ""
+[6.287s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs'...
+[6.287s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/__init__.py'...
+[6.287s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg'...
+[6.287s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/__init__.py'...
+[6.287s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_autoware_state.py'...
+[6.287s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_hazard_status.py'...
+[6.287s] Compiling '/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/local/lib/python3.10/dist-packages/autoware_system_msgs/msg/_hazard_status_stamped.py'...
+[6.291s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_generator_py.so
+[6.291s] -- Set runtime path of "/home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/lib/libautoware_system_msgs__rosidl_generator_py.so" to ""
+[6.291s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_generator_cExport.cmake
+[6.291s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_generator_cExport-release.cmake
+[6.291s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.291s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[6.292s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.292s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[6.292s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_cExport.cmake
+[6.292s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_cExport-release.cmake
+[6.292s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_generator_cppExport.cmake
+[6.292s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_cppExport.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs__rosidl_typesupport_cppExport-release.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_generator_pyExport.cmake
+[6.293s] -- Installing: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_system_msgs/share/autoware_system_msgs/cmake/export_autoware_system_msgs__rosidl_generator_pyExport-release.cmake
+[6.295s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/autoware_system_msgs

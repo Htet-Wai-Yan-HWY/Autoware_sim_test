@@ -1,0 +1,10 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/pose2twist_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/pose2twist.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/pose2twist/CMakeFiles/install/strip.dir

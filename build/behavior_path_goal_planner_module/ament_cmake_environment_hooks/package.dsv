@@ -1,0 +1,4 @@
+source;share/behavior_path_goal_planner_module/local_setup.bash
+source;share/behavior_path_goal_planner_module/local_setup.dsv
+source;share/behavior_path_goal_planner_module/local_setup.sh
+source;share/behavior_path_goal_planner_module/local_setup.zsh

@@ -1,0 +1,55 @@
+[0.770s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/velodyne_monitor -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor
+[0.798s] -- Found autoware_cmake: 0.1.0 (/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.090s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.313s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.319s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.332s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.805s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.809s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.883s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.300s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.323s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.325s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.327s] -- Configured cppcheck include dirs: /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/velodyne_monitor/include
+[2.327s] -- Configured cppcheck exclude dirs and/or files: 
+[2.327s] -- Added test 'lint_cmake' to check CMake code style
+[2.327s] -- Added test 'xmllint' to check XML markup files
+[2.333s] -- Configuring done
+[2.355s] -- Generating done
+[2.359s] -- Build files have been written to: /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor
+[2.388s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/system/velodyne_monitor -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor
+[2.393s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor -- -j12 -l12
+[2.588s] [35m[1mConsolidate compiler generated dependencies of target velodyne_monitor[0m
+[2.588s] [100%] Built target velodyne_monitor
+[2.847s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor -- -j12 -l12
+[3.485s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor
+[3.840s] -- Install configuration: "Release"
+[3.840s] -- Execute custom install script
+[3.840s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/include/velodyne_monitor/velodyne_monitor.hpp
+[3.841s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/lib/velodyne_monitor/velodyne_monitor
+[3.842s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/launch/velodyne_monitor.launch.xml
+[3.843s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/config/HDL-32E.param.yaml
+[3.843s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/config/VLP-16.param.yaml
+[3.843s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/config/VLP-32C.param.yaml
+[3.843s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/config/VLS-128.param.yaml
+[3.843s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/config/Velarray_M1600.param.yaml
+[3.843s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/ament_index/resource_index/package_run_dependencies/velodyne_monitor
+[3.844s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/ament_index/resource_index/parent_prefix_path/velodyne_monitor
+[3.844s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/environment/ament_prefix_path.sh
+[3.844s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/environment/ament_prefix_path.dsv
+[3.844s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/environment/path.sh
+[3.844s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/environment/path.dsv
+[3.844s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/local_setup.bash
+[3.845s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/local_setup.sh
+[3.845s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/local_setup.zsh
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/local_setup.dsv
+[3.846s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/package.dsv
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/ament_index/resource_index/packages/velodyne_monitor
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/cmake/velodyne_monitorConfig.cmake
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/cmake/velodyne_monitorConfig-version.cmake
+[3.846s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/velodyne_monitor/share/velodyne_monitor/package.xml
+[3.865s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/velodyne_monitor

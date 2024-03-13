@@ -1,0 +1,4 @@
+source;share/robosense_msgs/local_setup.bash
+source;share/robosense_msgs/local_setup.dsv
+source;share/robosense_msgs/local_setup.sh
+source;share/robosense_msgs/local_setup.zsh

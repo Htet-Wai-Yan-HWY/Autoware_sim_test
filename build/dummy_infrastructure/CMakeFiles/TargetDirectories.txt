@@ -1,0 +1,11 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/dummy_infrastructure_uninstall.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/dummy_infrastructure_node_component.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/dummy_infrastructure_node.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/test.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/edit_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/rebuild_cache.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/list_install_components.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/install.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/install/local.dir
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_infrastructure/CMakeFiles/install/strip.dir

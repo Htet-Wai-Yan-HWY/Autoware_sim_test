@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/tier4_api_msgs/rosidl_generator_cpp/tier4_api_msgs/msg/detail/lane_change_status__traits.hpp

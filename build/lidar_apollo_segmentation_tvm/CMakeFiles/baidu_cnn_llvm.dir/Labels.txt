@@ -1,0 +1,13 @@
+# Target labels
+ baidu_cnn_llvm
+# Source files and their labels
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/CMakeFiles/baidu_cnn_llvm
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/CMakeFiles/baidu_cnn_llvm.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/CMakeFiles/baidu_cnn_llvm-complete.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-build.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-configure.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-download.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-install.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-mkdir.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-patch.rule
+/home/zyme/ros_ws/Autoware_sim_test/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-update.rule

@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target autoware_iv_external_api_adaptor[0m
+[  4%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/metadata_packages.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/start.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/service.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/rosbag_logging_mode.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/rtc_controller.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/route.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/vehicle_status.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/velocity.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/autoware_iv_external_api_adaptor.dir/src/version.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library libautoware_iv_external_api_adaptor.so[0m
+[100%] Built target autoware_iv_external_api_adaptor
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/environment/library_path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/environment/library_path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/lib/libautoware_iv_external_api_adaptor.so
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/launch/external_api_adaptor.launch.py
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/ament_index/resource_index/package_run_dependencies/autoware_iv_external_api_adaptor
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/ament_index/resource_index/parent_prefix_path/autoware_iv_external_api_adaptor
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/environment/ament_prefix_path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/environment/path.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/environment/path.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/local_setup.bash
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/local_setup.sh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/local_setup.zsh
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/local_setup.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/package.dsv
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/ament_index/resource_index/packages/autoware_iv_external_api_adaptor
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/ament_index/resource_index/rclcpp_components/autoware_iv_external_api_adaptor
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/cmake/autoware_iv_external_api_adaptorConfig.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/cmake/autoware_iv_external_api_adaptorConfig-version.cmake
+-- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/autoware_iv_external_api_adaptor/share/autoware_iv_external_api_adaptor/package.xml

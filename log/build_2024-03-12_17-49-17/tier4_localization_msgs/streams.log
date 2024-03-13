@@ -1,0 +1,120 @@
+[0.070s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs -- -j12 -l12
+[0.125s] [  3%] Built target tier4_localization_msgs__cpp
+[0.126s] [ 12%] Built target tier4_localization_msgs__rosidl_generator_c
+[0.138s] [ 12%] Built target ament_cmake_python_symlink_tier4_localization_msgs
+[0.164s] [ 22%] Built target tier4_localization_msgs__rosidl_typesupport_cpp
+[0.165s] [ 32%] Built target tier4_localization_msgs__rosidl_typesupport_introspection_cpp
+[0.168s] [ 41%] Built target tier4_localization_msgs__rosidl_typesupport_fastrtps_cpp
+[0.176s] [ 61%] Built target tier4_localization_msgs__rosidl_typesupport_fastrtps_c
+[0.176s] [ 61%] Built target tier4_localization_msgs__rosidl_typesupport_introspection_c
+[0.177s] [ 70%] Built target tier4_localization_msgs__rosidl_typesupport_c
+[0.205s] [ 70%] Built target tier4_localization_msgs
+[0.232s] [ 74%] Built target tier4_localization_msgs__py
+[0.260s] [ 80%] Built target tier4_localization_msgs__rosidl_generator_py
+[0.289s] [ 87%] Built target tier4_localization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.289s] [ 96%] Built target tier4_localization_msgs__rosidl_typesupport_introspection_c__pyext
+[0.289s] [100%] Built target tier4_localization_msgs__rosidl_typesupport_c__pyext
+[0.487s] running egg_info
+[0.488s] writing tier4_localization_msgs.egg-info/PKG-INFO
+[0.488s] writing dependency_links to tier4_localization_msgs.egg-info/dependency_links.txt
+[0.489s] writing top-level names to tier4_localization_msgs.egg-info/top_level.txt
+[0.492s] reading manifest file 'tier4_localization_msgs.egg-info/SOURCES.txt'
+[0.492s] writing manifest file 'tier4_localization_msgs.egg-info/SOURCES.txt'
+[0.522s] [100%] Built target ament_cmake_python_build_tier4_localization_msgs_egg
+[0.535s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs -- -j12 -l12
+[0.601s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs
+[0.609s] -- Install configuration: "Release"
+[0.610s] -- Execute custom install script
+[0.610s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_localization_msgs
+[0.610s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.611s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__functions.h
+[0.611s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__struct.h
+[0.611s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__type_support.h
+[0.611s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/pose_with_covariance_stamped.h
+[0.611s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/library_path.sh
+[0.612s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/library_path.dsv
+[0.612s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.612s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[0.613s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.613s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[0.613s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__builder.hpp
+[0.614s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__struct.hpp
+[0.614s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__traits.hpp
+[0.614s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/pose_with_covariance_stamped.hpp
+[0.614s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.614s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/include/tier4_localization_msgs/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/pythonpath.sh
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/pythonpath.dsv
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[0.615s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.616s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.616s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[0.616s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/__init__.py
+[0.616s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/_tier4_localization_msgs_s.ep.rosidl_typesupport_c.c
+[0.616s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/_tier4_localization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/_tier4_localization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/libtier4_localization_msgs__rosidl_generator_py.so
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/srv/__init__.py
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/srv/_pose_with_covariance_stamped.py
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/srv/_pose_with_covariance_stamped_s.c
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.617s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.618s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.618s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.618s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.618s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped.idl
+[0.619s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped.srv
+[0.619s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped_Request.msg
+[0.619s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped_Response.msg
+[0.619s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_localization_msgs
+[0.619s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_localization_msgs
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/ament_prefix_path.sh
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/ament_prefix_path.dsv
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/path.sh
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/path.dsv
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.bash
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.sh
+[0.620s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.zsh
+[0.621s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.dsv
+[0.621s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/package.dsv
+[0.631s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/ament_index/resource_index/packages/tier4_localization_msgs
+[0.631s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/rosidl_cmake-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgsConfig.cmake
+[0.633s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgsConfig-version.cmake
+[0.633s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/package.xml
+[0.633s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_generator_c.so
+[0.633s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_fastrtps_c.so
+[0.634s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_introspection_c.so
+[0.634s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_c.so
+[0.634s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.635s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_introspection_cpp.so
+[0.635s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_cpp.so
+[0.668s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs'...
+[0.668s] Listing '/home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/local/lib/python3.10/dist-packages/tier4_localization_msgs/srv'...
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_generator_py.so
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_generator_cExport.cmake
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_generator_cExport-release.cmake
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.672s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cExport.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cExport-release.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_generator_cppExport.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cppExport.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_generator_pyExport.cmake
+[0.673s] -- Up-to-date: /home/zyme/ros_ws/Autoware_sim_test/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/export_tier4_localization_msgs__rosidl_generator_pyExport-release.cmake
+[0.676s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_localization_msgs

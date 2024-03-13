@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/tensorrt_yolo/libyolo.so" "/home/zyme/ros_ws/Autoware_sim_test/build/tensorrt_yolo/libtensorrt_yolo_nodelet.so" "TARGETS" "yolo" "tensorrt_yolo_nodelet" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

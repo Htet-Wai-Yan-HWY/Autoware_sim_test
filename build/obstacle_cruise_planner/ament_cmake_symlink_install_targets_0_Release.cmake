@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/obstacle_cruise_planner/obstacle_cruise_planner" "TARGETS" "obstacle_cruise_planner" "DESTINATION" "lib/obstacle_cruise_planner")

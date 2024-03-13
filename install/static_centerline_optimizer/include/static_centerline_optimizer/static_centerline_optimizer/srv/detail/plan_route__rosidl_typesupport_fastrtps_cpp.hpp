@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/static_centerline_optimizer/rosidl_typesupport_fastrtps_cpp/static_centerline_optimizer/srv/detail/plan_route__rosidl_typesupport_fastrtps_cpp.hpp

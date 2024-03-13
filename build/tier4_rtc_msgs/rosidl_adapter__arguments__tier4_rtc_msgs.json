@@ -1,0 +1,16 @@
+{
+  "package_name": "tier4_rtc_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/Command.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateCommand.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateResponse.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateStatusArray.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/AutoModeStatus.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/AutoModeStatusArray.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/Module.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:srv/AutoMode.srv",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:srv/AutoModeWithModule.srv",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:srv/CooperateCommands.srv"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "package_name": "yabloc_particle_filter",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/yabloc/yabloc_particle_filter:msg/Particle.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/autoware.universe/localization/yabloc/yabloc_particle_filter:msg/ParticleArray.msg"
+  ]
+}

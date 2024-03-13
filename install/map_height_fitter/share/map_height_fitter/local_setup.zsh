@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/map_height_fitter/ament_cmake_environment_hooks/local_setup.zsh

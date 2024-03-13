@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/pure_pursuit/pure_pursuit_lateral_controller_exe" "TARGETS" "pure_pursuit_lateral_controller_exe" "DESTINATION" "lib/pure_pursuit")

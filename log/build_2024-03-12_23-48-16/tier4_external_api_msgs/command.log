@@ -1,0 +1,4 @@
+Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs -- -j12 -l12
+Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs -- -j12 -l12
+Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs
+Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/tier4_external_api_msgs

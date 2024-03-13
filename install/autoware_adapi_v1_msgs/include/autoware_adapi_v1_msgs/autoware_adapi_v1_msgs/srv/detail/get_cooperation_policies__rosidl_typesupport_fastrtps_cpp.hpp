@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/autoware_adapi_v1_msgs/rosidl_typesupport_fastrtps_cpp/autoware_adapi_v1_msgs/srv/detail/get_cooperation_policies__rosidl_typesupport_fastrtps_cpp.hpp

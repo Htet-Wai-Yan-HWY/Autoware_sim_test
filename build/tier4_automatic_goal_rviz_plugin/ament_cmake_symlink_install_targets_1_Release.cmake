@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/tier4_automatic_goal_rviz_plugin/automatic_goal_sender" "TARGETS" "automatic_goal_sender" "DESTINATION" "lib/tier4_automatic_goal_rviz_plugin")

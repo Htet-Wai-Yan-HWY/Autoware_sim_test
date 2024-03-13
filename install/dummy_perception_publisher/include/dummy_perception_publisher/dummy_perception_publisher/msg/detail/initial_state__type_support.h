@@ -1,0 +1,1 @@
+/home/zyme/ros_ws/Autoware_sim_test/build/dummy_perception_publisher/rosidl_generator_c/dummy_perception_publisher/msg/detail/initial_state__type_support.h

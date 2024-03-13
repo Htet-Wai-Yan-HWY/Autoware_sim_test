@@ -1,0 +1,20 @@
+{
+  "package_name": "eagleye_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/AccXOffset.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/AccXScaleFactor.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/AccYOffset.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/AngularVelocityOffset.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Distance.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Heading.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Height.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Pitching.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Position.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Rolling.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/SlipAngle.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/Status.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/StatusStamped.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/VelocityScaleFactor.msg",
+    "/home/zyme/ros_ws/Autoware_sim_test/src/autoware/src/universe/external/eagleye/eagleye_msgs:msg/YawrateOffset.msg"
+  ]
+}

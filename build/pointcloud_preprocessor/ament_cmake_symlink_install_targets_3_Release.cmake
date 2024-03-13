@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/pointcloud_preprocessor/crop_box_filter_node" "TARGETS" "crop_box_filter_node" "DESTINATION" "lib/pointcloud_preprocessor")

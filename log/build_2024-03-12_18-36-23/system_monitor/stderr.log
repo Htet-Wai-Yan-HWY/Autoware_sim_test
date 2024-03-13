@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:126 (find_library):
+  Could not find NLGENL3 using the following names: nl-genl-3
+
+[0m

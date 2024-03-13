@@ -1,0 +1,35 @@
+[0.116s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor -- -j12 -l12
+[0.212s] [ 40%] Built target topic_state_monitor_node
+[0.215s] [100%] Built target topic_state_monitor
+[0.233s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor -- -j12 -l12
+[0.290s] Invoking command in '/home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor
+[0.303s] -- Install configuration: "Release"
+[0.304s] -- Execute custom install script
+[0.305s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node
+[0.305s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/include/topic_state_monitor/topic_state_monitor.hpp
+[0.306s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/include/topic_state_monitor/topic_state_monitor_core.hpp
+[0.306s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/environment/library_path.sh
+[0.307s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/environment/library_path.dsv
+[0.308s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/lib/libtopic_state_monitor.so
+[0.309s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/launch/topic_state_monitor.launch.xml
+[0.309s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/launch/topic_state_monitor_tf.launch.xml
+[0.310s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/ament_index/resource_index/package_run_dependencies/topic_state_monitor
+[0.310s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/ament_index/resource_index/parent_prefix_path/topic_state_monitor
+[0.311s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/environment/ament_prefix_path.dsv
+[0.312s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/environment/path.sh
+[0.312s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/environment/path.dsv
+[0.313s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/local_setup.bash
+[0.313s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/local_setup.sh
+[0.314s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/local_setup.zsh
+[0.314s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/local_setup.dsv
+[0.314s] -- Symlinking: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/package.dsv
+[0.330s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/ament_index/resource_index/packages/topic_state_monitor
+[0.331s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/ament_index/resource_index/rclcpp_components/topic_state_monitor
+[0.331s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.331s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.332s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.332s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/cmake/topic_state_monitorConfig.cmake
+[0.333s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/cmake/topic_state_monitorConfig-version.cmake
+[0.333s] -- Up-to-date symlink: /home/zyme/ros_ws/Autoware_sim_test/install/topic_state_monitor/share/topic_state_monitor/package.xml
+[0.336s] Invoked command in '/home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zyme/ros_ws/Autoware_sim_test/install/autoware_cmake:/home/zyme/ros_ws/Autoware_sim_test/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/Autoware_sim_test/build/topic_state_monitor

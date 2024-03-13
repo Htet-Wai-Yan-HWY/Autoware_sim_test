@@ -1,0 +1,4 @@
+source;share/duplicated_node_checker/local_setup.bash
+source;share/duplicated_node_checker/local_setup.dsv
+source;share/duplicated_node_checker/local_setup.sh
+source;share/duplicated_node_checker/local_setup.zsh

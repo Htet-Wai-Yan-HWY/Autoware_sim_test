@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/boost_udp_driver/udp_receiver_node_exe" "TARGETS" "udp_receiver_node_exe" "DESTINATION" "lib/boost_udp_driver")

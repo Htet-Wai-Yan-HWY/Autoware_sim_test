@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zyme/ros_ws/Autoware_sim_test/build/nebula_ros/robosense_driver_ros_wrapper_node" "TARGETS" "robosense_driver_ros_wrapper_node" "DESTINATION" "lib/nebula_ros")
